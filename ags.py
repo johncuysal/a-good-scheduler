@@ -13,7 +13,7 @@ class AGS:
     num_calls (int) - Counter variable meant for viewing efficiency.
 
   Methods:
-    build_schedules() - 
+    build_schedules() - Prints a list of required course schedules.
     make_map() - 
   '''
   def __init__(self, reqs):
