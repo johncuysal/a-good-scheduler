@@ -32,6 +32,7 @@ class AGS_Graph:
 
     """ Print each vertex's adjacent vertices
     """
+
     def __repr__(self):
         msg = ""
         for vertex in self.graph.vertices:
@@ -43,17 +44,17 @@ class AGS_Graph:
 
         return msg
 
-
     """
     Depth first traversal on the graph to build courses
     """
+
     def build_schedules(self):
-        schedules = [] # list of schedules
+        schedules = []  # list of schedules
 
         for course in self.required_courses:
             dft_stack = Stack()
             schedule = Schedule([])
-            dft_stack.push((self.graph.find_vertex(course), schedule)) # first course
+            dft_stack.push((self.graph.find_vertex(course), schedule))  # first course
 
             # dept first traversal from the first course
             while not dft_stack.is_empty():
@@ -70,7 +71,7 @@ class AGS_Graph:
                 # If the course is not adjacent to any other courses
                 # End of the depth-first traversal
                 if len(course_vertex.get_adj_vertex()) == 0:
-                    if schedule.is_valid(): # Checks if the schedule is valid (in schedules.py)
-                        schedules.append(schedule) # add the schedule
+                    if schedule.is_valid():  # Checks if the schedule is valid (in schedules.py)
+                        schedules.append(schedule)  # add the schedule
 
         return schedules

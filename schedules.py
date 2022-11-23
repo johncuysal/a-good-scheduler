@@ -35,4 +35,4 @@ class Schedule:
     # 1. Has all required courses
     # 2. More than 3 credits, less than 5 credits
     # 3. Co-requisites (labs, recitations)
-    return len(self) == 5
+    return len(self) >= 4
