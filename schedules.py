@@ -23,8 +23,16 @@ class Schedule:
     self.courses.append(course)
     self.course_names.append(course.name)
 
+  """ Checks if the course is added to the schedule.
+  """
   def __contains__(self, target):
     return target.name in self.course_names
 
+  """ Checks if the schedule is valid
+  """
   def is_valid(self):
-    return len(self) == 4
+    # Needs to be changed as we add features for the electives etc.
+    # 1. Has all required courses
+    # 2. More than 3 credits, less than 5 credits
+    # 3. Co-requisites (labs, recitations)
+    return len(self) == 5

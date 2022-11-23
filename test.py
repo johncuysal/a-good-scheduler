@@ -2,7 +2,7 @@ from timeblocks import TimeBlock
 from courses import Course
 from schedules import Schedule
 from ags import AGS
-from graph_test import AGS_Graph
+from ags_graph import AGS_Graph
 
 print('Test initialized. Get ready!')
 

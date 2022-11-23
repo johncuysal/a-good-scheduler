@@ -24,6 +24,10 @@ class Course:
   def __eq__(self, other):
     return self.name == other.name and self.section == other.section and self.time == other.time
 
+  """
+    Use end time for the comparison.
+    Used to sort the courses.
+  """
   def __ge__(self, other):
     return self.time.end >= other.time.end
 
