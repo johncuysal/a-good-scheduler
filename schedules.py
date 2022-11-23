@@ -6,6 +6,7 @@ class Schedule:
   '''
   def __init__(self, course_list = []):
     self.courses = course_list
+    self.course_names = []
     self.has_conflict = False
 
   def __repr__(self):
@@ -20,3 +21,10 @@ class Schedule:
 
   def add_course(self, course):
     self.courses.append(course)
+    self.course_names.append(course.name)
+
+  def __contains__(self, target):
+    return target.name in self.course_names
+
+  def is_valid(self):
+    return len(self) == 4

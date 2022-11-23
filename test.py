@@ -2,6 +2,7 @@ from timeblocks import TimeBlock
 from courses import Course
 from schedules import Schedule
 from ags import AGS
+from graph_test import AGS_Graph
 
 print('Test initialized. Get ready!')
 
@@ -30,11 +31,18 @@ Course('SOCI 100', 3, TimeBlock("12:00pm", "1:20pm", "MW"), '54480'),
 Course('SOCI 100', 4, TimeBlock("10:00am", "11:20am", "TR"), '55216')
 ]
 
-ags = AGS(required_courses)
+ags = AGS_Graph(required_courses)
+print(ags)
 
-print('Generating combinations...')
+schedules = ags.build_schedules()
+for schedule in schedules:
+    print(schedule)
 
-m = ags.make_map()
-ags.build_schedules(m)
+# ags = AGS(required_courses)
 
-print(f"ALL DONE!!! build_schedules() was called {ags.num_calls} times.")
+# print('Generating combinations...')
+#
+# m = ags.make_map()
+# ags.build_schedules(m)
+#
+# print(f"ALL DONE!!! build_schedules() was called {ags.num_calls} times.")

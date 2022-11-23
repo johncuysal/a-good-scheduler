@@ -23,3 +23,15 @@ class Course:
 
   def __eq__(self, other):
     return self.name == other.name and self.section == other.section and self.time == other.time
+
+  def __ge__(self, other):
+    return self.time.end >= other.time.end
+
+  def __le__(self, other):
+    return self.time.end <= other.time.end
+
+  def __gt__(self, other):
+    return self.time.end > other.time.end
+
+  def __lt__(self, other):
+    return self.time.end < other.time.end
