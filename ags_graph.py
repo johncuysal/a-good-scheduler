@@ -11,17 +11,17 @@ Graph implementation
 class AGS_Graph:
     def __init__(self, reqs):
         self.graph = Graph()
-        self.required_courses = reqs
-        self.required_courses.sort()
+        self.required_courses = reqs # list of course objects
+        self.required_courses.sort() # sort from early to late end times
 
         # Add vertices
         for course in reqs:
-            self.graph.add_vertex(course)
+            self.graph.add_vertex(course) # adding vertices holding courses into graph
 
         """ Add an edge from course1 to course2 if 
-            1. course1 ends earlier than course2
+            1. course1 ends earlier than course2 ends
             2. course1 is not conflicting with course2
-            3. course1 and course2 are not the same course's different section
+            3. course1 and course2 are not different sections of the same course
         """
         for course1 in self.required_courses:
             for course2 in self.required_courses:
