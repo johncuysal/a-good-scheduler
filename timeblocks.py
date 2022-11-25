@@ -9,9 +9,9 @@ def format_time(time_string):
     """
     hour = ""
     if ":" in time_string:  # ex: time_string = "9:57pm"
-        l = time_string.split(":")  # ex: l = ["9", "57pm"]
-        hour = l[0]  # ex: hour = "9"
-        minutes_past = f':{l[1][:2]}'  # ex: minutes_past = ":57"
+        split_list = time_string.split(":")  # ex: l = ["9", "57pm"]
+        hour = split_list[0]  # ex: hour = "9"
+        minutes_past = f':{split_list[1][:2]}'  # ex: minutes_past = ":57"
     else:  # ex: time_string = "11pm"
         minutes_past = ":00"
         for char in time_string:
@@ -60,9 +60,9 @@ class TimeBlock:
     day_set (set) -- Set of characters from days string.
 
     Methods:
-    __init__()
-    __repr__()
-    __eq__()
+    __init__() --
+    __repr__() --
+    __eq__() --
     is_conflicting_with() -- True if two given time blocks collide.
     is_before() -- True if time block's start is before the other's start.
     is_after() -- True if time block's start is after the other's start.

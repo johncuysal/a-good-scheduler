@@ -5,13 +5,14 @@ class Graph:
     """
 
     def __init__(self):
-        self.vertices = [] # list of vertices
+        self.vertices = []  # list of vertices
 
     def add_vertex(self, value):
         self.vertices.append(Vertex(value))
 
     """ Return vertex from a given value
     """
+
     def find_vertex(self, value):
         for vertex in self.vertices:
             if vertex.value == value:
@@ -20,6 +21,7 @@ class Graph:
 
     """ Add edge between one vertex and another
     """
+
     def add_edge(self, value1, value2):
         v1 = self.find_vertex(value1)
         v2 = self.find_vertex(value2)
@@ -27,6 +29,7 @@ class Graph:
 
     """ Remove edge between one vertex and another
     """
+
     def remove_edge(self, value1, value2):
         v1 = self.find_vertex(value1)
         v2 = self.find_vertex(value2)
@@ -38,8 +41,8 @@ class Vertex:
     """
 
     def __init__(self, value):
-        self._adj = [] # Adjacency list
-        self.value = value # value
+        self._adj = []  # Adjacency list
+        self.value = value  # value
 
     def add_edge(self, other):
         self._adj.append(other)
@@ -55,5 +58,6 @@ class Vertex:
 
     """ return CRN to represent the vertex
     """
+
     def __repr__(self):
         return self.value.crn

@@ -1,6 +1,3 @@
-from timeblocks import TimeBlock
-
-
 class Course:
     """Course object class.
 
@@ -19,6 +16,7 @@ class Course:
     __gt__() --
     __lt__() --
     """
+
     def __init__(self, name, section, time_block, crn=''):
         self.name = name
         self.section = section
@@ -26,7 +24,8 @@ class Course:
         self.crn = crn
 
     def __repr__(self):
-        return f'{self.crn} | {self.name}-{self.section:02} {self.time}'
+        # return f'{self.crn} | {self.name}-{self.section:02} {self.time}'
+        return 'C' + self.crn
 
     def __eq__(self, other):
         return self.name == other.name \
@@ -34,14 +33,15 @@ class Course:
                and self.time == other.time
 
     """Use end time for the comparison. Used to sort the courses."""
+
     def __ge__(self, other):
-        return self.time.end >= other.time.end
+        return self.time.start >= other.time.start
 
     def __le__(self, other):
-        return self.time.end <= other.time.end
+        return self.time.start <= other.time.start
 
     def __gt__(self, other):
-        return self.time.end > other.time.end
+        return self.time.start > other.time.start
 
     def __lt__(self, other):
-        return self.time.end < other.time.end
+        return self.time.start < other.time.start

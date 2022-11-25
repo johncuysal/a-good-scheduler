@@ -8,15 +8,15 @@ Graph implementation
 """
 
 
-class AGS_Graph:
+class AGSGraph:
     def __init__(self, reqs):
         self.graph = Graph()
-        self.required_courses = reqs # list of course objects
-        self.required_courses.sort() # sort from early to late end times
+        self.required_courses = reqs  # list of course objects
+        self.required_courses.sort()  # sort from early to late end times
 
         # Add vertices
         for course in reqs:
-            self.graph.add_vertex(course) # adding vertices holding courses into graph
+            self.graph.add_vertex(course)  # adding vertices holding courses into graph
 
         """ Add an edge from course1 to course2 if 
             1. course1 ends earlier than course2 ends
@@ -34,9 +34,9 @@ class AGS_Graph:
     """
 
     def __repr__(self):
-        msg = ""
+        msg = "Course | Later compatibles\n"
         for vertex in self.graph.vertices:
-            msg += vertex.value.crn + " -> "
+            msg += vertex.value.crn + " → "
             for adj in vertex.get_adj_vertex():
                 msg += adj.value.crn + ", "
 
@@ -63,7 +63,7 @@ class AGS_Graph:
                 schedule.add_course(course_vertex.value)
 
                 for next_course_vertex in course_vertex.get_adj_vertex():
-                    # If the course if not a different section of the course that is already in the schedule
+                    # If the course is not a different section of the course that is already in the schedule
                     if next_course_vertex.value not in schedule:
                         built_schedule = copy.deepcopy(schedule)
                         dft_stack.push((next_course_vertex, built_schedule))
