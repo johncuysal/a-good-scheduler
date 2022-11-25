@@ -27,7 +27,7 @@ class AGSGraph:
             for course2 in self.required_courses:
                 if course1 < course2 and \
                         not course1.time.is_conflicting_with(course2.time) \
-                        and course1.name != course2.name:
+                        and course1.group != course2.group:
                     self.graph.add_edge(course1, course2)
 
     """ Print each vertex's adjacent vertices

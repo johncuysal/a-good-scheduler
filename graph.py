@@ -1,6 +1,5 @@
 class Graph:
-    """
-    Graph ADT
+    """Graph ADT.
     Adjacency list implementation of the graph.
     """
 
@@ -10,8 +9,7 @@ class Graph:
     def add_vertex(self, value):
         self.vertices.append(Vertex(value))
 
-    """ Return vertex from a given value
-    """
+    """Return vertex from a given value"""
 
     def find_vertex(self, value):
         for vertex in self.vertices:

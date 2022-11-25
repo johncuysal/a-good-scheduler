@@ -18,9 +18,9 @@ class AGS:
     make_map() -- Helper function for build_schedules().
     """
 
-    def __init__(self, reqs):
-        self.required_courses = reqs
-        self.num_required = len(set(c.name for c in reqs))
+    def __init__(self, courses):
+        self.required_courses = courses
+        self.num_required = len(set(course.group for course in courses))
         self.num_calls = 0
 
     def build_schedules(self, to_add, schedule=Schedule()):
@@ -39,22 +39,22 @@ class AGS:
                 self.build_schedules(to_add[1:], local_schedule)
 
     def make_map(self):
-        course_name_dict = dict()
+        course_group_dict = dict()
         freq_dict = dict()
         b = []
 
         for section in self.required_courses:
-            if section.name not in course_name_dict:
-                course_name_dict[section.name] = [section]
+            if section.group not in course_group_dict:
+                course_group_dict[section.group] = [section]
             else:
-                course_name_dict[section.name].append(section)
-        for course_name in course_name_dict:
-            freq_dict[course_name] = len(course_name_dict[course_name])
+                course_group_dict[section.group].append(section)
+        for course_group in course_group_dict:
+            freq_dict[course_group] = len(course_group_dict[course_group])
 
         i = 1
         while len(b) < self.num_required:
-            for course_name in freq_dict:
-                if freq_dict[course_name] == i:
-                    b.append(course_name_dict[course_name])
+            for course_group in freq_dict:
+                if freq_dict[course_group] == i:
+                    b.append(course_group_dict[course_group])
             i += 1
         return b

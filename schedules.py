@@ -3,7 +3,7 @@ class Schedule:
 
     Attributes:
     courses (list) --
-    course_names (list) --
+    course_groups (list) --
     has_conflict (bool) --
 
     Methods:
@@ -17,16 +17,14 @@ class Schedule:
 
     def __init__(self, course_list=[]):
         self.courses = course_list
-        self.course_names = []
+        self.course_groups = []
         self.has_conflict = False
 
     def __repr__(self):
-        # s = f'{"-" * 50}\n'
-        # for i in range(len(self.courses)):
-        #    s += f'{self.courses[i]}\n'
-        # s += f'{"-" * 50}'
-
-        s = str(self.courses)
+        s = f'{"-" * 50}\n'
+        for i in range(len(self.courses)):
+           s += f'{self.courses[i]}\n'
+        s += f'{"-" * 50}'
 
         return s
 
@@ -35,12 +33,12 @@ class Schedule:
 
     def add_course(self, course):
         self.courses.append(course)
-        self.course_names.append(course.name)
+        self.course_groups.append(course.name)
 
     """Checks if the course is added to the schedule."""
 
     def __contains__(self, target):
-        return target.name in self.course_names
+        return target.name in self.course_groups
 
     """Checks if the schedule is valid."""
 
@@ -49,4 +47,4 @@ class Schedule:
         # 1. Has all required courses
         # 2. More than 3 credits, less than 5 credits
         # 3. Co-requisites (labs, recitations)
-        return len(self) >= 4
+        return len(self) == 5

@@ -6,6 +6,7 @@ class Course:
     section (int) -- user-given course section integer
     time (TimeBlock) -- course TimeBlock (created from user-given time data)
     crn (str) -- user-given course registration number (unique identifier)
+    group (str) -- allows sections of same group to be grouped together
 
     Methods:
     __init__() --
@@ -22,10 +23,10 @@ class Course:
         self.section = section
         self.time = time_block
         self.crn = crn
+        self.group = self.name
 
     def __repr__(self):
-        # return f'{self.crn} | {self.name}-{self.section:02} {self.time}'
-        return 'C' + self.crn
+        return f'{self.crn} | {self.group} : {self.name}-{self.section:02} {self.time}'
 
     def __eq__(self, other):
         return self.name == other.name \
@@ -45,3 +46,14 @@ class Course:
 
     def __lt__(self, other):
         return self.time.start < other.time.start
+
+
+class Elective(Course):
+    """Elective subclass of Course superclass. The only difference is that
+    electives have a group attribute different from their course name. This
+    allows electives of equal priority to be grouped together into pools.
+    """
+
+    def __init__(self, group, name, section, time_block, crn=''):
+        super().__init__(name, section, time_block, crn)
+        self.group = f'ELCTIV {group}'
