@@ -18,9 +18,9 @@ johns_courses = [
     # Elective(1, 'EDUC 102', 1, TimeBlock("3:00pm", "4:20pm", "MW"), '55171'),
     # Elective(1, 'EDUC 102', 2, TimeBlock("10:00am", "11:20am", "TR"), '55172'),
     # Elective(1, 'PSYC 100', 2, TimeBlock("4:00pm", "4:50pm", "MWF"), '55408'),
-    # Elective(1, 'SOCI 100', 2, TimeBlock("3:00pm", "4:20pm", "MW"), '54479'),
-    # Elective(1, 'SOCI 100', 3, TimeBlock("12:00pm", "1:20pm", "MW"), '54480'),
-    # Elective(1, 'SOCI 100', 4, TimeBlock("10:00am", "11:20am", "TR"), '55216'),
+    Elective(1, 'SOCI 100', 2, TimeBlock("3:00pm", "4:20pm", "MW"), '54479'),
+    Elective(1, 'SOCI 100', 3, TimeBlock("12:00pm", "1:20pm", "MW"), '54480'),
+    Elective(1, 'SOCI 100', 4, TimeBlock("10:00am", "11:20am", "TR"), '55216'),
     Course('RESC 221', 6, TimeBlock("5:00pm", "6:30pm", "W"), '54690')
 ]
 
