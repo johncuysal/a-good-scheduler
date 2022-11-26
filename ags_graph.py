@@ -13,6 +13,7 @@ class AGSGraph:
         self.graph = Graph()
         self.required_courses = reqs  # list of course objects
         self.required_courses.sort()  # sort from early to late end times
+        self.schedules = []
 
         # Add vertices
         for course in reqs:
@@ -44,13 +45,18 @@ class AGSGraph:
 
         return msg
 
+    def print_schedules(self):
+        s = ""
+        for i in range(len(self.schedules)):
+            s += f"\nSchedule #{i+1}:\n{self.schedules[i]}"
+        s += "\n"
+        print(s)
+
     """
     Depth first traversal on the graph to build courses
     """
 
     def build_schedules(self):
-        schedules = []  # list of schedules
-
         for course in self.required_courses:
             dft_stack = Stack()
             schedule = Schedule([])
@@ -72,6 +78,4 @@ class AGSGraph:
                 # End of the depth-first traversal
                 if len(course_vertex.get_adj_vertex()) == 0:
                     if schedule.is_valid():  # Checks if the schedule is valid (in schedules.py)
-                        schedules.append(schedule)  # add the schedule
-
-        return schedules
+                        self.schedules.append(schedule)  # add the schedule

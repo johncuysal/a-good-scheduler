@@ -22,13 +22,22 @@ class AGS:
         self.required_courses = courses
         self.num_required = len(set(course.group for course in courses))
         self.num_calls = 0
+        self.schedules = []
+
+    def print_schedules(self):
+        s = ""
+        for i in range(len(self.schedules)):
+            s += f"\nSchedule #{i + 1}:\n{self.schedules[i]}"
+        s += "\n"
+        print(s)
 
     def build_schedules(self, to_add, schedule=Schedule()):
         self.num_calls += 1
 
         if not to_add:
             if not schedule.has_conflict:
-                print(schedule)
+                schedule.courses.sort()  # sort from early to late
+                self.schedules.append(schedule)
         else:
             for section in to_add[0]:
                 local_schedule = copy.deepcopy(schedule)

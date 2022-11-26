@@ -21,11 +21,10 @@ class Schedule:
         self.has_conflict = False
 
     def __repr__(self):
-        s = f'{"-" * 50}\n'
-        for i in range(len(self.courses)):
-           s += f'{self.courses[i]}\n'
-        s += f'{"-" * 50}'
-
+        s = f"┌{'─'*62}┐\n"
+        for course in self.courses:
+            s += f'│ {course} │\n'
+        s += f"└{'─'*62}┘"
         return s
 
     def __len__(self):
@@ -33,12 +32,12 @@ class Schedule:
 
     def add_course(self, course):
         self.courses.append(course)
-        self.course_groups.append(course.name)
+        self.course_groups.append(course.group)
 
     """Checks if the course is added to the schedule."""
 
     def __contains__(self, target):
-        return target.name in self.course_groups
+        return target.group in self.course_groups
 
     """Checks if the schedule is valid."""
 
@@ -47,4 +46,7 @@ class Schedule:
         # 1. Has all required courses
         # 2. More than 3 credits, less than 5 credits
         # 3. Co-requisites (labs, recitations)
-        return len(self) == 5
+        return len(self) == 4
+
+    def __eq__(self, other):
+        return set(self.courses) == set(other.courses)
