@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>A Good Scheduler</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="John C. Uysal">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts/script.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="icon" href="images/logo.png"> -->
+  <link rel="canonical" href="https://agoodscheduler.com">
+</head>
+<body>
+  <header>
+    AGS Web Development Environment
+  </header>
+  <main>
+    <div id="io-container">
+      <div id="input">
+        <p>
+          Input course information here!
+        </p>
+        <div class="course-form">
+          <label>
+            Department:
+            <input type="text" class="dept" maxlength="4" oninput="this.value = this.value.toUpperCase().replace(/[^A-Z]/g, '')" placeholder="Department e.g. 'CSCI'">
+          </label>
+          <label>
+            Level:
+            <input type="text" class="level" pattern="[0-9]{3}" maxlength="3" oninput="this.value = this.value.replace(/[^0-9]/g, '')" placeholder="Level e.g. '205'">
+          </label>
+        </div>
+      </div>
+      <div id="output">
+      </div>
+    </div>
+    <button id="submit-button">Submit</button>
+  </main>
+</body>
+</html>

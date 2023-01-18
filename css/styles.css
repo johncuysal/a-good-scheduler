@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: gray;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+main {
+    padding: 0 16px 0 16px;
+}
+
+#io-container {
+    display: flex;
+}
+
+#input, #output {
+    padding: 16px;
+    width: 100%;
+}
+
+#input {
+    background-color: lightblue;
+}
+
+#output {
+    background-color: lightgoldenrodyellow;
+    font-family: monospace;
+}
