@@ -36,6 +36,7 @@ p {
     background-color: #e8ebec;
     padding: 16px;
     border-radius: 6px;
+    line-height: 1.61803;
 }
 
 a {
@@ -134,7 +135,7 @@ main {
 }
 
 .start-field, .end-field {
-    width: 6em;
+    width: 7em;
 }
 
 label {

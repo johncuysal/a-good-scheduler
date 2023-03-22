@@ -484,6 +484,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // EVENT LISTENER: EXTRACT COURSE DATA, MAKE COURSE OBJECTS, RUN AGS
     submitButton.addEventListener("click", function() {
         runAGS();
+        document.getElementById('output-message').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
     });
 
     debugButton.addEventListener("click", function() {
