@@ -1,6 +1,6 @@
-/*
-HELPER FUNCTIONS
- */
+// =====================================================================================================================
+// COMPUTATION MODULE
+// =====================================================================================================================
 
 function calcMinutes(timeString) {
     // Given a string 'hh:mm', get the number of minutes past since 00:00.
@@ -10,68 +10,99 @@ function calcMinutes(timeString) {
     return hour * 60 + minutes; // e.g. return 896
 }
 
-/*
-COURSE, ELECTIVE, AND SCHEDULE CLASS DEFINITIONS
+/**
+ * Represents a specific section of a course.
  */
-
 class Course {
-    // Course class.
-    constructor(department, level, section, fStart, fEnd, days, crn = '') {
-        this.dept = department; // e.g. 'CSCI'
-        this.level = level; // e.g. '205'
-        this.name = `${this.dept} ${this.level}`; // e.g. 'CSCI 205'
-        this.section = section; // e.g. '01'
-        this.fStart = fStart; // e.g. '09:00'
-        this.fEnd = fEnd; // e.g. '09:50'
-        this.start = calcMinutes(fStart); // e.g. 540 (in minutes)
-        this.end = calcMinutes(fEnd); // e.g. 590 (in minutes)
-        this.days = days; // e.g. 'MWF'
-        this.crn = crn; // e.g. '50537'
-        this.group = this.name; // e.g. 'CSCI 205' (group attribute is the same as name for required courses)
+    /**
+     * Creates a new Course object.
+     *
+     * @param {string} department - The section's department name.
+     * @param {string} level - The section's level.
+     * @param {string} section - The section's section number.
+     * @param {string} startTime - The section's start time.
+     * @param {string} endTime - The section's end time.
+     * @param {Array.<string>} daysOfWeek - The section's class days.
+     * @param {string} crn - The section's Course Registration Number (CRN).
+     * @example
+     * const course = new Course("CSCI", "204", "3", "15:00", "15:50", ["M", "W", "F"], "12566");
+     */
+    constructor(department, level, section, startTime, endTime, daysOfWeek, crn) {
+        this.dept = department;
+        this.level = level.padStart(3, "0"); // Pad the start with 0's until the string is 3 characters long
+        this.name = `${this.dept} ${this.level}`;
+        this.section = section.padStart(2, "0"); // Pad the start with 0's until the string is 2 characters long
+        this.fStart = startTime;
+        this.fEnd = endTime;
+        this.start = calcMinutes(startTime); // The section's start time in minutes past midnight
+        this.end = calcMinutes(endTime); // The section's end time in minutes past midnight
+        this.daysOfWeek = daysOfWeek;
+        this.crn = crn.padStart(5, "0");
+        this.group = this.name; // For a required course section, its group is the same as its name
     }
 
+    /**
+     * Returns a string representation of the course section.
+     *
+     * @returns {string} - A string representation of the course section.
+     */
     toString() {
-        return `<${this.crn}> ${this.group} → ${this.name}-${this.section.toString().padStart(2, '0')} (${this.fStart} - ${this.fEnd})`;
+        return `[${this.group}] |${this.crn}| ${this.dept} ${this.level}-${this.section} (${this.fStart} - ${this.fEnd}) |${this.daysOfWeek.join("|")}| ${this.start} - ${this.end}`;
     }
 
+    /**
+     * Returns true if this course section overlaps with another course section on the same day.
+     *
+     * @param {Course} other - The other course section (a Course object) to check for conflicts.
+     * @returns {boolean} True if the two course sections overlap on the same day, false otherwise.
+     */
     isConflictingWith(other) {
-        // Returns True if times overlap on the same day.
-        for (let day of this.days) { // e.g. for 'M', 'W', and 'F' in 'MWF'
-            if (other.days.includes(day)) { // e.g. if 'M' in 'MTW'
-                if ((this.start <= other.start && other.start <= this.end) || (other.start <= this.start && this.start <= other.end)) {
-                    return true; // this is the case where it's the same day and times overlap
-                }
-            }
-        }
-        return false;
+        const daysOverlap = this.daysOfWeek.some(day => other.daysOfWeek.includes(day));
+        const timesOverlap = (this.start <= other.start && other.start <= this.end) || (other.start <= this.start && this.start <= other.end)
+        return daysOverlap && timesOverlap;
     }
 }
 
+/**
+ * Represents a specific section of a course being considered for an elective slot.
+ *
+ * @extends Course
+ */
 class Elective extends Course {
     /**
-     * Elective subclass of Course superclass. The only difference is that
-     * electives have a group attribute different from their course name. This
-     * allows electives of equal interchangeability to be grouped in pools.
+     * Creates a new Elective object.
+     *
+     * @param {string} department - The section's department name.
+     * @param {string} level - The section's level.
+     * @param {string} section - The section's section number.
+     * @param {string} startTime - The section's start time.
+     * @param {string} endTime - The section's end time.
+     * @param {Array.<string>} daysOfWeek - The section's class days.
+     * @param {string} crn - The section's Course Registration Number (CRN).
+     * @param {string} electiveNum - The number of the elective slot the section is being considered for.
      */
-    constructor(department, level, section, start, end, days, electiveNum, crn = '') {
-        super(department, level, section, start, end, days, crn);
-        this.group = `ELECTIVE ${electiveNum}`; // e.g. 'ELECTIVE 3' indicates the group this elective is picked from
+    constructor(department, level, section, startTime, endTime, daysOfWeek, crn, electiveNum) {
+        super(department, level, section, startTime, endTime, daysOfWeek, crn);
+        this.electiveNum = electiveNum;
+        this.group = `ELECTIVE ${this.electiveNum}`; // Electives are chosen from a group different from their name
     }
 }
 
+/**
+ * Represents a collection of course sections.
+ */
 class Schedule {
-    // Schedule class.
     constructor() {
         this.courses = []; // schedules initially have no courses
         this.hasConflict = false; // having no courses means no conflict
     }
 
     toString() {
-        let s = `┌${"─".repeat(63)}\n`;
+        let s = `${"─".repeat(64)}\n`;
         for (let course of this.courses) {
-            s += `│ ${course}\n`;
+            s += `${course}\n`;
         }
-        s += `└${"─".repeat(63)}`;
+        s += `${"─".repeat(64)}`;
         return s;
     }
 
@@ -93,13 +124,13 @@ class Schedule {
             let attributeSection = courseDataObject.section;
             let attributeFStart = courseDataObject.fStart;
             let attributeFEnd = courseDataObject.fEnd;
-            let attributeDays = courseDataObject.days;
+            let attributeDaysOfWeek = courseDataObject.daysOfWeek;
             let attributeCrn = courseDataObject.crn;
-            let courseCopy = new Course(attributeDept, attributeLevel, attributeSection, attributeFStart, attributeFEnd, attributeDays, attributeCrn);
+            let courseCopy = new Course(attributeDept, attributeLevel, attributeSection, attributeFStart, attributeFEnd, attributeDaysOfWeek, attributeCrn);
             copiedSchedule.addCourse(courseCopy)
         }
         copiedSchedule.hasConflict = scheduleDataObject.hasConflict; // so, it also has the same conflicts
-        return copiedSchedule
+        return copiedSchedule;
     }
 }
 
@@ -168,16 +199,6 @@ class AGS {
 TESTS
  */
 
-function testAGS(courses) {
-    console.log("Now testing: AGS...\n");
-    const ags = new AGS(courses);
-    ags.buildSchedules(ags.getPath());
-    console.log(`Successfully generated all ${ags.schedules.length} possible schedules. Check it out:`);
-    ags.printSchedules();
-    console.log(`buildSchedules() was called ${ags.numRecursions} times.`);
-    return ags.schedules;
-}
-
 function testCalcMinutes() {
     console.log("▒".repeat(64));
     console.log("Now testing: calcMinutes()");
@@ -191,49 +212,523 @@ function testCalcMinutes() {
 }
 
 /*
-MAIN
+FUNCTIONS
  */
 
-function main() {
-    let johnsCourses = [
-        new Course('CSCI', '202', '01', '15:00', '15:50', 'TR', '52638'),
-        new Course('CSCI', '205', '01', '09:00', '09:50', 'MWF', '50537'),
-        new Course('CSCI', '205', '02', '10:00', '10:50', 'MWF', '50860'),
-        new Course('CSCI', '206', '01', '09:00', '09:50', 'MWF', '50120'),
-        new Course('CSCI', '206', '02', '11:00', '11:50', 'MWF', '50536'),
-        new Course('CSCI', '206', '03', '13:00', '13:50', 'MWF', '54958'),
-        // new Course('CSCI', '206L', '60', '08:00', '09:50', 'T', '50175'),
-        // new Course('CSCI', '206L', '61', '10:00', '11:50', 'T', '50447'),
-        // new Course('CSCI', '206L', '62', '13:00', '14:50', 'T', '54025'),
-        // new Elective('ARST', '245', '01', '10:00', '11:50', 'MW', 1, '52954'),
-        // new Elective('ARST', '131', '03', '13:00', '14:50', 'MW', 1, '54547'),
-        // new Elective('ARST', '239', '01', '10:00', '11:50', 'TR', 1, '51345'),
-        // new Elective('EDUC', '102', '01', '15:00', '16:20', 'MW', 1, '55171'),
-        // new Elective('EDUC', '102', '02', '10:00', '11:20', 'TR', 1, '55172'),
-        // new Elective('PSYC', '100', '02', '16:00', '16:50', 'MWF', 1, '55408'),
-        // new Elective('SOCI', '100', '02', '15:00', '16:20', 'MW', 1, '54479'),
-        // new Elective('SOCI', '100', '03', '12:00', '13:20', 'MW', 1, '54480'),
-        // new Elective('SOCI', '100', '04', '10:00', '11:20', 'TR', 1, '55216'),
-        new Course('RESC', '221', '06', '17:00', '18:30', 'W', '54690')
-    ]
-    testAGS(johnsCourses)
+function getCoursesFromUser() {
+    const inputContainer = document.getElementById("input-container");
+    const forms = inputContainer.querySelectorAll("form");
+    const courses = [];
+
+    for (let form of forms) {
+        const department = form.querySelector(".department-field").value;
+        const level = form.querySelector(".level-field").value;
+        const section = form.querySelector(".section-field").value;
+        const start = form.querySelector(".start-field").value;
+        const end = form.querySelector(".end-field").value;
+
+        const checkboxes = form.querySelectorAll('input[type="checkbox"]'); // get all the checkboxes in the form
+        const daysOfWeek = []; // create an empty array to store the selected days
+        checkboxes.forEach((checkbox) => { // loop through each checkbox
+            if (checkbox.checked) { // check if the checkbox is checked
+                daysOfWeek.push(checkbox.value); // add the checkbox value to the daysOfWeek array
+            }
+        });
+
+        const crn = form.querySelector(".crn-field").value;
+
+        if (form.classList.contains("required-course-form")) {
+            const course = new Course(department, level, section, start, end, daysOfWeek, crn);
+            courses.push(course);
+
+            console.log(course);
+            console.log("\n");
+        } else if (form.classList.contains("elective-form")) {
+            const pool = form.querySelector(".pool-field").value;
+            const elective = new Elective(department, level, section, start, end, daysOfWeek, crn, pool);
+            courses.push(elective);
+
+            console.log(elective);
+            console.log("\n");
+        }
+    }
+
+    return courses;
 }
 
-/*
-EVENT LISTENERS
- */
-window.addEventListener('DOMContentLoaded', () => {
-    // REDIRECT CONSOLE OUTPUT TO DIV
-    const outputDiv = document.getElementById("output");
+function setUpInputFieldListeners() {
+    // Get all the input fields in the form
+    const inputFields = document.querySelectorAll('.horiz-thing input');
 
-    console.log = function (message) {
-        outputDiv.innerText += message;
+    // Add an event listener to each input field to handle the Enter key press
+    inputFields.forEach(input => {
+        input.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === 'ArrowRight' || e.key === ' ') {
+                e.preventDefault();
+                const currentHorizThing = input.closest('.horiz-thing');
+                const nextInput = currentHorizThing.nextElementSibling ?
+                    currentHorizThing.nextElementSibling.querySelector('input') :
+                    currentHorizThing.parentElement.nextElementSibling.querySelector('.horiz-thing input'); // may be null... fix this later
+                if (nextInput) {
+                    nextInput.focus();
+                }
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                const currentHorizThing = input.closest('.horiz-thing');
+                const prevInput = currentHorizThing.previousElementSibling ?
+                    currentHorizThing.previousElementSibling.querySelector('input') :
+                    currentHorizThing.parentElement.previousElementSibling.querySelector('.horiz-thing:last-child input');
+                if (prevInput) {
+                    prevInput.focus();
+                }
+            }
+        });
+    });
+
+    // RESTRICTING WHAT THE USER CAN TYPE INTO INPUT FIELDS
+
+    const departmentFields = document.querySelectorAll('.department-field');
+    departmentFields.forEach(function(departmentField) {
+        departmentField.addEventListener('input', function() {
+            // Remove any non-alphabetical characters
+            let inputValue = this.value.replace(/[^a-zA-Z]/g, '');
+            // Convert to uppercase and limit to 4 characters
+            inputValue = inputValue.toUpperCase();
+
+            // Limit to a maximum of 4 characters
+            if (inputValue.length > 4) {
+                inputValue = inputValue.slice(0, 4);
+            }
+
+            // Set the updated input value
+            this.value = inputValue;
+        });
+    });
+
+    const levelFields = document.querySelectorAll('.level-field');
+    levelFields.forEach(function(levelField) {
+        levelField.addEventListener('input', function() {
+            // Remove any non-numerical or non-alphabetical characters
+            let inputValue = this.value.replace(/[^0-9a-zA-Z]/g, '');
+
+            // Restrict input to 3 numerical characters or 3 numerical characters followed by 1 alphabetic character
+            if (inputValue.length <= 3) {
+                inputValue = inputValue.replace(/[^0-9]/g, ''); // only keep digits
+            } else {
+                inputValue = inputValue.slice(0, 3) + inputValue.slice(3).replace(/[^a-zA-Z]/g, '').slice(0, 1).toUpperCase(); // keep only first 3 digits and then only 1 letter
+            }
+
+            // Set the updated input value
+            this.value = inputValue;
+        });
+    });
+
+    const sectionFields = document.querySelectorAll('.section-field');
+    sectionFields.forEach(function(sectionField) {
+        sectionField.addEventListener('input', function() {
+            // Remove any non-numerical characters
+            let inputValue = this.value.replace(/[^0-9]/g, '');
+
+            // Limit input to a maximum of 2 numeric characters
+            if (inputValue.length > 2) {
+                inputValue = inputValue.slice(0, 2);
+            }
+
+            // Set the updated input value
+            this.value = inputValue;
+        });
+    });
+
+    const timeFields = document.querySelectorAll('.start-field, .end-field');
+
+    timeFields.forEach(timeField => {
+        timeField.addEventListener('input', function() {
+            const timeValue = this.value;
+            const parts = timeValue.split(':');
+            let hours = parseInt(parts[0], 10);
+            let minutes = parseInt(parts[1], 10);
+
+            // Round minutes to the nearest multiple of 5
+            minutes = Math.round(minutes / 5) * 5;
+
+            if (hours >= 1 && hours <= 7) {
+                hours += 12;
+            } else if (hours < 8) {
+                hours = 8;
+            } else if (hours > 22) {
+                hours = 22;
+            }
+
+            this.value = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+        });
+    });
+
+    const crnFields = document.querySelectorAll('.crn-field');
+    crnFields.forEach(function(crnField) {
+        crnField.addEventListener('input', function() {
+            // Remove any non-numerical characters
+            let inputValue = this.value.replace(/[^0-9]/g, '');
+
+            // Limit input to a maximum of 5 numeric characters
+            if (inputValue.length > 5) {
+                inputValue = inputValue.slice(0, 5);
+            }
+
+            // Set the updated input value
+            this.value = inputValue;
+        });
+    });
+
+    const poolFields = document.querySelectorAll('.pool-field');
+    poolFields.forEach(function(poolField) {
+        poolField.addEventListener('input', function() {
+            // Remove any non-numerical characters
+            let inputValue = this.value.replace(/[^0-9]/g, '');
+
+            // Limit input to a maximum of 1 numeric characters
+            if (inputValue.length > 1) {
+                inputValue = inputValue.slice(0, 1);
+            }
+
+            // Set the updated input value
+            this.value = inputValue;
+        });
+    });
+}
+
+function setUpDeleteButtonListeners() {
+    // Get all the delete buttons in the form
+    const deleteButtons = document.querySelectorAll('.delete-button')
+
+    // Add an event listener to each delete button to handle being clicked
+    deleteButtons.forEach(deleteButton => {
+        deleteButton.addEventListener('click', () => {
+            deleteButton.parentElement.remove();
+        });
+    });
+}
+
+// =====================================================================================================================
+// USER INTERFACE MODULE
+// =====================================================================================================================
+window.addEventListener('DOMContentLoaded', () => {
+    // Important constants that can only be initialized when DOM content loads
+    const inputContainer = document.getElementById("input-container");
+    const outputContainer = document.getElementById("output-container");
+    const addRequiredCourseButton = document.getElementById("add-required-course-button");
+    const addElectiveButton = document.getElementById("add-elective-button")
+    const clearAllButton = document.getElementById("clear-all-button");
+    const submitButton = document.getElementById("submit-button");
+    const debugButton = document.getElementById("debug-button");
+    const requiredCourseTemplate = document.getElementById("required-course-template");
+    const electiveTemplate = document.getElementById("elective-template");
+    const scheduleBoxTemplate = document.getElementById("schedule-box-template");
+
+    function main() {
+        const courses = getCoursesFromUser();
+        const ags = new AGS(courses);
+        ags.buildSchedules(ags.getPath());
+
+        console.log(`Successfully generated all ${ags.nonConflictingSchedules.length} possible schedules. Check it out:`);
+        console.log(`Accomplished with ${ags.numRecursions} recursive calls.\n`);
+        ags.printSchedules();
+
+        for (let schedule of ags.nonConflictingSchedules) {
+            const scheduleBoxTemplateClone = scheduleBoxTemplate.content.cloneNode(true);
+            const scheduleBox = scheduleBoxTemplateClone.querySelector(".schedule-box");
+            const timetable = scheduleBoxTemplateClone.querySelector(".timetable");
+            const scheduleList = scheduleBoxTemplateClone.querySelector(".schedule-list");
+
+            console.log(schedule.courses);
+            for (let course of schedule.courses) {
+                for (let day of course.daysOfWeek) {
+                    const courseDiv = document.createElement("div");
+                    courseDiv.textContent = course.name;
+                    courseDiv.className = "course";
+                    courseDiv.style.gridRow = `${(course.start / 5) - 83} / span ${(course.end - course.start) / 5}`;
+                    switch (day) {
+                        case "M":
+                            courseDiv.style.gridColumn = "2 / span 1";
+                            break;
+                        case "T":
+                            courseDiv.style.gridColumn = "3 / span 1";
+                            break;
+                        case "W":
+                            courseDiv.style.gridColumn = "4 / span 1";
+                            break;
+                        case "R":
+                            courseDiv.style.gridColumn = "5 / span 1";
+                            break;
+                        case "F":
+                            courseDiv.style.gridColumn = "6 / span 1";
+                            break;
+                    }
+                    timetable.appendChild(courseDiv);
+                }
+                const scheduleListItem = document.createElement("div");
+                scheduleListItem.classList.add("schedule-list-item");
+                scheduleListItem.textContent = `[${course.crn}] ${course.name}-${course.section}`;
+                scheduleList.appendChild(scheduleListItem);
+            }
+            outputContainer.appendChild(scheduleBox);
+        }
+        inputContainer.insertAdjacentHTML('afterend', `<p id="output-message">Generated all ${ags.nonConflictingSchedules.length} possible non-conflicting schedules!<br>Accomplished with ${ags.numRecursions} recursive calls.</p>`);
+    }
+
+    function runAGS() {
+        document.getElementById('output-message')?.remove(); // Remove the element with ID output-message if it's not null
+        outputContainer.innerHTML = '';
+        main();
     }
 
     // EVENT LISTENER: EXTRACT COURSE DATA, MAKE COURSE OBJECTS, RUN AGS
-    const submitButton = document.getElementById("submit-button");
-
     submitButton.addEventListener("click", function() {
-        main();
+        runAGS();
+    });
+
+    debugButton.addEventListener("click", function() {
+        document.getElementById('output-message')?.remove(); // Remove the element with ID output-message if it's not null
+        outputContainer.innerHTML = '';
+        testAGS();
+    });
+
+
+    // ADD REQUIRED COURSES TO INPUT CONTAINER
+    let numForms = 0;
+
+    function addRequiredCourse() {
+        const newRequiredCourseForm = requiredCourseTemplate.content.cloneNode(true);
+        const newRequiredCourseFormElement = newRequiredCourseForm.querySelector(".required-course-form");
+        newRequiredCourseFormElement.id = 'course-form-' + numForms;
+
+        const newDepartmentField = newRequiredCourseForm.querySelector(".department-field");
+        const newDepartmentFieldLabel = newRequiredCourseForm.querySelector(".department-field-label");
+        newDepartmentField.id = "department-field-" + numForms;
+        newDepartmentFieldLabel.setAttribute('for', newDepartmentField.id);
+
+        const newLevelField = newRequiredCourseForm.querySelector(".level-field");
+        const newLevelFieldLabel = newRequiredCourseForm.querySelector(".level-field-label");
+        newLevelField.id = "level-field-" + numForms;
+        newLevelFieldLabel.setAttribute('for', newLevelField.id);
+
+        const newSectionField = newRequiredCourseForm.querySelector(".section-field");
+        const newSectionFieldLabel = newRequiredCourseForm.querySelector(".section-field-label");
+        newSectionField.id = "section-field-" + numForms;
+        newSectionFieldLabel.setAttribute('for', newSectionField.id);
+
+        const newStartField = newRequiredCourseForm.querySelector(".start-field");
+        const newStartFieldLabel = newRequiredCourseForm.querySelector(".start-field-label");
+        newStartField.id = "start-field-" + numForms;
+        newStartFieldLabel.setAttribute('for', newStartField.id);
+
+        const newEndField = newRequiredCourseForm.querySelector(".end-field");
+        const newEndFieldLabel = newRequiredCourseForm.querySelector(".end-field-label");
+        newEndField.id = "end-field-" + numForms;
+        newEndFieldLabel.setAttribute('for', newEndField.id);
+
+        const newMondayField = newRequiredCourseForm.querySelector(".monday-field");
+        const newMondayFieldLabel = newRequiredCourseForm.querySelector(".monday-field-label");
+        newMondayField.id = "monday-field-" + numForms;
+        newMondayFieldLabel.setAttribute('for', newMondayField.id);
+
+        const newTuesdayField = newRequiredCourseForm.querySelector(".tuesday-field");
+        const newTuesdayFieldLabel = newRequiredCourseForm.querySelector(".tuesday-field-label");
+        newTuesdayField.id = "tuesday-field-" + numForms;
+        newTuesdayFieldLabel.setAttribute('for', newTuesdayField.id);
+
+        const newWednesdayField = newRequiredCourseForm.querySelector(".wednesday-field");
+        const newWednesdayFieldLabel = newRequiredCourseForm.querySelector(".wednesday-field-label");
+        newWednesdayField.id = "wednesday-field-" + numForms;
+        newWednesdayFieldLabel.setAttribute('for', newWednesdayField.id);
+
+        const newThursdayField = newRequiredCourseForm.querySelector(".thursday-field");
+        const newThursdayFieldLabel = newRequiredCourseForm.querySelector(".thursday-field-label");
+        newThursdayField.id = "thursday-field-" + numForms;
+        newThursdayFieldLabel.setAttribute('for', newThursdayField.id);
+
+        const newFridayField = newRequiredCourseForm.querySelector(".friday-field");
+        const newFridayFieldLabel = newRequiredCourseForm.querySelector(".friday-field-label");
+        newFridayField.id = "friday-field-" + numForms;
+        newFridayFieldLabel.setAttribute('for', newFridayField.id);
+
+        const newCrnField = newRequiredCourseForm.querySelector(".crn-field");
+        const newCrnFieldLabel = newRequiredCourseForm.querySelector(".crn-field-label");
+        newCrnField.id = "crn-field-" + numForms;
+        newCrnFieldLabel.setAttribute('for', newCrnField.id);
+
+        inputContainer.appendChild(newRequiredCourseForm);
+        numForms++;
+        setUpInputFieldListeners(); // Since new input fields are added, their events must be updated
+        setUpDeleteButtonListeners(); // Same with delete buttons
+    }
+
+    function addElective() {
+        const newElectiveForm = electiveTemplate.content.cloneNode(true);
+        const newElectiveFormElement = newElectiveForm.querySelector(".elective-form");
+        newElectiveFormElement.id = 'course-form-' + numForms;
+
+        const newPoolField = newElectiveForm.querySelector(".pool-field");
+        const newPoolFieldLabel = newElectiveForm.querySelector(".pool-field-label");
+        newPoolField.id = "pool-field-" + numForms;
+        newPoolFieldLabel.setAttribute('for', newPoolField.id);
+
+        const newDepartmentField = newElectiveForm.querySelector(".department-field");
+        const newDepartmentFieldLabel = newElectiveForm.querySelector(".department-field-label");
+        newDepartmentField.id = "department-field-" + numForms;
+        newDepartmentFieldLabel.setAttribute('for', newDepartmentField.id);
+
+        const newLevelField = newElectiveForm.querySelector(".level-field");
+        const newLevelFieldLabel = newElectiveForm.querySelector(".level-field-label");
+        newLevelField.id = "level-field-" + numForms;
+        newLevelFieldLabel.setAttribute('for', newLevelField.id);
+
+        const newSectionField = newElectiveForm.querySelector(".section-field");
+        const newSectionFieldLabel = newElectiveForm.querySelector(".section-field-label");
+        newSectionField.id = "section-field-" + numForms;
+        newSectionFieldLabel.setAttribute('for', newSectionField.id);
+
+        const newStartField = newElectiveForm.querySelector(".start-field");
+        const newStartFieldLabel = newElectiveForm.querySelector(".start-field-label");
+        newStartField.id = "start-field-" + numForms;
+        newStartFieldLabel.setAttribute('for', newStartField.id);
+
+        const newEndField = newElectiveForm.querySelector(".end-field");
+        const newEndFieldLabel = newElectiveForm.querySelector(".end-field-label");
+        newEndField.id = "end-field-" + numForms;
+        newEndFieldLabel.setAttribute('for', newEndField.id);
+
+        const newMondayField = newElectiveForm.querySelector(".monday-field");
+        const newMondayFieldLabel = newElectiveForm.querySelector(".monday-field-label");
+        newMondayField.id = "monday-field-" + numForms;
+        newMondayFieldLabel.setAttribute('for', newMondayField.id);
+
+        const newTuesdayField = newElectiveForm.querySelector(".tuesday-field");
+        const newTuesdayFieldLabel = newElectiveForm.querySelector(".tuesday-field-label");
+        newTuesdayField.id = "tuesday-field-" + numForms;
+        newTuesdayFieldLabel.setAttribute('for', newTuesdayField.id);
+
+        const newWednesdayField = newElectiveForm.querySelector(".wednesday-field");
+        const newWednesdayFieldLabel = newElectiveForm.querySelector(".wednesday-field-label");
+        newWednesdayField.id = "wednesday-field-" + numForms;
+        newWednesdayFieldLabel.setAttribute('for', newWednesdayField.id);
+
+        const newThursdayField = newElectiveForm.querySelector(".thursday-field");
+        const newThursdayFieldLabel = newElectiveForm.querySelector(".thursday-field-label");
+        newThursdayField.id = "thursday-field-" + numForms;
+        newThursdayFieldLabel.setAttribute('for', newThursdayField.id);
+
+        const newFridayField = newElectiveForm.querySelector(".friday-field");
+        const newFridayFieldLabel = newElectiveForm.querySelector(".friday-field-label");
+        newFridayField.id = "friday-field-" + numForms;
+        newFridayFieldLabel.setAttribute('for', newFridayField.id);
+
+        const newCrnField = newElectiveForm.querySelector(".crn-field");
+        const newCrnFieldLabel = newElectiveForm.querySelector(".crn-field-label");
+        newCrnField.id = "crn-field-" + numForms;
+        newCrnFieldLabel.setAttribute('for', newCrnField.id);
+
+        inputContainer.appendChild(newElectiveForm);
+        numForms++;
+        setUpInputFieldListeners(); // Since new input fields are added, their events must be updated
+        setUpDeleteButtonListeners(); // Same with delete buttons
+    }
+
+    // The first few required course forms to add:
+    const sampleCourses = [
+        new Course("CSCI", "315", "01", "08:00", "08:50", ["M", "W", "F"], "10648"),
+        new Course("CSCI", "315L", "60", "10:00", "11:50", ["T"], "10650"),
+        new Course("CSCI", "311", "01", "10:00", "10:50", ["M", "W", "F"], "11505"),
+        new Course("CSCI", "311R", "40", "13:00", "13:50", ["R"], "11507"),
+        new Course("ECEG", "101", "01", "14:00", "14:50", ["M", "W", "F"], "10871"),
+        new Course("ECEG", "101L", "60", "08:00", "09:50", ["R"], "11006"),
+        new Course("ECEG", "101L", "61", "10:00", "11:50", ["R"], "13869")
+    ]
+
+    // Add the first 4 forms as an example.
+    for (let i = 0; i < sampleCourses.length; i++) {
+        addRequiredCourse();
+        const form = document.getElementById("course-form-" + i);
+        form.querySelector(".department-field").value = sampleCourses[i].dept;
+        form.querySelector(".level-field").value = sampleCourses[i].level;
+        form.querySelector(".section-field").value = sampleCourses[i].section;
+        form.querySelector(".start-field").value = sampleCourses[i].fStart;
+        form.querySelector(".end-field").value = sampleCourses[i].fEnd;
+        const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            if (checkbox.classList.contains("monday-field") && sampleCourses[i].daysOfWeek.includes("M")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("tuesday-field") && sampleCourses[i].daysOfWeek.includes("T")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("wednesday-field") && sampleCourses[i].daysOfWeek.includes("W")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("thursday-field") && sampleCourses[i].daysOfWeek.includes("R")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("friday-field") && sampleCourses[i].daysOfWeek.includes("F")) {
+                checkbox.checked = true;
+            }
+        });
+        form.querySelector(".crn-field").value = sampleCourses[i].crn;
+    }
+
+    // Do the same thing, but for electives.
+    const sampleElectives = [
+        new Elective("ARTD", "131", "01", "08:30", "09:50", ["T", "R"], "15666", "1"),
+        new Elective("ARTD", "131", "02", "10:00", "11:50", ["M", "W"], "15845", "1"),
+        new Elective("CSCI", "379", "01", "15:00", "15:50", ["M", "W", "F"], "15846", "1")
+    ]
+
+    for (let i = 0; i < sampleElectives.length; i++) {
+        addElective();
+        const currentID = i + sampleCourses.length;
+        const form = document.getElementById("course-form-" + currentID);
+        form.querySelector(".pool-field").value = sampleElectives[i].electiveNum;
+        form.querySelector(".department-field").value = sampleElectives[i].dept;
+        form.querySelector(".level-field").value = sampleElectives[i].level;
+        form.querySelector(".section-field").value = sampleElectives[i].section;
+        form.querySelector(".start-field").value = sampleElectives[i].fStart;
+        form.querySelector(".end-field").value = sampleElectives[i].fEnd;
+        const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(checkbox => {
+            if (checkbox.classList.contains("monday-field") && sampleElectives[i].daysOfWeek.includes("M")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("tuesday-field") && sampleElectives[i].daysOfWeek.includes("T")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("wednesday-field") && sampleElectives[i].daysOfWeek.includes("W")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("thursday-field") && sampleElectives[i].daysOfWeek.includes("R")) {
+                checkbox.checked = true;
+            } else if (checkbox.classList.contains("friday-field") && sampleElectives[i].daysOfWeek.includes("F")) {
+                checkbox.checked = true;
+            }
+        });
+        form.querySelector(".crn-field").value = sampleElectives[i].crn;
+    }
+
+    // Set up event listeners for the adding buttons
+
+    addRequiredCourseButton.addEventListener("click", addRequiredCourse);
+
+    addElectiveButton.addEventListener("click", addElective);
+
+    // CLEAR ALL BUTTON FUNCTIONALITY
+    clearAllButton.addEventListener('click', () => {
+        const requiredCourseForms = inputContainer.querySelectorAll('.required-course-form');
+        const electiveForms = inputContainer.querySelectorAll('.elective-form');
+
+        requiredCourseForms.forEach(form => form.remove());
+        electiveForms.forEach(form => form.remove());
+        numForms = 0;
+
+        document.getElementById('output-message')?.remove(); // Remove the element with ID output-message if it's not null
+        outputContainer.innerHTML = '';
+    });
+
+    // RESTRICTING WHAT CAN BE ENTERED INTO INPUT FIELDS
+    const departmentInputs = document.querySelectorAll('.department-field');
+
+    departmentInputs.forEach(input => {
+        input.addEventListener('input', () => {
+            input.value = input.value.toUpperCase().slice(0, 4);
+        });
     });
 });

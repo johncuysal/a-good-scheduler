@@ -1,33 +1,340 @@
-body {
-    margin: 0;
-    font-family: sans-serif;
+:root {
+    --required-course-form-color: #204280;
+    --elective-form-color: #2694a8;
 }
 
-header {
-    background-color: gray;
-    font-size: 40px;
-    font-weight: bold;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Liberation Sans", sans-serif;
+    background-color: #e8ebec;
+    color: black;
+}
+
+header, footer {
+    background-color: #e8ebec;
     padding: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+h1, h2 {
+    text-align: center;
+    display: block;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0;
+    background-color: #e8ebec;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: gray;
 }
 
 main {
-    padding: 0 16px 0 16px;
-}
-
-#io-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 8px;
+    gap: 8px;
 }
 
-#input, #output {
-    padding: 16px;
-    width: 100%;
+#input-container, #output-container, #button-container {
+    text-align: center;
 }
 
-#input {
-    background-color: lightblue;
+#input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-#output {
-    background-color: lightgoldenrodyellow;
-    font-family: monospace;
+#output-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+#button-container {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.required-course-form, .elective-form {
+    padding: 8px;
+    border-radius: 16px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.required-course-form {
+    background-color: var(--required-course-form-color);
+}
+
+.elective-form {
+    background-color: var(--elective-form-color);
+}
+
+.horiz-thing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horiz-thing {
+    padding: 8px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.pool-field {
+    width: 2em;
+}
+
+.department-field, .level-field {
+    width: 4em;
+}
+
+.section-field {
+    width: 2em;
+}
+
+.crn-field {
+    width: 5em;
+}
+
+.start-field, .end-field {
+    width: 6em;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+input {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.main-button {
+    padding: 8px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+
+#add-required-course-button {
+    background-color: var(--required-course-form-color);
+}
+
+#add-required-course-button:hover {
+    background-color: #13274b;
+}
+
+#add-required-course-button:active {
+    background-color: #2d5db7;
+}
+
+#add-elective-button {
+    background-color: var(--elective-form-color);
+}
+
+#add-elective-button:hover {
+    background-color: #175b67;
+}
+
+#add-elective-button:active {
+    background-color: #27abc4;
+}
+
+#clear-all-button {
+    background-color: #850202;
+}
+
+#clear-all-button:hover {
+    background-color: #3a0101;
+    color: red;
+}
+
+#clear-all-button:active {
+    background-color: red;
+    color: white;
+}
+
+#submit-button {
+    background-color: #138013;
+}
+
+#submit-button:hover {
+    background-color: #0c540c;
+}
+
+#submit-button:active {
+    background-color: #19bb19;
+}
+
+#debug-button {
+    background-color: rebeccapurple;
+    display: none;
+}
+
+.delete-button {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: white;
+    border: 0;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.schedule-box {
+    background-color: #e8ebec;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.schedule-list {
+    display: flex;
+    font-weight: bold;
+    padding: 0 8px 8px 8px;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 424px;
+}
+
+.schedule-list-item {
+    padding: 8px;
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    border-radius: 6px;
+    width: 200px;
+    justify-content: center;
+}
+
+.timetable {
+    color: black;
+    display: grid;
+    grid-template-columns: 24px repeat(5, 80px);
+    grid-template-rows: repeat(186, 2px); /* 5-minute interval precision (1 row per 5 minutes) */
+}
+
+.time {
+    grid-column: 1 / span 1;
+    grid-row: span 12;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.top-of-time {
+    grid-row: span 6;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    grid-row: span 12;
+    font-weight: bold;
+}
+
+.course {
+    background-color: steelblue;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 450px) {
+    .schedule-name {
+        font-size: 8px;
+    }
+
+    .course {
+        font-size: 8px;
+        padding: 1px;
+    }
+
+    .day {
+        font-size: 8px;
+    }
+
+    .time {
+        font-size: 8px;
+    }
+
+    .timetable {
+        grid-template-columns: 24px repeat(5, 50px);
+        grid-template-rows: repeat(186, 1px);
+    }
+
+    .schedule-list {
+        width: 274px;
+        justify-content: center;
+    }
 }

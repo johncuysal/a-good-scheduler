@@ -11,30 +11,175 @@
   <link rel="canonical" href="https://agoodscheduler.com">
 </head>
 <body>
-  <header>
-    AGS Web Development Environment
-  </header>
-  <main>
-    <div id="io-container">
-      <div id="input">
-        <p>
-          Input course information here!
-        </p>
-        <div class="course-form">
-          <label>
-            Department:
-            <input type="text" class="dept" maxlength="4" oninput="this.value = this.value.toUpperCase().replace(/[^A-Z]/g, '')" placeholder="Department e.g. 'CSCI'">
-          </label>
-          <label>
-            Level:
-            <input type="text" class="level" pattern="[0-9]{3}" maxlength="3" oninput="this.value = this.value.replace(/[^0-9]/g, '')" placeholder="Level e.g. '205'">
-          </label>
+  <template id="required-course-template">
+    <form class="required-course-form">
+      <button class="delete-button">✕</button>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="department-field-label">Department</label>
+          <input type="text" placeholder="CSCI" class="department-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="level-field-label">Level</label>
+          <input type="text" placeholder="204" class="level-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="section-field-label">Section</label>
+          <input type="text" placeholder="03" class="section-field">
         </div>
       </div>
-      <div id="output">
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="start-field-label">Start Time</label>
+          <input type="time" class="start-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="end-field-label">End Time</label>
+          <input type="time" class="end-field">
+        </div>
       </div>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="monday-field-label">M</label>
+          <input type="checkbox" name="days[]" value="M" class="monday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="tuesday-field-label">T</label>
+          <input type="checkbox" name="days[]" value="T" class="tuesday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="wednesday-field-label">W</label>
+          <input type="checkbox" name="days[]" value="W" class="wednesday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="thursday-field-label">R</label>
+          <input type="checkbox" name="days[]" value="R" class="thursday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="friday-field-label">F</label>
+          <input type="checkbox" name="days[]" value="F" class="friday-field">
+        </div>
+      </div>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="crn-field-label">CRN</label>
+          <input type="text" placeholder="12566" class="crn-field">
+        </div>
+      </div>
+    </form>
+  </template>
+  <template id="elective-template">
+    <form class="elective-form">
+      <button class="delete-button">✕</button>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="pool-field-label">Slot</label>
+          <input type="text" placeholder="1" class="pool-field">
+        </div>
+      </div>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="department-field-label">Department</label>
+          <input type="text" placeholder="CSCI" class="department-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="level-field-label">Level</label>
+          <input type="text" placeholder="204" class="level-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="section-field-label">Section</label>
+          <input type="text" placeholder="03" class="section-field">
+        </div>
+      </div>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="start-field-label">Start Time</label>
+          <input type="time" class="start-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="end-field-label">End Time</label>
+          <input type="time" class="end-field">
+        </div>
+      </div>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="monday-field-label">M</label>
+          <input type="checkbox" name="days[]" value="M" class="monday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="tuesday-field-label">T</label>
+          <input type="checkbox" name="days[]" value="T" class="tuesday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="wednesday-field-label">W</label>
+          <input type="checkbox" name="days[]" value="W" class="wednesday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="thursday-field-label">R</label>
+          <input type="checkbox" name="days[]" value="R" class="thursday-field">
+        </div>
+        <div class="horiz-thing">
+          <label class="friday-field-label">F</label>
+          <input type="checkbox" name="days[]" value="F" class="friday-field">
+        </div>
+      </div>
+      <div class="horiz-thing-container">
+        <div class="horiz-thing">
+          <label class="crn-field-label">CRN</label>
+          <input type="text" placeholder="12566" class="crn-field">
+        </div>
+      </div>
+    </form>
+  </template>
+  <template id="schedule-box-template">
+    <div class="schedule-box">
+      <div class="timetable">
+        <!-- Column headers -->
+        <div class="top-of-time"></div>
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+
+        <!-- Time slots -->
+        <div class="time">8</div>
+        <div class="time">9</div>
+        <div class="time">10</div>
+        <div class="time">11</div>
+        <div class="time">12</div>
+        <div class="time">1</div>
+        <div class="time">2</div>
+        <div class="time">3</div>
+        <div class="time">4</div>
+        <div class="time">5</div>
+        <div class="time">6</div>
+        <div class="time">7</div>
+        <div class="time">8</div>
+        <div class="time">9</div>
+        <div class="time">10</div>
+      </div>
+      <div class="schedule-list"></div>
     </div>
-    <button id="submit-button">Submit</button>
+  </template>
+  <header><h1>A Good* Scheduler</h1><h2>*pre-release v0.1</h2></header>
+  <main>
+    <p>
+      Add a required course section for every section of a required course that you're okay with taking. Among all required course sections with the same department and level, only one will be chosen in each schedule. Add an elective section for every section you would be okay swapping for one another with the same pool number.
+    </p>
+    <p>
+      To show you how this website works, 10 sections have been added as an example. These 10 sections are for a student with the following requirements for their next semester: CSCI 315, CSCI 315L, CSCI 311, CSCI 311R, ECEG 101, and ECEG 101L. Notice that their ECEG 101L requirement that has more than one section to choose from. They also have 1 elective slot they want to fill with either ARTD 131 or CSCI 379. In particular, 2 sections of ARTD 131 and 1 section of CSCI 379 are being considered against each other for the same elective slot, whose slot number is 1. By clicking "Build Schedules" you can see that there are only 3 possible non-conflicting schedules that will meet the student's requirements. Click "Clear All" to remove the example when you're done.
+    </p>
+    <div id="button-container">
+      <button class="main-button" id="clear-all-button">Clear All</button>
+      <button class="main-button" id="add-required-course-button">+ Add Required Course Section</button>
+      <button class="main-button" id="add-elective-button">+ Add Elective Section</button>
+      <button class="main-button" id="submit-button">Build Schedules</button>
+      <button class="main-button" id="debug-button">Debug</button>
+    </div>
+    <div id="input-container"></div>
+    <div id="output-container"></div>
   </main>
+  <footer>© 2023 <a class="footer-link" href="https://johncuysal.com" target="_blank">John C. Uysal</a></footer>
 </body>
 </html>
