@@ -52,7 +52,7 @@ class Course {
      * @returns {string} - A string representation of the course section.
      */
     toString() {
-        return `[${this.group}] |${this.crn}| ${this.dept} ${this.level}-${this.section} (${this.fStart} - ${this.fEnd}) |${this.daysOfWeek.join("|")}| ${this.start} - ${this.end}`;
+        return `${this.group.padEnd(10, " ")} >> ${this.crn} ${this.dept} ${this.level.padEnd(4, " ")} ${this.section} (${this.fStart} - ${this.fEnd}) ${this.start} - ${this.end} ${this.daysOfWeek.join("|").padEnd(9, " ")}`;
     }
 
     /**
@@ -85,11 +85,11 @@ class Schedule {
     }
 
     toString() {
-        let s = `${"─".repeat(64)}\n`;
+        let s = `${"─".repeat(78)}\n`;
         for (let course of this.courses) {
             s += `${course}\n`;
         }
-        s += `${"─".repeat(64)}`;
+        s += `${"─".repeat(78)}\n`;
         return s;
     }
 
@@ -141,7 +141,7 @@ class AGS {
         let schedulesToShow = showConflictingSchedules ? this.schedules : this.nonConflictingSchedules;
         let s = "";
         for (let i = 0; i < schedulesToShow.length; i++) {
-            s += `\nSchedule #${i + 1}:\n${schedulesToShow[i]}`;
+            s += `Schedule #${i + 1}:\n${schedulesToShow[i]}`;
         }
         s += "\n";
         console.log(s);
@@ -183,217 +183,8 @@ class AGS {
 }
 
 /*
-TESTS
- */
-
-function testCalcMinutes() {
-    console.log("▒".repeat(64));
-    console.log("Now testing: calcMinutes()");
-    for (let hour = 0; hour < 24; hour++) {
-        for (let minute = 0; minute < 60; minute++) {
-            let timeString = `${hour.toString().padStart(2, "0")}:${minute.toString().padStart(2, "0")}`;
-            let timeInMinutes = calcMinutes(timeString);
-            console.log(`${timeString} → ${timeInMinutes}`);
-        }
-    }
-}
-
-/*
 FUNCTIONS
  */
-
-function getCoursesFromUser() {
-    const inputContainer = document.getElementById("input-container");
-    const forms = inputContainer.querySelectorAll("form");
-    const courses = [];
-
-    for (let form of forms) {
-        const department = form.querySelector(".department-field").value;
-        const level = form.querySelector(".level-field").value;
-        const section = form.querySelector(".section-field").value;
-        const start = form.querySelector(".start-field").value;
-        const end = form.querySelector(".end-field").value;
-
-        const checkboxes = form.querySelectorAll('input[type="checkbox"]'); // get all the checkboxes in the form
-        const daysOfWeek = []; // create an empty array to store the selected days
-        checkboxes.forEach((checkbox) => { // loop through each checkbox
-            if (checkbox.checked) { // check if the checkbox is checked
-                daysOfWeek.push(checkbox.value); // add the checkbox value to the daysOfWeek array
-            }
-        });
-
-        const crn = form.querySelector(".crn-field").value;
-
-        if (form.classList.contains("required-course-form")) {
-            const course = new Course(department, level, section, start, end, daysOfWeek, crn);
-            courses.push(course);
-
-            console.log(course);
-            console.log("\n");
-        } else if (form.classList.contains("elective-form")) {
-            const pool = form.querySelector(".pool-field").value;
-            const elective = new Course(department, level, section, start, end, daysOfWeek, crn, pool);
-            courses.push(elective);
-
-            console.log(elective);
-            console.log("\n");
-        }
-    }
-
-    return courses;
-}
-
-function setUpInputFieldListeners() {
-    // Get all the input fields in the form
-    const inputFields = document.querySelectorAll('.horiz-thing input');
-
-    // Add an event listener to each input field to handle the Enter key press
-    inputFields.forEach(input => {
-        input.addEventListener('keydown', e => {
-            if (e.key === 'Enter' || e.key === 'ArrowRight' || e.key === ' ') {
-                e.preventDefault();
-                const currentHorizThing = input.closest('.horiz-thing');
-                const nextInput = currentHorizThing.nextElementSibling ?
-                    currentHorizThing.nextElementSibling.querySelector('input') :
-                    currentHorizThing.parentElement.nextElementSibling.querySelector('.horiz-thing input'); // may be null... fix this later
-                if (nextInput) {
-                    nextInput.focus();
-                }
-            } else if (e.key === 'ArrowLeft') {
-                e.preventDefault();
-                const currentHorizThing = input.closest('.horiz-thing');
-                const prevInput = currentHorizThing.previousElementSibling ?
-                    currentHorizThing.previousElementSibling.querySelector('input') :
-                    currentHorizThing.parentElement.previousElementSibling.querySelector('.horiz-thing:last-child input');
-                if (prevInput) {
-                    prevInput.focus();
-                }
-            }
-        });
-    });
-
-    // RESTRICTING WHAT THE USER CAN TYPE INTO INPUT FIELDS
-
-    const departmentFields = document.querySelectorAll('.department-field');
-    departmentFields.forEach(function(departmentField) {
-        departmentField.addEventListener('input', function() {
-            // Remove any non-alphabetical characters
-            let inputValue = this.value.replace(/[^a-zA-Z]/g, '');
-            // Convert to uppercase and limit to 4 characters
-            inputValue = inputValue.toUpperCase();
-
-            // Limit to a maximum of 4 characters
-            if (inputValue.length > 4) {
-                inputValue = inputValue.slice(0, 4);
-            }
-
-            // Set the updated input value
-            this.value = inputValue;
-        });
-    });
-
-    const levelFields = document.querySelectorAll('.level-field');
-    levelFields.forEach(function(levelField) {
-        levelField.addEventListener('input', function() {
-            // Remove any non-numerical or non-alphabetical characters
-            let inputValue = this.value.replace(/[^0-9a-zA-Z]/g, '');
-
-            // Restrict input to 3 numerical characters or 3 numerical characters followed by 1 alphabetic character
-            if (inputValue.length <= 3) {
-                inputValue = inputValue.replace(/[^0-9]/g, ''); // only keep digits
-            } else {
-                inputValue = inputValue.slice(0, 3) + inputValue.slice(3).replace(/[^a-zA-Z]/g, '').slice(0, 1).toUpperCase(); // keep only first 3 digits and then only 1 letter
-            }
-
-            // Set the updated input value
-            this.value = inputValue;
-        });
-    });
-
-    const sectionFields = document.querySelectorAll('.section-field');
-    sectionFields.forEach(function(sectionField) {
-        sectionField.addEventListener('input', function() {
-            // Remove any non-numerical characters
-            let inputValue = this.value.replace(/[^0-9]/g, '');
-
-            // Limit input to a maximum of 2 numeric characters
-            if (inputValue.length > 2) {
-                inputValue = inputValue.slice(0, 2);
-            }
-
-            // Set the updated input value
-            this.value = inputValue;
-        });
-    });
-
-    const timeFields = document.querySelectorAll('.start-field, .end-field');
-
-    timeFields.forEach(timeField => {
-        timeField.addEventListener('input', function() {
-            const timeValue = this.value;
-            const parts = timeValue.split(':');
-            let hours = parseInt(parts[0], 10);
-            let minutes = parseInt(parts[1], 10);
-
-            // Round minutes to the nearest multiple of 5
-            minutes = Math.round(minutes / 5) * 5;
-
-            if (hours >= 1 && hours <= 7) {
-                hours += 12;
-            } else if (hours < 8) {
-                hours = 8;
-            } else if (hours > 22) {
-                hours = 22;
-            }
-
-            this.value = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
-        });
-    });
-
-    const crnFields = document.querySelectorAll('.crn-field');
-    crnFields.forEach(function(crnField) {
-        crnField.addEventListener('input', function() {
-            // Remove any non-numerical characters
-            let inputValue = this.value.replace(/[^0-9]/g, '');
-
-            // Limit input to a maximum of 5 numeric characters
-            if (inputValue.length > 5) {
-                inputValue = inputValue.slice(0, 5);
-            }
-
-            // Set the updated input value
-            this.value = inputValue;
-        });
-    });
-
-    const poolFields = document.querySelectorAll('.pool-field');
-    poolFields.forEach(function(poolField) {
-        poolField.addEventListener('input', function() {
-            // Remove any non-numerical characters
-            let inputValue = this.value.replace(/[^0-9]/g, '');
-
-            // Limit input to a maximum of 1 numeric characters
-            if (inputValue.length > 1) {
-                inputValue = inputValue.slice(0, 1);
-            }
-
-            // Set the updated input value
-            this.value = inputValue;
-        });
-    });
-}
-
-function setUpDeleteButtonListeners() {
-    // Get all the delete buttons in the form
-    const deleteButtons = document.querySelectorAll('.delete-button')
-
-    // Add an event listener to each delete button to handle being clicked
-    deleteButtons.forEach(deleteButton => {
-        deleteButton.addEventListener('click', () => {
-            deleteButton.parentElement.remove();
-        });
-    });
-}
 
 // =====================================================================================================================
 // USER INTERFACE MODULE
@@ -406,18 +197,17 @@ window.addEventListener('DOMContentLoaded', () => {
     const addElectiveButton = document.getElementById("add-elective-button")
     const clearAllButton = document.getElementById("clear-all-button");
     const submitButton = document.getElementById("submit-button");
-    const debugButton = document.getElementById("debug-button");
     const requiredCourseTemplate = document.getElementById("required-course-template");
     const electiveTemplate = document.getElementById("elective-template");
     const scheduleBoxTemplate = document.getElementById("schedule-box-template");
+    let numFormsAdded = 0;
 
     function main() {
         const courses = getCoursesFromUser();
         const ags = new AGS(courses);
         ags.buildSchedules(ags.getPath());
 
-        console.log(`Successfully generated all ${ags.nonConflictingSchedules.length} possible schedules. Check it out:`);
-        console.log(`Accomplished with ${ags.numRecursions} recursive calls.\n`);
+        console.log(`AGS >> Generated ${ags.nonConflictingSchedules.length} schedules with ${ags.numRecursions} recursive calls.`);
         ags.printSchedules();
 
         for (let schedule of ags.nonConflictingSchedules) {
@@ -426,7 +216,6 @@ window.addEventListener('DOMContentLoaded', () => {
             const timetable = scheduleBoxTemplateClone.querySelector(".timetable");
             const scheduleList = scheduleBoxTemplateClone.querySelector(".schedule-list");
 
-            console.log(schedule.courses);
             for (let course of schedule.courses) {
                 for (let day of course.daysOfWeek) {
                     const courseDiv = document.createElement("div");
@@ -468,22 +257,47 @@ window.addEventListener('DOMContentLoaded', () => {
         main();
     }
 
+    function getCoursesFromUser() {
+        const forms = inputContainer.querySelectorAll("form");
+        const courses = [];
+
+        for (let form of forms) {
+            const department = form.querySelector(".department-field").value;
+            const level = form.querySelector(".level-field").value;
+            const section = form.querySelector(".section-field").value;
+            const start = form.querySelector(".start-field").value;
+            const end = form.querySelector(".end-field").value;
+
+            const checkboxes = form.querySelectorAll('input[type="checkbox"]'); // get all the checkboxes in the form
+            const daysOfWeek = []; // create an empty array to store the selected days
+            checkboxes.forEach((checkbox) => { // loop through each checkbox
+                if (checkbox.checked) { // check if the checkbox is checked
+                    daysOfWeek.push(checkbox.value); // add the checkbox value to the daysOfWeek array
+                }
+            });
+
+            const crn = form.querySelector(".crn-field").value;
+
+            if (form.classList.contains("required-course-form")) {
+                const course = new Course(department, level, section, start, end, daysOfWeek, crn);
+                courses.push(course);
+            } else if (form.classList.contains("elective-form")) {
+                const pool = form.querySelector(".pool-field").value;
+                const elective = new Course(department, level, section, start, end, daysOfWeek, crn, pool);
+                courses.push(elective);
+            }
+        }
+
+        return courses;
+    }
+
     // EVENT LISTENER: EXTRACT COURSE DATA, MAKE COURSE OBJECTS, RUN AGS
     submitButton.addEventListener("click", function() {
         runAGS();
         document.getElementById('output-message').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
     });
 
-    debugButton.addEventListener("click", function() {
-        document.getElementById('output-message')?.remove(); // Remove the element with ID output-message if it's not null
-        outputContainer.innerHTML = '';
-        testAGS();
-    });
-
-
     // ADD REQUIRED COURSES TO INPUT CONTAINER
-    let numForms = 0;
-
     function addRequiredCourse(courseType) {
         let clonedNode, newForm;
         if (courseType === "Required") {
@@ -495,70 +309,185 @@ window.addEventListener('DOMContentLoaded', () => {
 
             const newPoolField = newForm.querySelector(".pool-field");
             const newPoolFieldLabel = newForm.querySelector(".pool-field-label");
-            newPoolField.id = "pool-field-" + numForms;
+            newPoolField.id = "pool-field-" + numFormsAdded;
             newPoolFieldLabel.setAttribute('for', newPoolField.id);
+            newPoolField.addEventListener('input', function() {
+                // Remove any non-numerical characters
+                let inputValue = this.value.replace(/[^0-9]/g, '');
+                // Limit input to a maximum of 1 numeric characters
+                if (inputValue.length > 1) {
+                    inputValue = inputValue.slice(0, 1);
+                }
+                // Set the updated input value
+                this.value = inputValue;
+            });
         }
 
         const newDepartmentField = newForm.querySelector(".department-field");
         const newDepartmentFieldLabel = newForm.querySelector(".department-field-label");
-        newDepartmentField.id = "department-field-" + numForms;
+        newDepartmentField.id = "department-field-" + numFormsAdded;
         newDepartmentFieldLabel.setAttribute('for', newDepartmentField.id);
+        newDepartmentField.addEventListener('input', function() {
+            // Remove any non-alphabetical characters
+            let inputValue = this.value.replace(/[^a-zA-Z]/g, '');
+            // Convert to uppercase and limit to 4 characters
+            inputValue = inputValue.toUpperCase();
+            // Limit to a maximum of 4 characters
+            if (inputValue.length > 4) {
+                inputValue = inputValue.slice(0, 4);
+            }
+            // Set the updated input value
+            this.value = inputValue;
+        });
 
         const newLevelField = newForm.querySelector(".level-field");
         const newLevelFieldLabel = newForm.querySelector(".level-field-label");
-        newLevelField.id = "level-field-" + numForms;
+        newLevelField.id = "level-field-" + numFormsAdded;
         newLevelFieldLabel.setAttribute('for', newLevelField.id);
+        newLevelField.addEventListener('input', function() {
+            // Remove any non-numerical or non-alphabetical characters
+            let inputValue = this.value.replace(/[^0-9a-zA-Z]/g, '');
+            // Restrict input to 3 numerical characters or 3 numerical characters followed by 1 alphabetic character
+            if (inputValue.length <= 3) {
+                inputValue = inputValue.replace(/[^0-9]/g, ''); // only keep digits
+            } else {
+                inputValue = inputValue.slice(0, 3) + inputValue.slice(3).replace(/[^a-zA-Z]/g, '').slice(0, 1).toUpperCase(); // keep only first 3 digits and then only 1 letter
+            }
+            // Set the updated input value
+            this.value = inputValue;
+        });
 
         const newSectionField = newForm.querySelector(".section-field");
         const newSectionFieldLabel = newForm.querySelector(".section-field-label");
-        newSectionField.id = "section-field-" + numForms;
+        newSectionField.id = "section-field-" + numFormsAdded;
         newSectionFieldLabel.setAttribute('for', newSectionField.id);
+        newSectionField.addEventListener('input', function() {
+            // Remove any non-numerical characters
+            let inputValue = this.value.replace(/[^0-9]/g, '');
+            // Limit input to a maximum of 2 numeric characters
+            if (inputValue.length > 2) {
+                inputValue = inputValue.slice(0, 2);
+            }
+            // Set the updated input value
+            this.value = inputValue;
+        });
 
         const newStartField = newForm.querySelector(".start-field");
         const newStartFieldLabel = newForm.querySelector(".start-field-label");
-        newStartField.id = "start-field-" + numForms;
+        newStartField.id = "start-field-" + numFormsAdded;
         newStartFieldLabel.setAttribute('for', newStartField.id);
+        newStartField.addEventListener('input', function() {
+            const timeValue = this.value;
+            const parts = timeValue.split(':');
+            let hours = parseInt(parts[0], 10);
+            let minutes = parseInt(parts[1], 10);
+            // Round minutes to the nearest multiple of 5
+            minutes = Math.round(minutes / 5) * 5;
+            if (hours >= 1 && hours <= 7) {
+                hours += 12;
+            } else if (hours < 8) {
+                hours = 8;
+            } else if (hours > 22) {
+                hours = 22;
+            }
+            this.value = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+        });
 
         const newEndField = newForm.querySelector(".end-field");
         const newEndFieldLabel = newForm.querySelector(".end-field-label");
-        newEndField.id = "end-field-" + numForms;
+        newEndField.id = "end-field-" + numFormsAdded;
         newEndFieldLabel.setAttribute('for', newEndField.id);
+        newEndField.addEventListener('input', function() {
+            const timeValue = this.value;
+            const parts = timeValue.split(':');
+            let hours = parseInt(parts[0], 10);
+            let minutes = parseInt(parts[1], 10);
+            // Round minutes to the nearest multiple of 5
+            minutes = Math.round(minutes / 5) * 5;
+            if (hours >= 1 && hours <= 7) {
+                hours += 12;
+            } else if (hours < 8) {
+                hours = 8;
+            } else if (hours > 22) {
+                hours = 22;
+            }
+            this.value = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+        });
 
         const newMondayField = newForm.querySelector(".monday-field");
         const newMondayFieldLabel = newForm.querySelector(".monday-field-label");
-        newMondayField.id = "monday-field-" + numForms;
+        newMondayField.id = "monday-field-" + numFormsAdded;
         newMondayFieldLabel.setAttribute('for', newMondayField.id);
 
         const newTuesdayField = newForm.querySelector(".tuesday-field");
         const newTuesdayFieldLabel = newForm.querySelector(".tuesday-field-label");
-        newTuesdayField.id = "tuesday-field-" + numForms;
+        newTuesdayField.id = "tuesday-field-" + numFormsAdded;
         newTuesdayFieldLabel.setAttribute('for', newTuesdayField.id);
 
         const newWednesdayField = newForm.querySelector(".wednesday-field");
         const newWednesdayFieldLabel = newForm.querySelector(".wednesday-field-label");
-        newWednesdayField.id = "wednesday-field-" + numForms;
+        newWednesdayField.id = "wednesday-field-" + numFormsAdded;
         newWednesdayFieldLabel.setAttribute('for', newWednesdayField.id);
 
         const newThursdayField = newForm.querySelector(".thursday-field");
         const newThursdayFieldLabel = newForm.querySelector(".thursday-field-label");
-        newThursdayField.id = "thursday-field-" + numForms;
+        newThursdayField.id = "thursday-field-" + numFormsAdded;
         newThursdayFieldLabel.setAttribute('for', newThursdayField.id);
 
         const newFridayField = newForm.querySelector(".friday-field");
         const newFridayFieldLabel = newForm.querySelector(".friday-field-label");
-        newFridayField.id = "friday-field-" + numForms;
+        newFridayField.id = "friday-field-" + numFormsAdded;
         newFridayFieldLabel.setAttribute('for', newFridayField.id);
 
         const newCrnField = newForm.querySelector(".crn-field");
         const newCrnFieldLabel = newForm.querySelector(".crn-field-label");
-        newCrnField.id = "crn-field-" + numForms;
+        newCrnField.id = "crn-field-" + numFormsAdded;
         newCrnFieldLabel.setAttribute('for', newCrnField.id);
+        newCrnField.addEventListener('input', function() {
+            // Remove any non-numerical characters
+            let inputValue = this.value.replace(/[^0-9]/g, '');
+            // Limit input to a maximum of 5 numeric characters
+            if (inputValue.length > 5) {
+                inputValue = inputValue.slice(0, 5);
+            }
+            // Set the updated input value
+            this.value = inputValue;
+        });
 
-        newForm.id = 'course-form-' + numForms;
+        const deleteButton = newForm.querySelector(".delete-button");
+        deleteButton.addEventListener('click', () => {
+            newForm.remove();
+        });
+
+        // Add an event listener to each input field to handle the Enter key press
+        const inputFields = newForm.querySelectorAll("input");
+        inputFields.forEach(input => {
+            input.addEventListener('keydown', e => {
+                if (e.key === 'Enter' || e.key === 'ArrowRight' || e.key === ' ') {
+                    e.preventDefault();
+                    const currentHorizThing = input.closest('.horiz-thing');
+                    const nextInput = currentHorizThing.nextElementSibling ?
+                        currentHorizThing.nextElementSibling.querySelector('input') :
+                        currentHorizThing.parentElement.nextElementSibling.querySelector('.horiz-thing input'); // may be null... fix this later
+                    if (nextInput) {
+                        nextInput.focus();
+                    }
+                } else if (e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    const currentHorizThing = input.closest('.horiz-thing');
+                    const prevInput = currentHorizThing.previousElementSibling ?
+                        currentHorizThing.previousElementSibling.querySelector('input') :
+                        currentHorizThing.parentElement.previousElementSibling.querySelector('.horiz-thing:last-child input');
+                    if (prevInput) {
+                        prevInput.focus();
+                    }
+                }
+            });
+        });
+
+        newForm.id = 'course-form-' + numFormsAdded;
         inputContainer.appendChild(newForm);
-        numForms++;
-        setUpInputFieldListeners(); // Since new input fields are added, their events must be updated
-        setUpDeleteButtonListeners(); // Same with delete buttons
+        numFormsAdded++;
     }
 
     // Example courses to add
@@ -578,11 +507,9 @@ window.addEventListener('DOMContentLoaded', () => {
     // Add the example courses
     for (let i = 0; i < sampleCourses.length; i++) {
         const course = sampleCourses[i];
-        if (course.isElective()) {
-            addRequiredCourse("Elective");
-        } else {
-            addRequiredCourse("Required");
-        }
+        const courseType = course.isElective() ? "Elective" : "Required";
+        addRequiredCourse(courseType);
+
         const form = document.getElementById("course-form-" + i);
         if (course.isElective()) {
             form.querySelector(".pool-field").value = course.electiveNum;
@@ -592,6 +519,7 @@ window.addEventListener('DOMContentLoaded', () => {
         form.querySelector(".section-field").value = course.section;
         form.querySelector(".start-field").value = course.fStart;
         form.querySelector(".end-field").value = course.fEnd;
+
         const checkboxes = form.querySelectorAll('input[type="checkbox"]');
         checkboxes.forEach(checkbox => {
             if (checkbox.classList.contains("monday-field") && course.daysOfWeek.includes("M")) {
@@ -606,34 +534,28 @@ window.addEventListener('DOMContentLoaded', () => {
                 checkbox.checked = true;
             }
         });
+
         form.querySelector(".crn-field").value = course.crn;
     }
 
     // Set up event listeners for the adding buttons
+    addRequiredCourseButton.addEventListener("click", function() {
+        addRequiredCourse("Required");
+    });
 
-    addRequiredCourseButton.addEventListener("click", function() { addRequiredCourse("Required"); });
+    addElectiveButton.addEventListener("click", function() {
+        addRequiredCourse("Elective");
+    });
 
-    addElectiveButton.addEventListener("click", function() { addRequiredCourse("Elective"); });
-
-    // CLEAR ALL BUTTON FUNCTIONALITY
+    // Set up event listener for the clear all button
     clearAllButton.addEventListener('click', () => {
         const requiredCourseForms = inputContainer.querySelectorAll('.required-course-form');
         const electiveForms = inputContainer.querySelectorAll('.elective-form');
 
         requiredCourseForms.forEach(form => form.remove());
         electiveForms.forEach(form => form.remove());
-        numForms = 0;
 
         document.getElementById('output-message')?.remove(); // Remove the element with ID output-message if it's not null
         outputContainer.innerHTML = '';
-    });
-
-    // RESTRICTING WHAT CAN BE ENTERED INTO INPUT FIELDS
-    const departmentInputs = document.querySelectorAll('.department-field');
-
-    departmentInputs.forEach(input => {
-        input.addEventListener('input', () => {
-            input.value = input.value.toUpperCase().slice(0, 4);
-        });
     });
 });

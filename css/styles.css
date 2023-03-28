@@ -220,11 +220,6 @@ input[type="checkbox"] {
     background-color: #19bb19;
 }
 
-#debug-button {
-    background-color: rebeccapurple;
-    display: none;
-}
-
 .delete-button {
     font-size: 20px;
     display: flex;
@@ -337,5 +332,14 @@ fieldset {
     .schedule-list {
         width: 274px;
         justify-content: center;
+    }
+
+    input {
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    label {
+        font-size: 12px;
     }
 }
