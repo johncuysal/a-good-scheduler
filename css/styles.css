@@ -59,50 +59,50 @@ h2 {
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-color: white;
     padding: 8px;
     gap: 8px;
 }
 
-#input-container, #output-container, #button-container {
-    text-align: center;
+.big-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#stuff-container {
+    display: flex;
 }
 
 #input-container {
+    width: 400px;
+    background-color: yellow;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-right: 8px;
 }
 
 #output-container {
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
+    border: 2px solid black;
+    border-radius: 32px;
 }
 
-#button-container {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.required-course-form, .elective-form {
+.course-form {
     padding: 8px;
     border-radius: 16px;
     display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.required-course-form {
     background-color: var(--required-course-form-color);
 }
 
-.elective-form {
+.elective-type {
     background-color: var(--elective-form-color);
 }
 
@@ -152,17 +152,12 @@ input {
     padding: 8px;
     border-radius: 8px;
     border: 0;
-    text-align: center;
     font-size: 24px;
     font-family: inherit;
     font-weight: bold;
 }
 
-input[type="checkbox"] {
-    transform: scale(1.5);
-}
-
-.main-button {
+button {
     padding: 8px;
     font-size: 24px;
     border: 0;
@@ -170,54 +165,9 @@ input[type="checkbox"] {
     color: white;
 }
 
-#add-required-course-button {
-    background-color: var(--required-course-form-color);
-}
-
-#add-required-course-button:hover {
-    background-color: #13274b;
-}
-
-#add-required-course-button:active {
-    background-color: #2d5db7;
-}
-
-#add-elective-button {
-    background-color: var(--elective-form-color);
-}
-
-#add-elective-button:hover {
-    background-color: #175b67;
-}
-
-#add-elective-button:active {
-    background-color: #27abc4;
-}
-
-#clear-all-button {
-    background-color: #850202;
-}
-
-#clear-all-button:hover {
-    background-color: #3a0101;
-    color: red;
-}
-
-#clear-all-button:active {
-    background-color: red;
-    color: white;
-}
-
-#submit-button {
-    background-color: #138013;
-}
-
-#submit-button:hover {
-    background-color: #0c540c;
-}
-
-#submit-button:active {
-    background-color: #19bb19;
+.delete-button-container {
+    display: flex;
+    align-items: center;
 }
 
 .delete-button {
@@ -228,6 +178,10 @@ input[type="checkbox"] {
     background-color: inherit;
     color: white;
     border: 0;
+}
+
+.delete-button:hover {
+    background-color: black;
 }
 
 fieldset {
@@ -304,6 +258,56 @@ fieldset {
     overflow: hidden;
     text-overflow: ellipsis;
     border-radius: 6px;
+}
+
+.cbox {
+    background-color: var(--required-course-form-color);
+    display: flex;
+    padding: 5px;
+}
+
+.cbox-value {
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#search-field {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 32px;
+    font-family: Liberation Sans, sans-serif;
+}
+
+#search-field:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.search-result {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 20px;
+}
+
+.search-result:hover {
+    background-color: #1390a1;
+    text-decoration: none;
+    color: white;
+}
+
+#search-results {
+    position: absolute;
+    z-index: 1;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: scroll;
+    max-height: 400px;
+    width: 400px;
 }
 
 @media only screen and (max-width: 450px) {
