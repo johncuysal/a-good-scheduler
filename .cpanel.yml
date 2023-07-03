@@ -6,3 +6,4 @@ deployment:
     - /bin/cp -R scripts $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp course_data.json $DEPLOYPATH
