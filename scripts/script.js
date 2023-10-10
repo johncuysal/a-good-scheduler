@@ -2,6 +2,15 @@
 // COMPUTATION MODULE
 // =====================================================================================================================
 
+// Constant used for debugging purposes
+const inDebugMode = true;
+
+function printDebugMessage(message) {
+    if (inDebugMode) {
+        console.log(message);
+    }
+}
+
 function calcMinutes(timeString) {
     // Given a string "hh:mm", get the number of minutes past since 00:00.
     let splitList = timeString.split(":"); // e.g. ["14", "56"]
@@ -69,14 +78,12 @@ class Course {
         this.dept = department;
         this.level = level.padStart(3, "0"); // Pad the start with 0's until the string is 3 characters long
         this.name = `${this.dept} ${this.level}`;
+        this.corequisiteGroupName = this.name.substring(0, 8); // makes PHYS 211L -> PHYS 211
         this.section = section.padStart(2, "0"); // Pad the start with 0's until the string is 2 characters long
         this.longName = `${this.name}-${this.section}`;
         this.title = title;
         this.tbStrings = tbStrings;
         this.timeBlocks = [];
-        for (const tb of tbStrings) {
-            console.log(typeof tb);
-        }
         for (const tbString of tbStrings) {
             const firstSpaceIndex = tbString.indexOf(" ");
             const daysString = tbString.slice(0, firstSpaceIndex);
@@ -96,7 +103,7 @@ class Course {
      * @returns {string} - A string representation of the course section.
      */
     toString() {
-        return `${this.group.padEnd(10, " ")} >> ${this.crn} ${this.dept} ${this.level.padEnd(4, " ")} ${this.section} (${this.timeBlocks}`;
+        return `${this.group.padEnd(10, " ")} -> ${this.crn} ${this.dept} ${this.level.padEnd(4, " ")} ${this.section} ${this.tbStrings}`;
     }
 
     /**
@@ -106,18 +113,18 @@ class Course {
      * @returns {boolean} True if the two course sections overlap on the same day, false otherwise.
      */
     isConflictingWith(other) {
-        console.log(`Now checking for overlap between ${this.longName} and ${other.longName}`);
+        printDebugMessage(`Checking for a conflict between ${this.longName} and ${other.longName}...`);
         for (let timeBlock of this.timeBlocks) {
             for (let otherTimeBlock of other.timeBlocks) {
                 const daysOverlap = timeBlock.day === otherTimeBlock.day;
                 const timesOverlap = (timeBlock.startMinute <= otherTimeBlock.startMinute && otherTimeBlock.startMinute <= timeBlock.endMinute) || (otherTimeBlock.startMinute <= timeBlock.startMinute && timeBlock.startMinute <= otherTimeBlock.endMinute);
                 if (daysOverlap && timesOverlap) {
-                    console.log(`Day overlap: ${timeBlock.day} and ${otherTimeBlock.day}`);
-                    console.log(`Time overlap: ${timeBlock.startTimeString}-${timeBlock.endTimeString} and ${otherTimeBlock.startTimeString}-${otherTimeBlock.endTimeString}`);
+                    printDebugMessage(`Conflict detected! ${timeBlock.day} ${timeBlock.startTimeString}-${timeBlock.endTimeString} and ${otherTimeBlock.day} ${otherTimeBlock.startTimeString}-${otherTimeBlock.endTimeString} are conflicting time blocks.`);
                     return true;
                 }
             }
         }
+        printDebugMessage("No conflict found!")
         return false;
     }
 
@@ -223,7 +230,7 @@ class AGS {
             s += `Schedule #${i + 1}:\n${schedulesToShow[i]}`;
         }
         s += "\n";
-        console.log(s);
+        printDebugMessage(s);
     }
 
     /**
@@ -254,7 +261,8 @@ class AGS {
 
     buildSchedules(groupsToAdd, schedule = new Schedule()) {
         this.numRecursions++; // increment the number of times this function has been called
-        console.log(groupsToAdd);
+        printDebugMessage(`Call #${this.numRecursions} begins. Slots left to add:`)
+        printDebugMessage(groupsToAdd);
         if (groupsToAdd.length === 0) { // when all groups have been added
             this.addSchedule(schedule); // add the finished schedule to schedules list
         } else {
@@ -272,35 +280,29 @@ class AGS {
 // USER INTERFACE MODULE
 // =====================================================================================================================
 window.addEventListener('DOMContentLoaded', () => {
-    const main = document.querySelector("main");
-    const inputContainer = document.getElementById("input-container");
-    const outputContainer = document.getElementById("output-container");
+    const slotContainer = document.getElementById("slot-container");
+    const scheduleContainer = document.getElementById("schedule-container");
+    const searchBar = document.getElementById("search-bar");
+    const searchBarResultContainer = document.getElementById("search-bar-result-container");
+    const statusContainer = document.getElementById("status-container");
+    const scheduleTemplate = document.getElementById("schedule-template");
+    const slotTemplate = document.getElementById("slot-template");
+    const slotCandidateTemplate = document.getElementById("slot-candidate-template");
 
-    const searchField = document.getElementById("search-field");
-    const searchResults = document.getElementById("search-results");
-    const courseContainer = document.getElementById("course-container");
-
-    const scheduleBoxTemplate = document.getElementById("schedule-box-template");
-    const cboxTemplate = document.getElementById("cbox-template");
-
-    const allCourses = getCoursesFromJSON(); // Add some Course objects when the page loads up for the first time
+    // Add some Course objects when the page loads up for the first time
+    const allCourses = [];
+    const allCorequisiteGroups = {};
+    getCoursesFromJSON();
+    printDebugMessage(`Loaded courses from catalog:`)
+    printDebugMessage(allCourses);
+    printDebugMessage(`Made corequisite groups:`)
+    printDebugMessage(allCorequisiteGroups);
     const candidateCourses = [];
-
-    let courseFormCounter = 0; // Helps assign a unique ID to each added form
-
-    function removeCBoxes() {
-        const cBoxes = inputContainer.querySelectorAll(".cbox");
-        cBoxes.forEach(cbox => cbox.remove());
-        document.getElementById('output-message')?.remove(); // Remove output-message if it's not null
-        outputContainer.innerHTML = "";
-    }
+    const excludedCourses = [];
 
     function runAGS() {
-        // Remove the output message, if it's present.
-        document.getElementById('output-message')?.remove();
-
         // Clear all the schedules in the output container.
-        outputContainer.innerHTML = "";
+        scheduleContainer.innerHTML = "";
 
         // Get the courses from all the course forms and load them into AGS.
         const ags = new AGS(candidateCourses);
@@ -308,51 +310,99 @@ window.addEventListener('DOMContentLoaded', () => {
         // Make a path and recurse through it to build all possible schedules.
         ags.buildSchedules(ags.getPath());
 
-        // (For debugging purposes) Print a success message and the schedules to the console.
-        console.log(`AGS >> Generated ${ags.nonConflictingSchedules.length} schedules with ${ags.numRecursions} recursive calls.`);
+        // (For debugging purposes) Print the schedules to the console.
         ags.printSchedules();
 
         addSchedulesToDisplay(ags.nonConflictingSchedules);
 
-        const outputMessage = document.createElement("p");
-        outputMessage.id = "output-message";
-        outputMessage.textContent = `Generated all ${ags.nonConflictingSchedules.length} possible non-conflicting schedules!\nAccomplished with ${ags.numRecursions} recursive calls.`;
-        main.querySelector(".big-column").appendChild(outputMessage);
+        if (ags.nonConflictingSchedules.length === 1) {
+            statusContainer.textContent = `${ags.nonConflictingSchedules.length} possible conflict-free schedule:`;
+        } else {
+            statusContainer.textContent = `${ags.nonConflictingSchedules.length} possible conflict-free schedules:`;
+        }
     }
 
-    function addCBox(course) {
-        const clonedNode = cboxTemplate.content.cloneNode(true);
-        const cbox = clonedNode.querySelector(".cbox");
+    function addSlot(name, courses) {
+        const slotID = name.replace(/\s+/g, "-");
+        const clonedSlotTemplate = slotTemplate.content.cloneNode(true);
+        const slot = clonedSlotTemplate.querySelector(".slot");
+        const slotCandidateContainer = slot.querySelector(".slot-candidate-container");
 
-        const deleteButton = cbox.querySelector(".delete-button");
-        deleteButton.addEventListener("click", () => {
-            cbox.remove();
-            candidateCourses.splice(candidateCourses.indexOf(course), 1);
+        slotContainer.appendChild(slot);
+        slot.id = slotID;
+        slot.querySelector(".slot-name").textContent = name;
+        slot.querySelector(".slot-description").textContent = courses[0].title;
+
+        for (let course of courses) {
+            const clonedSlotCandidateTemplate = slotCandidateTemplate.content.cloneNode(true);
+            const slotCandidate = clonedSlotCandidateTemplate.querySelector(".slot-candidate");
+            const slotCandidateToggle = slotCandidate.querySelector(".slot-candidate-toggle");
+
+            slotCandidate.id = course.crn;
+            slotCandidateToggle.id = "toggle-" + slotCandidate.id;
+            slotCandidate.setAttribute("for", slotCandidateToggle.id);
+            slotCandidateContainer.appendChild(slotCandidate);
+
+            slotCandidate.querySelector(".slot-candidate-infobox-value-section-number").textContent = course.section;
+            for (const tbString of course.tbStrings) {
+                const divElement = document.createElement("div");
+                divElement.textContent = tbString;
+                slotCandidate.querySelector(".slot-candidate-infobox-value-time-block").appendChild(divElement);
+            }
+
+            slotCandidateToggle.addEventListener("change", function() {
+                if (this.checked) {
+                    slotCandidate.style.color = "white";
+
+                    // Move course from excludedCourses to candidateCourses
+                    const index = excludedCourses.indexOf(course);
+                    if (index !== -1) {
+                        excludedCourses.splice(index, 1);
+                        candidateCourses.push(course);
+                        printDebugMessage(`${course.longName} was moved from excluded courses to candidate courses.`);
+                    }
+                } else {
+                    slotCandidate.style.color = "gray";
+
+                    // Move course from candidateCourses to excludedCourses
+                    const index = candidateCourses.indexOf(course);
+                    if (index !== -1) {
+                        candidateCourses.splice(index, 1);
+                        excludedCourses.push(course);
+                        printDebugMessage(`${course.longName} was moved from candidate courses to excluded courses.`);
+                    }
+                }
+                runAGS();
+            });
+        }
+
+        const slotDeleteButton = slot.querySelector(".slot-delete-button");
+        slotDeleteButton.addEventListener("click", function() {
+            slot.remove();
+            for (let course of courses) {
+                const excludedIndex = excludedCourses.indexOf(course);
+                if (excludedIndex !== -1) {
+                    excludedCourses.splice(excludedIndex, 1);
+                    printDebugMessage(`${course.longName} was deleted from excluded courses.`);
+                }
+                const candidateIndex = candidateCourses.indexOf(course);
+                if (candidateIndex !== -1) {
+                    candidateCourses.splice(candidateIndex, 1);
+                    printDebugMessage(`${course.longName} was deleted from candidate courses.`);
+                }
+            }
             runAGS();
         });
-
-        cbox.id = "cbox-" + courseFormCounter;
-        courseContainer.appendChild(cbox);
-        courseFormCounter++;
-
-        cbox.querySelector(".cbox-value-crn").textContent = course.crn;
-        cbox.querySelector(".cbox-value-department").textContent = course.dept;
-        cbox.querySelector(".cbox-value-level").textContent = course.level;
-        cbox.querySelector(".cbox-value-section").textContent = course.section;
-        cbox.querySelector(".cbox-value-title").textContent = course.title;
-        for (const tbString of course.tbStrings) {
-            const divElement = document.createElement("div");
-            divElement.textContent = tbString;
-            cbox.querySelector(".cbox-value-timeblocks").appendChild(divElement);
-        }
     }
 
     function addSchedulesToDisplay(schedules) {
         for (let schedule of schedules) {
-            const scheduleBoxTemplateClone = scheduleBoxTemplate.content.cloneNode(true);
-            const scheduleBox = scheduleBoxTemplateClone.querySelector(".schedule-box");
+            const scheduleBoxTemplateClone = scheduleTemplate.content.cloneNode(true);
+            const scheduleBox = scheduleBoxTemplateClone.querySelector(".schedule");
             const timetable = scheduleBoxTemplateClone.querySelector(".timetable");
             const scheduleList = scheduleBoxTemplateClone.querySelector(".schedule-list");
+
+            let scheduleBoxID = "schedule";
 
             for (let course of schedule.courses) {
                 for (let timeBlock of course.timeBlocks) {
@@ -383,114 +433,197 @@ window.addEventListener('DOMContentLoaded', () => {
                 scheduleListItem.classList.add("schedule-list-item");
                 scheduleListItem.textContent = `[${course.crn}] ${course.name}-${course.section}`;
                 scheduleList.appendChild(scheduleListItem);
+                scheduleBoxID = `${scheduleBoxID}-${course.crn}`;
             }
-            outputContainer.appendChild(scheduleBox);
+            scheduleBox.id = scheduleBoxID;
+            scheduleContainer.appendChild(scheduleBox);
         }
     }
 
     function getCoursesFromJSON() {
-        let courses = [];
         fetch('course_data.json')
             .then(response => response.json())
             .then(data => {
+                // Used in check for duplicate CRNs
+                const encounteredCRNs = new Set();
                 // Iterate through each object in the array
+
                 for (let i = 0; i < data.length; i++) {
                     const courseEntry = data[i]
                     const crn = courseEntry["Crn"][0];
                     if (courseEntry["Crn"].length > 1) {
-                        console.log("More than 1" + courseEntry["Crn"].toString())
+                        printDebugMessage("Warning! Found more than 1 CRN: " + courseEntry["Crn"].toString())
                     }
+
+                    // Check for duplicate CRNs which would compromise the use of CRNs as unique identifiers.
+                    if (encounteredCRNs.has(crn)) {
+                        printDebugMessage(`Warning! ${crn} is listed twice in the catalog.`)
+                    } else {
+                        encounteredCRNs.add(crn);
+                    }
+
                     const courseCode = courseEntry["Course"][0].split(" ");
                     if (courseEntry["Course"].length > 1) {
-                        console.log("More than 1" + courseEntry["Course"].toString())
+                        printDebugMessage(`Warning! ${courseCode} has ${courseEntry["Course"].toString()} courses.`);
                     }
                     const department = courseCode[0];
                     const level = courseCode[1];
                     const section = courseCode[2];
                     const title = courseEntry["Title"][0];
                     if (courseEntry["Title"].length > 1) {
-                        console.log("More than 1" + courseEntry["Title"].toString())
+                        printDebugMessage(`Warning! ${courseCode} has ${courseEntry["Title"].toString()} titles.`);
                     }
                     let timeBlocks = [];
                     if (courseEntry["Time"] && courseEntry["Time"].length > 0) {
                         timeBlocks = courseEntry["Time"];
                     } else {
-                        console.log(courseCode + " has no time entry!");
+                        printDebugMessage(`Warning! Rejected ${courseCode}. It has no time entry.`);
                         continue;
                     }
                     if (courseEntry["Time"].length > 1) {
-                        console.log("Looks like we got more than 1 repeated time block! : " + courseEntry["Time"].toString())
+                        printDebugMessage(`Warning! Detected ${courseEntry["Time"].length} time blocks for ${courseCode}: ${courseEntry["Time"].toString()}.`);
                     }
-                    if (courseEntry["Time"][0] === "TBA") {
-                        console.log("Time has yet to be announced...")
+                    // If any instance of "TBA" is found, the course cannot be used.
+                    if (courseEntry["Time"].some(time => time.includes("TBA"))) {
+                        printDebugMessage(`Warning! Rejected ${courseCode}. Its time is TBA.`);
                         continue;
                     }
 
                     // Create a new Course object using the extracted information
+                    //printDebugMessage(`Creating course ${courseCode} with crn = ${crn}, department = ${department}, level = ${level}, section = ${section}, title = ${title}, timeBlocks = ${timeBlocks}.`)
                     const course = new Course(crn, department, level, section, title, timeBlocks);
+                    allCourses.push(course);
 
-                    // Do something with the created course object
-                    courses.push(course);
+                    // The following code sets up corequisiteGroups structure to be easily searched later!
+                    if (!allCorequisiteGroups[course.corequisiteGroupName]) {
+                        // If the corequisite group doesn't exist, create it
+                        allCorequisiteGroups[course.corequisiteGroupName] = {};
+                    }
+
+                    if (!allCorequisiteGroups[course.corequisiteGroupName][course.name]) {
+                        // If the name group doesn't exist under the corequisite, create it
+                        allCorequisiteGroups[course.corequisiteGroupName][course.name] = [];
+                    }
+
+                    // Add the course to the appropriate name group under the corequisite
+                    allCorequisiteGroups[course.corequisiteGroupName][course.name].push(course);
+
+                    // The course whose corequisite name is the same as its name decides the corequisite group's search term
+                    if (!allCorequisiteGroups[course.corequisiteGroupName]["searchTerm"]) {
+                        if (course.name === course.corequisiteGroupName) {
+                            allCorequisiteGroups[course.corequisiteGroupName]["searchTerm"] = `${course.corequisiteGroupName} — ${course.title}`;
+                        }
+                    }
                 }
-                //addAllCBoxes(courses);
             })
             .catch(error => {
-                console.error('Error loading JSON file:', error);
+                printDebugMessage('JSON file failed to load.', error);
             });
-        return courses;
     }
 
     // Listen for changes in the search field input
-    searchField.addEventListener("input", () => {
+    searchBar.addEventListener("input", () => {
         // Extract the currently entered search term
-        const searchTerm = searchField.value.toLowerCase();
+        const searchTerm = searchBar.value.toLowerCase();
 
         // Check if the search term is empty
         if (searchTerm.trim() === '') {
             // Clear the search results if the search term is empty, and return
-            searchResults.innerHTML = '';
+            searchBarResultContainer.innerHTML = '';
             return;
         }
 
-        const matchingCourses = allCourses.filter(function(course) {
-            const searchableString = `${course.name} ${course.title}`.toLowerCase();
-            return searchableString.includes(searchTerm);
+        const matchingCorequisiteGroups = {};
+        Object.keys(allCorequisiteGroups).forEach((corequisiteName) => {
+            try {
+                let corequisiteSearchTerm = allCorequisiteGroups[corequisiteName]["searchTerm"];
+                if (corequisiteSearchTerm.toLowerCase().includes(searchTerm)) {
+                    matchingCorequisiteGroups[corequisiteName] = allCorequisiteGroups[corequisiteName];
+                }
+            } catch (error) {
+                printDebugMessage(`Warning! Corequisite ${corequisiteName} lacks a search term!`)
+            }
         });
 
         // Clear the search results container
-        searchResults.innerHTML = '';
+        searchBarResultContainer.innerHTML = '';
 
         // Display the matching elements in the search results container
-        matchingCourses.forEach(course => {
+        Object.keys(matchingCorequisiteGroups).forEach((corequisiteName) => {
             let searchResult = document.createElement("div");
-            searchResult.textContent = `${course.name} ${course.section} — ${course.title}`;
-            searchResult.classList.add('search-result')
-            searchResults.appendChild(searchResult);
+            searchResult.textContent = matchingCorequisiteGroups[corequisiteName]["searchTerm"];
+            searchResult.classList.add('search-result');
+            searchResult.id = 'corequisite-group-' + corequisiteName.replace(/\s+/g, "-");
+            searchBarResultContainer.appendChild(searchResult);
 
             searchResult.addEventListener("click", () => {
-                candidateCourses.push(course);
-                addCBox(course);
+                searchBarResultContainer.style.display = 'none';
+                Object.keys(matchingCorequisiteGroups[corequisiteName]).forEach((name) => {
+                    const potentialSlotID = name.replace(/\s+/g, "-");
+                    /**
+                     * The searchTerm attribute for each corequisite group is just for searching, it doesn't include an
+                     * actual course list, so use every other attribute. Also, don't add slots that already exist.
+                     */
+                    if (name !== "searchTerm" && slotContainer.querySelector(`#${potentialSlotID}`) === null) {
+                        for (const course of matchingCorequisiteGroups[corequisiteName][name]) {
+                            candidateCourses.push(course);
+                        }
+                        addSlot(name, matchingCorequisiteGroups[corequisiteName][name]);
+                    }
+                });
                 runAGS();
+                searchBar.value = "";
+                searchBarResultContainer.innerHTML = '';
             });
         });
 
-        searchResults.style.display = 'flex';
+        searchBarResultContainer.style.display = 'flex';
+    });
+
+    searchBar.addEventListener('keydown', event => {
+        if (event.key === 'Enter') {
+            const firstSearchResult = searchBarResultContainer.querySelector('.search-result');
+            if (firstSearchResult) {
+                searchBarResultContainer.style.display = 'none';
+                let chosenCorequisiteName = firstSearchResult.id.replace("corequisite-group-", "").replace("-", " ");
+                /**
+                 * The searchTerm attribute for each corequisite group is just for searching, it doesn't include an
+                 * actual course list, so use every other attribute. Also, don't add slots that already exist.
+                 */
+                Object.keys(allCorequisiteGroups[chosenCorequisiteName]).forEach((name) => {
+                    const potentialSlotID = name.replace(/\s+/g, "-");
+                    /**
+                     * The searchTerm attribute for each corequisite group is just for searching, it doesn't include an
+                     * actual course list, so use every other attribute. Also, don't add slots that already exist.
+                     */
+                    if (name !== "searchTerm" && slotContainer.querySelector(`#${potentialSlotID}`) === null) {
+                        for (const course of allCorequisiteGroups[chosenCorequisiteName][name]) {
+                            candidateCourses.push(course);
+                        }
+                        addSlot(name, allCorequisiteGroups[chosenCorequisiteName][name]);
+                    }
+                });
+                runAGS();
+                searchBar.value = "";
+                searchBarResultContainer.innerHTML = '';
+            }
+        }
     });
 
     // Add an event listener to the search field that listens for the "blur" event
-    searchField.addEventListener('blur', () => {
+    searchBar.addEventListener('blur', () => {
         // When the search field loses focus, set the display style of the search results element to "none"
-        searchResults.style.display = 'none';
+        searchBarResultContainer.style.display = 'none';
     });
 
     // Add an event listener to the search field that listens for the "focus" event
-    searchField.addEventListener('focus', () => {
+    searchBar.addEventListener('focus', () => {
         // When the search field gains focus, set the display style of the search results element to "flex"
-        searchResults.style.display = 'flex';
+        searchBarResultContainer.style.display = 'flex';
     });
 
     // Prevent the default action of the event (which would cause the search field to lose focus when search results are clicked)
-    searchResults.addEventListener('mousedown', event => {
+    searchBarResultContainer.addEventListener('mousedown', event => {
         event.preventDefault();
     });
 });

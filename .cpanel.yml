@@ -3,6 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/agoodsch/public_html/
     - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R scripts $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
