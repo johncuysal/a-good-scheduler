@@ -2,8 +2,16 @@
     --primary-color: #204280;
     --secondary-color: #00a0ce;
     --tertiary-color: #111111;
-    --schedule-background: #19292c;
     --border-color: #444444;
+
+    --slot-color-0: #204280;
+    --slot-color-1: #8a0d39;
+    --slot-color-2: #07772f;
+    --slot-color-3: #a27d19;
+    --slot-color-4: #652080;
+    --slot-color-5: #067e70;
+    --slot-color-6: #ad400b;
+    --slot-color-7: #5e4242;
 }
 
 * {
@@ -133,7 +141,7 @@ main {
 
 .schedule-list-item {
     padding: 4px;
-    background-color: var(--primary-color);
+    background-color: #ff00ff;
     font-size: 12px;
     color: white;
     display: flex;
@@ -172,7 +180,7 @@ main {
 }
 
 .course {
-    background-color: var(--primary-color);
+    background-color: #ff00ff;
     color: white;
     padding: 2px;
     font-size: 12px;
@@ -226,7 +234,7 @@ main {
 }
 
 .search-result {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -249,7 +257,7 @@ main {
 }
 
 .slot {
-    background-color: var(--primary-color);
+    background-color: #ff00ff;
     padding: 6px;
     border-radius: 12px;
 }
@@ -298,7 +306,7 @@ main {
 
 .slot-candidate {
     display: flex;
-    background-color: #0c2146;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 4px;
 

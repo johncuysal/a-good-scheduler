@@ -289,6 +289,10 @@ window.addEventListener('DOMContentLoaded', () => {
     const slotTemplate = document.getElementById("slot-template");
     const slotCandidateTemplate = document.getElementById("slot-candidate-template");
 
+    // This global counter decides the color of the next slot to be added
+    const numberOfColors = 8;
+    let colorCount = new Array(numberOfColors).fill(0);
+
     // Add some Course objects when the page loads up for the first time
     const allCourses = [];
     const allCorequisiteGroups = {};
@@ -327,6 +331,11 @@ window.addEventListener('DOMContentLoaded', () => {
         const clonedSlotTemplate = slotTemplate.content.cloneNode(true);
         const slot = clonedSlotTemplate.querySelector(".slot");
         const slotCandidateContainer = slot.querySelector(".slot-candidate-container");
+
+        // Color the slot and increase the count for that color
+        const minimumColorIndex = colorCount.indexOf(Math.min(...colorCount));
+        slot.style.backgroundColor = `var(--slot-color-${minimumColorIndex})`;
+        colorCount[minimumColorIndex] += 1;
 
         slotContainer.appendChild(slot);
         slot.id = slotID;
@@ -378,6 +387,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const slotDeleteButton = slot.querySelector(".slot-delete-button");
         slotDeleteButton.addEventListener("click", function() {
+            // Lower the count for that slot color
+            colorCount[minimumColorIndex] -= 1;
+
             slot.remove();
             for (let course of courses) {
                 const excludedIndex = excludedCourses.indexOf(course);
@@ -407,6 +419,10 @@ window.addEventListener('DOMContentLoaded', () => {
             for (let course of schedule.courses) {
                 for (let timeBlock of course.timeBlocks) {
                     const courseDiv = document.createElement("div");
+
+                    // Color the course div to match the slot with its name
+                    courseDiv.style.backgroundColor = document.getElementById(course.name.replace(" ", "-")).style.backgroundColor;
+
                     courseDiv.textContent = course.name;
                     courseDiv.className = "course";
                     courseDiv.style.gridRow = `${(timeBlock.startMinute / 5) - 83} / span ${(timeBlock.endMinute - timeBlock.startMinute) / 5}`;
@@ -430,6 +446,10 @@ window.addEventListener('DOMContentLoaded', () => {
                     timetable.appendChild(courseDiv);
                 }
                 const scheduleListItem = document.createElement("div");
+
+                // Also color the schedule list item to match the slot with its name
+                scheduleListItem.style.backgroundColor = document.getElementById(course.name.replace(" ", "-")).style.backgroundColor;
+
                 scheduleListItem.classList.add("schedule-list-item");
                 scheduleListItem.textContent = `[${course.crn}] ${course.name}-${course.section}`;
                 scheduleList.appendChild(scheduleListItem);
@@ -509,10 +529,13 @@ window.addEventListener('DOMContentLoaded', () => {
                     allCorequisiteGroups[course.corequisiteGroupName][course.name].push(course);
 
                     // The course whose corequisite name is the same as its name decides the corequisite group's search term
+                    // But still, have it initially set to a backup with the first course that gets read in that group
                     if (!allCorequisiteGroups[course.corequisiteGroupName]["searchTerm"]) {
-                        if (course.name === course.corequisiteGroupName) {
-                            allCorequisiteGroups[course.corequisiteGroupName]["searchTerm"] = `${course.corequisiteGroupName} — ${course.title}`;
-                        }
+                        allCorequisiteGroups[course.corequisiteGroupName]["searchTerm"] = `${course.corequisiteGroupName} — ${course.title}`;
+                    }
+                    // Then, if a course does exist whose name matches the corequisite group name, override that backup (fixes SIGN 101A being the only course of the SIGN 101 corequisite group)
+                    if (course.name === course.corequisiteGroupName) {
+                        allCorequisiteGroups[course.corequisiteGroupName]["searchTerm"] = `${course.corequisiteGroupName} — ${course.title}`;
                     }
                 }
             })
@@ -535,13 +558,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const matchingCorequisiteGroups = {};
         Object.keys(allCorequisiteGroups).forEach((corequisiteName) => {
-            try {
-                let corequisiteSearchTerm = allCorequisiteGroups[corequisiteName]["searchTerm"];
-                if (corequisiteSearchTerm.toLowerCase().includes(searchTerm)) {
-                    matchingCorequisiteGroups[corequisiteName] = allCorequisiteGroups[corequisiteName];
-                }
-            } catch (error) {
-                printDebugMessage(`Warning! Corequisite ${corequisiteName} lacks a search term!`)
+            let corequisiteSearchTerm = allCorequisiteGroups[corequisiteName]["searchTerm"];
+            if (corequisiteSearchTerm.toLowerCase().includes(searchTerm)) {
+                matchingCorequisiteGroups[corequisiteName] = allCorequisiteGroups[corequisiteName];
             }
         });
 
