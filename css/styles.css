@@ -245,8 +245,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    overflow-y: scroll;
-    height: 620px;
+    min-height: 620px;
 }
 
 .slot {
@@ -353,8 +352,7 @@ input[type="checkbox"] {
     flex-wrap: wrap;
     gap: 8px;
     align-items: flex-start;
-    overflow-y: scroll;
-    height: 620px;
+    min-height: 620px;
 }
 
 .schedule {
@@ -372,11 +370,13 @@ input[type="checkbox"] {
     }
 
     #slot-container {
-        height: auto;
+        min-height: 0;
+        max-height: 310px;
+        overflow-y: scroll;
     }
 
     #schedule-container {
-        height: auto;
+        min-height: 310px;
     }
 }
 
