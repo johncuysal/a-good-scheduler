@@ -1,8 +1,15 @@
 :root {
     --primary-color: #204280;
     --secondary-color: #00a0ce;
-    --tertiary-color: #111111;
+    --header-footer-color: black;
+    --background-color: #111111;
     --border-color: #444444;
+    --text-color: white;
+    --faded-text-color: rgba(255, 255, 255, 0.75);
+    --slot-text-color: white;
+    --slot-candidate-color: rgba(0, 0, 0, 0.5);
+    --slot-candidate-text-color-on: white;
+    --slot-candidate-text-color-off: gray;
 
     --slot-color-0: #204280;
     --slot-color-1: #8a0d39;
@@ -52,8 +59,8 @@ body {
     margin: 0;
     font-family: 'Liberation Mono', monospace;
     font-size: 16px;
-    background-color: black;
-    color: white;
+    background-color: var(--header-footer-color);
+    color: var(--text-color);
 }
 
 header, footer {
@@ -79,7 +86,7 @@ h1 {
 }
 
 #version, #donate-link {
-    color: rgba(255, 255, 255, 0.75);
+    color: var(--faded-text-color);
     width: 150px;
 }
 
@@ -96,7 +103,7 @@ h1 {
 }
 
 a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -108,7 +115,7 @@ main {
     padding: 10px;
     display: flex;
     gap: 10px;
-    background-color: var(--tertiary-color);
+    background-color: var(--background-color);
 }
 
 .delete-button-container {
@@ -122,7 +129,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: inherit;
-    color: white;
+    color: var(--text-color);
     border: 0;
 }
 
@@ -143,7 +150,7 @@ main {
     padding: 4px;
     background-color: #ff00ff;
     font-size: 12px;
-    color: white;
+    color: var(--slot-text-color);
     display: flex;
     border-radius: 6px;
     width: 180px;
@@ -179,9 +186,9 @@ main {
     font-weight: bold;
 }
 
-.course {
+.timetable-event {
     background-color: #ff00ff;
-    color: white;
+    color: var(--slot-text-color);
     padding: 2px;
     font-size: 12px;
     text-align: center;
@@ -207,8 +214,8 @@ main {
 #search-bar {
     width: 100%;
     border: 1px solid var(--border-color);
-    background-color: black;
-    color: white;
+    background-color: var(--header-footer-color);
+    color: var(--text-color);
     border-radius: 32px;
     font-family: inherit;
     padding: 8px 8px 6px 16px;
@@ -234,8 +241,8 @@ main {
 }
 
 .search-result {
-    background-color: black;
-    color: white;
+    background-color: var(--header-footer-color);
+    color: var(--text-color);
     display: flex;
     align-items: center;
     height: 36px;
@@ -245,7 +252,7 @@ main {
 .search-result:hover {
     background-color: var(--secondary-color);
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 #slot-container {
@@ -258,6 +265,7 @@ main {
 
 .slot {
     background-color: #ff00ff;
+    color: var(--slot-text-color);
     padding: 6px;
     border-radius: 12px;
 }
@@ -279,7 +287,7 @@ main {
     margin: 0 0 0 4px;
     background: none;
     border: 0;
-    color: white;
+    color: var(--slot-text-color);
 }
 
 .slot-delete-button:hover {
@@ -306,7 +314,7 @@ main {
 
 .slot-candidate {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--slot-candidate-color);
     border-radius: 8px;
     padding: 4px;
 
@@ -347,7 +355,7 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--border-color);
-    background-color: black;
+    background-color: var(--header-footer-color);
     border-radius: 6px;
     padding: 6px;
     height: 43px;
@@ -364,7 +372,7 @@ input[type="checkbox"] {
 }
 
 .schedule {
-    background-color: black;
+    background-color: var(--header-footer-color);
     display: flex;
     flex-direction: column;
     border-radius: 6px;
@@ -424,7 +432,7 @@ input[type="checkbox"] {
         font-size: 20px;
     }
 
-    .course {
+    .timetable-event {
         font-size: 8px;
         padding: 1px;
     }
