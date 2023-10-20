@@ -185,6 +185,38 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
+     * Creates a timetable event element from a timeblock, labeled with a course name.
+     *
+     * @param timeBlock
+     * @param courseName -
+     * @returns {Element}
+     */
+    function createTimetableEventElement(timeBlock, courseName) {
+        const timetableEventElement = createElementFromTemplate(timetableEventTemplate);
+        setText(timetableEventElement, courseName);
+        timetableEventElement.style.backgroundColor = document.getElementById(hyphenate(courseName)).style.backgroundColor;
+        timetableEventElement.style.gridRow = `${(timeBlock.startMinute / 5) - 83} / span ${(timeBlock.endMinute - timeBlock.startMinute) / 5}`;
+        switch (timeBlock.day) {
+            case 'M':
+                timetableEventElement.style.gridColumn = '2 / span 1';
+                break;
+            case 'T':
+                timetableEventElement.style.gridColumn = '3 / span 1';
+                break;
+            case 'W':
+                timetableEventElement.style.gridColumn = '4 / span 1';
+                break;
+            case 'R':
+                timetableEventElement.style.gridColumn = '5 / span 1';
+                break;
+            case 'F':
+                timetableEventElement.style.gridColumn = '6 / span 1';
+                break;
+        }
+        return timetableEventElement;
+    }
+
+    /**
      * Creates a schedule element from a schedule.
      *
      * @param {Schedule} schedule - The schedule to be represented.
@@ -205,28 +237,8 @@ window.addEventListener('DOMContentLoaded', () => {
             scheduleListElement.appendChild(scheduleListItem);
 
             for (let timeBlock of course.timeBlocks) {
-                const timetableEvent = createElementFromTemplate(timetableEventTemplate);
-                setText(timetableEvent, course.name);
-                timetableEvent.style.backgroundColor = document.getElementById(hyphenate(course.name)).style.backgroundColor;
-                timetableEvent.style.gridRow = `${(timeBlock.startMinute / 5) - 83} / span ${(timeBlock.endMinute - timeBlock.startMinute) / 5}`;
-                switch (timeBlock.day) {
-                    case 'M':
-                        timetableEvent.style.gridColumn = '2 / span 1';
-                        break;
-                    case 'T':
-                        timetableEvent.style.gridColumn = '3 / span 1';
-                        break;
-                    case 'W':
-                        timetableEvent.style.gridColumn = '4 / span 1';
-                        break;
-                    case 'R':
-                        timetableEvent.style.gridColumn = '5 / span 1';
-                        break;
-                    case 'F':
-                        timetableEvent.style.gridColumn = '6 / span 1';
-                        break;
-                }
-                timetableElement.appendChild(timetableEvent);
+                const timetableEventElement = createTimetableEventElement(timeBlock, course.name);
+                timetableElement.appendChild(timetableEventElement);
             }
         }
 

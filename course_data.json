@@ -471,12 +471,12 @@
       "Alexander, Raquel M."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -492,7 +492,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section ACFM 201 AP: Preference given to BSBA students. All others may waitlist for consideration after registration is over.This course is offered to students participating in the Bucknell in Asia-Pacific program."
+      "Section ACFM 201 AP: This course is offered to students participating in the Bucknell in Asia-Pacific program."
     ]
   },
   {
@@ -1108,7 +1108,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -1421,12 +1421,12 @@
       "Alexander, Raquel M."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -2097,6 +2097,7 @@
       "1"
     ],
     "Gen Ed": [
+      "EVCN",
       "NPJ",
       "NSMC"
     ],
@@ -3570,7 +3571,7 @@
       "ANOP 242 01"
     ],
     "Title": [
-      "Database & Applied Analysis"
+      "SQL & Database Management"
     ],
     "Time": [
       "MW 10:00 AM - 11:20 AM"
@@ -3760,12 +3761,12 @@
       "Alexander, Raquel M."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -3786,13 +3787,55 @@
   },
   {
     "Crn": [
+      "56249"
+    ],
+    "Course": [
+      "ANOP 315 01"
+    ],
+    "Title": [
+      "Spec Topics in ANOP"
+    ],
+    "Time": [
+      "R 7:00 PM - 8:20 PM"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Banciu, Mihai M."
+    ],
+    "UNRES Seats Avail": [
+      "15"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "0.25 - 1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section ANOP 315 01: Full title - 'Special topics in ANOP: Dinner Seminar'"
+    ]
+  },
+  {
+    "Crn": [
       "55673"
     ],
     "Course": [
       "ANOP 330 01"
     ],
     "Title": [
-      "Predictive Analytics"
+      "Machine Learning for Business"
     ],
     "Time": [
       "TR 8:30 AM - 9:50 AM"
@@ -3838,7 +3881,7 @@
       "ANOP 350 01"
     ],
     "Title": [
-      "Sim and Forecasting for BA"
+      "Forecasting & Simulation"
     ],
     "Time": [
       "TR 10:00 AM - 11:20 AM"
@@ -4312,7 +4355,7 @@
       "MWF 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "ACWS 115"
+      "DANA 115"
     ],
     "Instructor": [
       "Searles, Edmund Q."
@@ -4389,9 +4432,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -4436,6 +4477,90 @@
     "Text Books": [],
     "Notes": [
       "Section ANTH 307 01: Crosslisted with ENST 320 and LING 320"
+    ]
+  },
+  {
+    "Crn": [
+      "56237"
+    ],
+    "Course": [
+      "ANTH 320 01"
+    ],
+    "Title": [
+      "Honors Course in Anthropology"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Searles, Edmund Q."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56238"
+    ],
+    "Course": [
+      "ANTH 320 02"
+    ],
+    "Title": [
+      "Honors Course in Anthropology"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Tran, Allen L."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -5539,7 +5664,9 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "GBCC",
+      "RPI"
     ],
     "Guide": [
       "Guide"
@@ -8607,6 +8734,7 @@
       "1"
     ],
     "Gen Ed": [
+      "EVCN",
       "NPJ",
       "NSMC"
     ],
@@ -8743,9 +8871,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -8869,7 +8995,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -11701,8 +11829,8 @@
       "Kennedy, Eric A.",
       "Cavanagh, Dan P.",
       "Ebenstein, Donna M.",
-      "Boerman, Olivia",
-      "Malaga, Karlo A."
+      "Malaga, Karlo A.",
+      "Boerman, Olivia"
     ],
     "UNRES Seats Avail": [
       "18"
@@ -11746,7 +11874,8 @@
       "ACET 114"
     ],
     "Instructor": [
-      "Ebenstein, Donna M."
+      "Ebenstein, Donna M.",
+      "Kennedy, Eric A."
     ],
     "UNRES Seats Avail": [
       "25"
@@ -11874,7 +12003,7 @@
       "ACET 120"
     ],
     "Instructor": [
-      "Instructor"
+      "Malaga, Karlo A."
     ],
     "UNRES Seats Avail": [
       "12"
@@ -11916,7 +12045,7 @@
       "ACET 120"
     ],
     "Instructor": [
-      "Instructor"
+      "Malaga, Karlo A."
     ],
     "UNRES Seats Avail": [
       "12"
@@ -13073,7 +13202,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -13563,7 +13694,7 @@
     ],
     "Location": [
       "BRKI 065",
-      "BRKI 165"
+      "ACET 120"
     ],
     "Instructor": [
       "Tymvios, Nicholas"
@@ -13912,11 +14043,10 @@
       "CEEG Design II"
     ],
     "Time": [
-      "T 9:00 AM - 9:50 AM",
-      "M 7:00 PM - 9:50 PM"
+      "M 7:00 PM - 9:50 PM",
+      "TBA"
     ],
     "Location": [
-      "DANA 315",
       "ACWS 210"
     ],
     "Instructor": [
@@ -14606,8 +14736,8 @@
     ],
     "Instructor": [
       "Miskioglu, Elif E.",
-      "Maneval, James E.",
-      "Raymond, Tim M."
+      "Raymond, Tim M.",
+      "Maneval, James E."
     ],
     "UNRES Seats Avail": [
       "10"
@@ -14652,8 +14782,8 @@
     ],
     "Instructor": [
       "Raymond, Tim M.",
-      "Miskioglu, Elif E.",
-      "Maneval, James E."
+      "Maneval, James E.",
+      "Miskioglu, Elif E."
     ],
     "UNRES Seats Avail": [
       "10"
@@ -14822,8 +14952,8 @@
     ],
     "Instructor": [
       "Vogel, Brandon M.",
-      "Raymond, Tim M.",
-      "Dutcher, Dabrina D."
+      "Dutcher, Dabrina D.",
+      "Raymond, Tim M."
     ],
     "UNRES Seats Avail": [
       "30"
@@ -16366,7 +16496,7 @@
       "Fernando, Ashantha A."
     ],
     "UNRES Seats Avail": [
-      "30"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -16413,7 +16543,7 @@
       "Fernando, Ashantha A."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17213,9 +17343,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -17351,7 +17479,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -17723,7 +17853,7 @@
       "MWF 10:00 AM - 10:50 AM"
     ],
     "Location": [
-      "OLRY 309"
+      "BIOL 101"
     ],
     "Instructor": [
       "Krout, Michael R."
@@ -18148,7 +18278,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section CHEM 230R 40: Recitation for section 01 of CHEM 230."
     ]
   },
   {
@@ -18165,7 +18295,7 @@
       "T 1:00 PM - 1:50 PM"
     ],
     "Location": [
-      "RCHM 101"
+      "OLIN 451"
     ],
     "Instructor": [
       "Collins, Douglas B."
@@ -18255,7 +18385,10 @@
       "M 1:00 PM - 1:50 PM",
       "M 2:00 PM - 4:50 PM"
     ],
-    "Location": [],
+    "Location": [
+      "RCHM 101",
+      "RCHM 110"
+    ],
     "Instructor": [
       "Strein, Tim G."
     ],
@@ -18298,7 +18431,10 @@
       "T 1:00 PM - 1:50 PM",
       "T 2:00 PM - 4:50 PM"
     ],
-    "Location": [],
+    "Location": [
+      "RCHM 101",
+      "RCHM 110"
+    ],
     "Instructor": [
       "Strein, Tim G."
     ],
@@ -18382,10 +18518,10 @@
       "Synthetic Organic Chemistry"
     ],
     "Time": [
-      "MWF 10:00 AM - 10:50 AM"
+      "MWF 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "BIOL 101"
+      "BIOL 324"
     ],
     "Instructor": [
       "Krout, Michael R."
@@ -19716,10 +19852,10 @@
       "Synthetic Organic Chemistry"
     ],
     "Time": [
-      "MWF 10:00 AM - 10:50 AM"
+      "MWF 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "BIOL 101"
+      "BIOL 324"
     ],
     "Instructor": [
       "Krout, Michael R."
@@ -21167,7 +21303,7 @@
       "MWF 1:00 PM - 1:50 PM"
     ],
     "Location": [
-      "RCHM 101"
+      "SWMU 117"
     ],
     "Instructor": [
       "Xu, Yunjing"
@@ -21500,9 +21636,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -21573,7 +21707,7 @@
       "Tardio, Katie"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21584,7 +21718,9 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "GBCC",
+      "RPI"
     ],
     "Guide": [
       "Guide"
@@ -21635,7 +21771,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -21668,7 +21806,8 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -22748,7 +22887,7 @@
       "King, Brian R."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22769,7 +22908,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section CSCI 279 01: This course is being offered at 0.5 credit."
     ]
   },
   {
@@ -23468,6 +23607,48 @@
   },
   {
     "Crn": [
+      "56242"
+    ],
+    "Course": [
+      "CSCI 375 01"
+    ],
+    "Title": [
+      "Teaching Assistant in CSCI"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Romano, Lily R."
+    ],
+    "UNRES Seats Avail": [
+      "20"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "53163"
     ],
     "Course": [
@@ -23990,10 +24171,10 @@
       "ACET 116"
     ],
     "Instructor": [
-      "Instructor"
+      "Perrone, Luiz Felipe F."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -24050,7 +24231,8 @@
       "1"
     ],
     "Gen Ed": [
-      "NSMC"
+      "NSMC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -24762,7 +24944,7 @@
       "EAST 248 01"
     ],
     "Title": [
-      "Intl Relations in East Asia"
+      "Intl Relations of East Asia"
     ],
     "Time": [
       "TR 8:30 AM - 9:50 AM"
@@ -25829,9 +26011,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -26003,7 +26183,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -26338,7 +26520,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note: All 300-level courses give preference to Junior and Senior ECON, ECMA and MECO students. Non-majors should place themselves on the waitlist. They will be moved in as space allows.   \nANTH 266 \"Money, Markets & Magic\", GEOG 209 \"Economic Geography\" and HIST 226 \"American Capitalism\" qualifies as a 200-level elective for the Economics major and minor."
+      "Department Note: All 300-level courses give preference to Junior and Senior ECON and MECO students. Non-majors should place themselves on the waitlist. They will be moved in as space allows.   \nANTH 266 \"Money, Markets & Magic\", GEOG 209 \"Economic Geography\" and HIST 226 \"American Capitalism\" qualifies as a 200-level elective for the Economics major and minor."
     ]
   },
   {
@@ -27289,7 +27471,8 @@
       "1"
     ],
     "Gen Ed": [
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -27505,6 +27688,48 @@
     "Res Seats": [],
     "Prm": [
       "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56245"
+    ],
+    "Course": [
+      "ECON 299 01"
+    ],
+    "Title": [
+      "Teaching Assistants in ECON"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Powell, Jacob"
+    ],
+    "UNRES Seats Avail": [
+      "5"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
     ],
     "CR": [
       "1"
@@ -28061,6 +28286,46 @@
   },
   {
     "Crn": [
+      "56240"
+    ],
+    "Course": [
+      "ECON 499 01"
+    ],
+    "Title": [
+      "Honors Thesis in Economics"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Banks, Nina E."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "50278"
     ],
     "Course": [
@@ -28265,7 +28530,7 @@
       "MW 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "DANA 115"
+      "ACWS 115"
     ],
     "Instructor": [
       "Lockard, Allison J."
@@ -28446,10 +28711,10 @@
       "Immigrant Youth in US Society"
     ],
     "Time": [
-      "TR 8:30 AM - 9:50 AM"
+      "MW 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "OLIN 255"
+      "DANA 117"
     ],
     "Instructor": [
       "Fruja, Ramona M."
@@ -28645,6 +28910,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CBL",
       "SLSC"
     ],
     "Guide": [
@@ -28868,6 +29134,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CBL",
       "SLSC"
     ],
     "Guide": [
@@ -29515,10 +29782,12 @@
       "Rosenberg, Robert A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -29538,7 +29807,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENCW 202 01: Seniors require permission of the instructor."
     ]
   },
   {
@@ -29561,10 +29830,12 @@
       "Gabriel, Bix"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -29573,7 +29844,8 @@
     ],
     "Gen Ed": [
       "AHLG",
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -29583,7 +29855,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENCW 202 02: Seniors require permission of the instructor."
     ]
   },
   {
@@ -29606,10 +29878,12 @@
       "Gabriel, Bix"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -29629,7 +29903,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENCW 202 03: Seniors require permission of the instructor."
     ]
   },
   {
@@ -29652,10 +29926,12 @@
       "Camuto, Chris A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -29675,7 +29951,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENCW 203 01: Seniors require permission of the instructor."
     ]
   },
   {
@@ -29698,10 +29974,12 @@
       "Waldrep, G.C. C."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -29721,7 +29999,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENCW 204 01: Seniors require permission of the instructor."
     ]
   },
   {
@@ -29744,10 +30022,12 @@
       "Hauser, Brian R."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "8"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "4"
+    ],
     "Prm": [
       "N"
     ],
@@ -30207,6 +30487,46 @@
     "Gen Ed": [
       "ARHC",
       "W2"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": []
+  },
+  {
+    "Crn": [
+      "56231"
+    ],
+    "Course": [
+      "ENCW 379 01"
+    ],
+    "Title": [
+      "Senior Thesis"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Rosenberg, Robert A."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
     ],
     "Guide": [
       "Guide"
@@ -31043,7 +31363,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31085,7 +31405,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31127,7 +31447,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31169,7 +31489,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31211,7 +31531,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31253,7 +31573,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32059,8 +32379,8 @@
     ],
     "Instructor": [
       "Kim, Charles J.",
-      "Wheatley, Benjamin B.",
-      "Vigeant, Margot A."
+      "Sloboda, Andrew R.",
+      "Wakabayashi, Kat"
     ],
     "UNRES Seats Avail": [
       "26"
@@ -32165,7 +32485,10 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
+      "CBL",
+      "EVCN",
       "FRST",
+      "NPJ",
       "W1"
     ],
     "Guide": [
@@ -32909,6 +33232,7 @@
     ],
     "Gen Ed": [
       "ARHC",
+      "RPI",
       "W2"
     ],
     "Guide": [
@@ -32953,6 +33277,7 @@
       "1"
     ],
     "Gen Ed": [
+      "ARHC",
       "RPI"
     ],
     "Guide": [
@@ -33573,6 +33898,7 @@
     ],
     "Gen Ed": [
       "EVCN",
+      "LBSC",
       "NSMC"
     ],
     "Guide": [
@@ -34128,6 +34454,7 @@
     "Gen Ed": [
       "EVCN",
       "NPJ",
+      "SLSC",
       "SSLG"
     ],
     "Guide": [
@@ -34954,7 +35281,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -35262,6 +35591,50 @@
       "0"
     ],
     "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56241"
+    ],
+    "Course": [
+      "FREN 202 01"
+    ],
+    "Title": [
+      "Interm French Conversation II"
+    ],
+    "Time": [
+      "MW 4:00 PM - 4:50 PM"
+    ],
+    "Location": [
+      "COLE 118"
+    ],
+    "Instructor": [
+      "Instructor"
+    ],
+    "UNRES Seats Avail": [
+      "10"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "0.5"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -36138,7 +36511,8 @@
     ],
     "Gen Ed": [
       "RPI",
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -36749,6 +37123,7 @@
       "1"
     ],
     "Gen Ed": [
+      "EVCN",
       "FRST",
       "LBSC",
       "NPJ",
@@ -36798,6 +37173,7 @@
       "1"
     ],
     "Gen Ed": [
+      "EVCN",
       "FRST",
       "LBSC",
       "NPJ",
@@ -38798,10 +39174,12 @@
       "Osei, Cassie"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "22"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "3"
+    ],
     "Prm": [
       "N"
     ],
@@ -39481,7 +39859,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -39653,7 +40033,8 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -39701,6 +40082,48 @@
       "DUSC",
       "RPI",
       "W2"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56236"
+    ],
+    "Course": [
+      "HUMN 319 01"
+    ],
+    "Title": [
+      "Independent Study"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Jakacki, Diane K."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [
+      "ARHC"
     ],
     "Guide": [
       "Guide"
@@ -41222,7 +41645,7 @@
       "IREL 283 01"
     ],
     "Title": [
-      "East Asian Intl. Relations"
+      "Intl Relations of East Asia"
     ],
     "Time": [
       "TR 8:30 AM - 9:50 AM"
@@ -42716,6 +43139,7 @@
     ],
     "Gen Ed": [
       "DUSC",
+      "EVCN",
       "GBCC",
       "NPJ",
       "RPI",
@@ -42889,7 +43313,7 @@
       "Tardio, Katie"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -42948,7 +43372,8 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "CCFL"
     ],
     "Guide": [
       "Guide"
@@ -43309,7 +43734,8 @@
       "1"
     ],
     "Gen Ed": [
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -43899,7 +44325,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -44076,6 +44504,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CBL",
       "NSMC"
     ],
     "Guide": [
@@ -45204,6 +45633,7 @@
       "1"
     ],
     "Gen Ed": [
+      "NMLG",
       "NSMC"
     ],
     "Guide": [
@@ -45248,6 +45678,7 @@
       "1"
     ],
     "Gen Ed": [
+      "NMLG",
       "NSMC"
     ],
     "Guide": [
@@ -45292,6 +45723,7 @@
       "1"
     ],
     "Gen Ed": [
+      "NMLG",
       "NSMC"
     ],
     "Guide": [
@@ -46097,7 +46529,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "1"
@@ -46139,7 +46571,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "1"
@@ -46264,7 +46696,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46306,7 +46738,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46348,7 +46780,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46390,7 +46822,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46432,7 +46864,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46474,7 +46906,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46516,7 +46948,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46560,7 +46992,7 @@
       "Sloboda, Andrew R."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46604,7 +47036,7 @@
       "Sloboda, Andrew R."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47467,7 +47899,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 392 01: Wednesday nights will be used occasionally for exams for both sectionsStudents must register for MECH 392L section 60 or 61"
+      "Section MECH 392 01: Wednesday nights will be used occasionally for exams for both sectionsStudents must register for MECH 392L62 or L63"
     ]
   },
   {
@@ -47511,7 +47943,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 392 02: Wednesday nights will be used occasionally for exams for both sectionsStudents must register for MECH 392L section 62 or 63"
+      "Section MECH 392 02: Wednesday nights will be used occasionally for exams for both sectionsStudents must register for MECH 392L 60 or L61"
     ]
   },
   {
@@ -47553,7 +47985,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 392L 60: Students must be registered for MECH 392-01"
+      "Section MECH 392L 60: Students must register for MECH 392-02"
     ]
   },
   {
@@ -47595,7 +48027,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 392L 61: Students must be registered for MECH 392-01"
+      "Section MECH 392L 61: Students must register for MECH 392-02"
     ]
   },
   {
@@ -47637,7 +48069,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 392L 62: Students must be registered for MECH 392-02"
+      "Section MECH 392L 62: Students must register for MECH 392-01"
     ]
   },
   {
@@ -47679,7 +48111,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 392L 63: Students must be registered for MECH 392-02"
+      "Section MECH 392L 63: Students must register for MECH 392-01"
     ]
   },
   {
@@ -47742,10 +48174,10 @@
     ],
     "Instructor": [
       "Beal, Craig E.",
-      "Brahma, Indranil",
       "Arthur, James K.",
-      "Torres, Jonathan",
-      "Beninati, M. Laura L."
+      "Beninati, M. Laura L.",
+      "Brahma, Indranil",
+      "Torres, Jonathan"
     ],
     "UNRES Seats Avail": [
       "18"
@@ -47788,10 +48220,10 @@
     ],
     "Instructor": [
       "Beal, Craig E.",
-      "Torres, Jonathan",
       "Beninati, M. Laura L.",
-      "Brahma, Indranil",
-      "Arthur, James K."
+      "Arthur, James K.",
+      "Torres, Jonathan",
+      "Brahma, Indranil"
     ],
     "UNRES Seats Avail": [
       "18"
@@ -48221,7 +48653,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "1"
@@ -48665,7 +49097,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -49384,12 +49816,12 @@
       "Alexander, Raquel M."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -49751,7 +50183,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MORS 210 01: MORS, MSUS. All others may waitlist for consideration after registration is over."
+      "Section MORS 210 01: MORS, MSUS. All others may waitlist for consideration after registration is over.Prerequisite: MORS 201 or MORS 202."
     ]
   },
   {
@@ -50287,7 +50719,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MORS 400 01: MORS 400 is the culminating experience for GLBM, MSUS, and MORS majors.  This course only counts as the culminating experience if taken as a senior or in the second semester of the junior year.  All seats are held for GLBM, MSUS, and MORS majors.  All others may waitlist for consideration after registration."
+      "Section MORS 400 01: MORS 400 is the culminating experience for GLBM, MSUS, and MORS majors.  This course only counts as the culminating experience if taken as a senior or in the second semester of the junior year."
     ]
   },
   {
@@ -50333,6 +50765,50 @@
     "Text Books": [],
     "Notes": [
       "Section MORS 400 02: MORS 400 is the culminating experience for GLBM, MSUS, and MORS majors.  This course only counts as the culminating experience if taken as a senior or in the second semester of the junior year.  All seats are held for GLBM, MSUS, and MORS majors.  All others may waitlist for consideration after registration."
+    ]
+  },
+  {
+    "Crn": [
+      "56232"
+    ],
+    "Course": [
+      "MUSC 110 01"
+    ],
+    "Title": [
+      "Introduction to Singing"
+    ],
+    "Time": [
+      "TR 10:00 AM - 11:20 AM"
+    ],
+    "Location": [
+      "SWMU 117"
+    ],
+    "Instructor": [
+      "Hopkins, Caleb"
+    ],
+    "UNRES Seats Avail": [
+      "25"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -50557,13 +51033,13 @@
   },
   {
     "Crn": [
-      "56050"
+      "56230"
     ],
     "Course": [
-      "MUSC 122 02"
+      "MUSC 123 02"
     ],
     "Title": [
-      "Introduction to Western Music"
+      "Introduction to Music"
     ],
     "Time": [
       "TR 1:00 PM - 2:20 PM"
@@ -50573,52 +51049,6 @@
     ],
     "Instructor": [
       "Para, Christopher"
-    ],
-    "UNRES Seats Avail": [
-      "25"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "AHLG",
-      "ARHC",
-      "FRST"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "55834"
-    ],
-    "Course": [
-      "MUSC 123 01"
-    ],
-    "Title": [
-      "Introduction to Music"
-    ],
-    "Time": [
-      "TR 10:00 AM - 11:20 AM"
-    ],
-    "Location": [
-      "SWMU 117"
-    ],
-    "Instructor": [
-      "Hopkins, Caleb"
     ],
     "UNRES Seats Avail": [
       "25"
@@ -51069,6 +51499,51 @@
     "Text Books": [],
     "Notes": [
       "Section MUSC 172 03: In addition to your private lessons, this class requires mandatory attendance at voice studio (group) sessions Tuesdays at 1PM.  Your private lessons can be scheduled around your class schedule but you must also attend the Tuesday session."
+    ]
+  },
+  {
+    "Crn": [
+      "56246"
+    ],
+    "Course": [
+      "MUSC 172C 10"
+    ],
+    "Title": [
+      "Voice Lessons I Studio Session"
+    ],
+    "Time": [
+      "T 1:00 PM - 1:50 PM"
+    ],
+    "Location": [
+      "SWMU 100"
+    ],
+    "Instructor": [
+      "Martin, Emily C.",
+      "Stewart, Susannah"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -52253,9 +52728,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52326,50 +52799,6 @@
     ],
     "CR": [
       "0.25"
-    ],
-    "Gen Ed": [
-      "ARHC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "56097"
-    ],
-    "Course": [
-      "MUSC 232 01"
-    ],
-    "Title": [
-      "Music Technology"
-    ],
-    "Time": [
-      "TR 3:00 PM - 3:50 PM"
-    ],
-    "Location": [
-      "SWMU 117"
-    ],
-    "Instructor": [
-      "Temkin, Daniel E."
-    ],
-    "UNRES Seats Avail": [
-      "20"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "0.5"
     ],
     "Gen Ed": [
       "ARHC"
@@ -52640,7 +53069,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "0.25"
@@ -53093,6 +53522,51 @@
     "Text Books": [],
     "Notes": [
       "Section MUSC 272 03: In addition to your private lessons, this class requires mandatory attendance at voice studio (group) sessions Tuesdays at 1PM.  Your private lessons can be scheduled around your class schedule but you must also attend the Tuesday session."
+    ]
+  },
+  {
+    "Crn": [
+      "56247"
+    ],
+    "Course": [
+      "MUSC 272C 10"
+    ],
+    "Title": [
+      "Voice Lessons II Studio"
+    ],
+    "Time": [
+      "T 1:00 PM - 1:50 PM"
+    ],
+    "Location": [
+      "SWMU 100"
+    ],
+    "Instructor": [
+      "Martin, Emily C.",
+      "Stewart, Susannah"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -54188,50 +54662,6 @@
   },
   {
     "Crn": [
-      "53020"
-    ],
-    "Course": [
-      "MUSC 350 01"
-    ],
-    "Title": [
-      "Chamber Music"
-    ],
-    "Time": [
-      "MWF 12:00 PM - 12:50 PM"
-    ],
-    "Location": [
-      "SWMU 116"
-    ],
-    "Instructor": [
-      "Para, Christopher"
-    ],
-    "UNRES Seats Avail": [
-      "Closed"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "Y"
-    ],
-    "CR": [
-      "0.25 - 1"
-    ],
-    "Gen Ed": [
-      "ARHC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
       "50134"
     ],
     "Course": [
@@ -54522,6 +54952,51 @@
     "Text Books": [],
     "Notes": [
       "Section MUSC 372 03: In addition to your private lessons, this class requires mandatory attendance at voice studio (group) sessions Tuesdays at 1PM.  Your private lessons can be scheduled around your class schedule but you must also attend the Tuesday session."
+    ]
+  },
+  {
+    "Crn": [
+      "56248"
+    ],
+    "Course": [
+      "MUSC 372C 10"
+    ],
+    "Title": [
+      "Voice Lessons III Studio"
+    ],
+    "Time": [
+      "T 1:00 PM - 1:50 PM"
+    ],
+    "Location": [
+      "SWMU 100"
+    ],
+    "Instructor": [
+      "Martin, Emily C.",
+      "Stewart, Susannah"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -56504,9 +56979,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -56969,7 +57442,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -57362,6 +57837,7 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
+      "FRST",
       "GBCC"
     ],
     "Guide": [
@@ -57672,7 +58148,6 @@
     ],
     "Gen Ed": [
       "FRST",
-      "LBSC",
       "NSMC"
     ],
     "Guide": [
@@ -59773,7 +60248,7 @@
       "POLS 283 01"
     ],
     "Title": [
-      "East Asian Intl. Relations"
+      "Intl Relations of East Asia"
     ],
     "Time": [
       "TR 8:30 AM - 9:50 AM"
@@ -61446,7 +61921,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -62165,7 +62642,7 @@
       "Cardenas, Stephanie A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -63140,6 +63617,48 @@
     "Text Books": [],
     "Notes": [
       "Section PSYC 359 01: Prerequisites: PSYC 100 and (PSYC 204 or PSYC 209)"
+    ]
+  },
+  {
+    "Crn": [
+      "56243"
+    ],
+    "Course": [
+      "PSYC 360 01"
+    ],
+    "Title": [
+      "Honors Thesis"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Kragness, Haley"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -64314,8 +64833,10 @@
       "1"
     ],
     "Gen Ed": [
+      "AHLG",
       "ARHC",
-      "FRST"
+      "FRST",
+      "GBCC"
     ],
     "Guide": [
       "Guide"
@@ -65022,7 +65543,7 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -65077,7 +65598,6 @@
     ],
     "Gen Ed": [
       "ARHC",
-      "CEL",
       "RESC"
     ],
     "Guide": [
@@ -65259,9 +65779,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -65524,6 +66042,48 @@
   },
   {
     "Crn": [
+      "56244"
+    ],
+    "Course": [
+      "RUSS 393 01"
+    ],
+    "Title": [
+      "Honors in Russian"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Shleyfer Lavine, Ludmila S."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "55949"
     ],
     "Course": [
@@ -65734,7 +66294,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -66331,7 +66893,8 @@
     ],
     "Gen Ed": [
       "CCQR",
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -66435,13 +66998,13 @@
   },
   {
     "Crn": [
-      "56106"
+      "56233"
     ],
     "Course": [
-      "SOCI 224 01"
+      "SOCI 229 01"
     ],
     "Title": [
-      "Law & Society"
+      "Law and Society"
     ],
     "Time": [
       "MWF 2:00 PM - 2:50 PM"
@@ -66454,96 +67017,6 @@
     ],
     "UNRES Seats Avail": [
       "25"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "56108"
-    ],
-    "Course": [
-      "SOCI 224 02"
-    ],
-    "Title": [
-      "Sociology Through \"The Wire\""
-    ],
-    "Time": [
-      "TR 10:00 AM - 11:20 AM"
-    ],
-    "Location": [
-      "ACWS 210"
-    ],
-    "Instructor": [
-      "Cannady, Emmanuel B."
-    ],
-    "UNRES Seats Avail": [
-      "15"
-    ],
-    "Wait List": [],
-    "Res Seats": [
-      "10"
-    ],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "56160"
-    ],
-    "Course": [
-      "SOCI 224 03"
-    ],
-    "Title": [
-      "Technology, Power,and Politics"
-    ],
-    "Time": [
-      "TR 3:00 PM - 4:20 PM"
-    ],
-    "Location": [
-      "ACWS 200"
-    ],
-    "Instructor": [
-      "Mtshali, Marya T."
-    ],
-    "UNRES Seats Avail": [
-      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -66647,7 +67120,8 @@
     "Gen Ed": [
       "GBCC",
       "SLSC",
-      "SSLG"
+      "SSLG",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -66707,6 +67181,52 @@
   },
   {
     "Crn": [
+      "56234"
+    ],
+    "Course": [
+      "SOCI 250 01"
+    ],
+    "Title": [
+      "Sociology Through 'The Wire'"
+    ],
+    "Time": [
+      "TR 10:00 AM - 11:20 AM"
+    ],
+    "Location": [
+      "ACWS 210"
+    ],
+    "Instructor": [
+      "Cannady, Emmanuel B."
+    ],
+    "UNRES Seats Avail": [
+      "15"
+    ],
+    "Wait List": [],
+    "Res Seats": [
+      "10"
+    ],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "54486"
     ],
     "Course": [
@@ -66754,50 +67274,6 @@
   },
   {
     "Crn": [
-      "56066"
-    ],
-    "Course": [
-      "SOCI 258 01"
-    ],
-    "Title": [
-      "Gender, Race, & Poverty in US"
-    ],
-    "Time": [
-      "MW 12:00 PM - 1:20 PM"
-    ],
-    "Location": [
-      "BRKI 066"
-    ],
-    "Instructor": [
-      "Mtshali, Marya T."
-    ],
-    "UNRES Seats Avail": [
-      "20"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
       "56220"
     ],
     "Course": [
@@ -66825,6 +67301,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CEL",
       "SLSC"
     ],
     "Guide": [
@@ -66881,6 +67358,50 @@
     "Text Books": [],
     "Notes": [
       "Section SOCI 342 01: Open to junior and senior Sociology majors, and sophomore, junior, and senior Race & Ethnicity Studies, Social Justice, and Sociology minors. Prerequisite prior Sociology course."
+    ]
+  },
+  {
+    "Crn": [
+      "56235"
+    ],
+    "Course": [
+      "SOCI 355 01"
+    ],
+    "Title": [
+      "Technology, Power and Politics"
+    ],
+    "Time": [
+      "TR 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "ACWS 200"
+    ],
+    "Instructor": [
+      "Mtshali, Marya T."
+    ],
+    "UNRES Seats Avail": [
+      "15"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note: In order to offer students more scheduling options, the sum of seats available in combined recitations may be more than the enrollment cap of the lecture.  Please refer to the lecture section to see actual course availability."
     ]
   },
   {
@@ -67070,7 +67591,7 @@
       "T 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "COLE 117"
+      "VAUG 101"
     ],
     "Instructor": [
       "Instructor"
@@ -67112,7 +67633,7 @@
       "T 10:00 AM - 10:50 AM"
     ],
     "Location": [
-      "COLE 118"
+      "VAUG 101"
     ],
     "Instructor": [
       "Instructor"
@@ -67906,7 +68427,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -67924,7 +68445,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section SPAN 245 BE: This course is open only to students participating in the Bucknell in Espa\u00f1a program."
     ]
   },
   {
@@ -68447,6 +68968,7 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
+      "DUSC",
       "RPI",
       "W2"
     ],
@@ -68613,8 +69135,7 @@
     ],
     "Location": [],
     "Instructor": [
-      "Andersson, Christiane",
-      "Sullivan, Anna M."
+      "Andersson, Christiane"
     ],
     "UNRES Seats Avail": [
       "25"
@@ -68639,7 +69160,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section THEA 264 LS: This course is open only to students participating in the Bucknell in London program."
     ]
   },
   {
@@ -68673,7 +69194,8 @@
       "1 - 1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -69071,9 +69593,11 @@
       "Social Science Methods"
     ],
     "Time": [
-      "TBA"
+      "W 3:00 PM - 4:20 PM"
     ],
-    "Location": [],
+    "Location": [
+      "ACWS 200"
+    ],
     "Instructor": [
       "Fruja, Ramona M."
     ],
@@ -69556,10 +70080,12 @@
       "Stevenson, Jennie R."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69601,10 +70127,12 @@
       "Banks, Nina E."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69621,9 +70149,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -69646,10 +70172,12 @@
       "Goodale, James A."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69691,10 +70219,12 @@
       "Lintott, Sheila M."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69736,10 +70266,12 @@
       "Delsandro, Erica G."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69781,10 +70313,12 @@
       "Gockley, Brian D."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69828,10 +70362,12 @@
       "Xydias, Christina V."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69873,10 +70409,12 @@
       "Drexler, Michael J."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69918,10 +70456,12 @@
       "Boyatzis, Chris J."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -69964,10 +70504,12 @@
       "Herman, Ellen K."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -70009,10 +70551,12 @@
       "Roseth, Nicholas E."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -70054,10 +70598,12 @@
       "Wakabayashi, Kat"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "27"
+    ],
     "Prm": [
       "N"
     ],
@@ -70099,10 +70645,12 @@
       "Porcelli, Apollonya M."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -70119,7 +70667,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -70142,10 +70692,12 @@
       "Lightman, Taylor M."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -70187,10 +70739,59 @@
       "Jasinska, Agnes J."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "CCIP"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56229"
+    ],
+    "Course": [
+      "UNIV 200 16"
+    ],
+    "Title": [
+      "Memories of Neoliberalism"
+    ],
+    "Time": [
+      "M 7:00 PM - 9:50 PM"
+    ],
+    "Location": [
+      "COLE 150"
+    ],
+    "Instructor": [
+      "Blanco, Fernando A.",
+      "Vernengo, Matias"
+    ],
+    "UNRES Seats Avail": [
+      "See Guide"
+    ],
+    "Wait List": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -70235,7 +70836,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "1"
@@ -70711,6 +71312,56 @@
   },
   {
     "Crn": [
+      "56239"
+    ],
+    "Course": [
+      "WMST 150 04"
+    ],
+    "Title": [
+      "Intro Women's & Gender Studies"
+    ],
+    "Time": [
+      "TR 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "ACWS 116"
+    ],
+    "Instructor": [
+      "Christian, Jenna M."
+    ],
+    "UNRES Seats Avail": [
+      "15"
+    ],
+    "Wait List": [],
+    "Res Seats": [
+      "20"
+    ],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "DUSC",
+      "FRST",
+      "RPI",
+      "SLSC",
+      "SSLG"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section WMST 150 04: Students are not permitted to take WMST 150 and SOCI 249 in the same semester."
+    ]
+  },
+  {
+    "Crn": [
       "56081"
     ],
     "Course": [
@@ -70921,7 +71572,8 @@
     ],
     "Gen Ed": [
       "AHLG",
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -71144,7 +71796,9 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "RPI",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -71172,7 +71826,7 @@
     ],
     "Location": [],
     "Instructor": [
-      "Instructor"
+      "Delsandro, Erica G."
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -71222,13 +71876,14 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
