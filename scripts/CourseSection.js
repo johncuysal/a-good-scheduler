@@ -4,9 +4,9 @@ import TimeBlock from './TimeBlock.js';
 /**
  * Represents a specific section of a course.
  */
-export default class Course {
+export default class CourseSection {
     /**
-     * Creates a new Course object.
+     * Creates a new CourseSection object.
      *
      * @param {string} crn - The section's Course Registration Number (CRN).
      * @param {string} department - The section's department name.
@@ -14,13 +14,10 @@ export default class Course {
      * @param {string} section - The section's section number.
      * @param {string} title - The official title of the course.
      * @param {Array.<string>} tbStrings - Strings used to build time blocks.
-     * @param {string|null} [electiveNum] - The slot the section is being considered for as an elective. (Leave empty
-     * for non-elective sections.)
      * @example
-     * const requiredCourse = new Course('12566', 'CSCI', '204', '3', ['MW 10:00 AM - 11:20 AM', 'R 7:00 PM - 9:50 PM']);
-     * const elective = new Course('15845', 'ARTD', '131', '02', ['MW 8:30 AM - 9:50 AM'], '1');
+     * const requiredCourseSection = new CourseSection('12566', 'CSCI', '204', '3', ['MW 10:00 AM - 11:20 AM', 'R 7:00 PM - 9:50 PM']);
      */
-    constructor(crn, department, level, section, title, tbStrings, electiveNum = null) {
+    constructor(crn, department, level, section, title, tbStrings) {
         this.crn = crn.padStart(5, '0');
         this.dept = department;
         this.level = level.padStart(3, '0'); // Pad the start with 0's until the string is 3 characters long
@@ -39,9 +36,6 @@ export default class Course {
                 this.timeBlocks.push(new TimeBlock(dayString, timeString));
             }
         }
-        this.electiveNum = electiveNum;
-        // If an elective slot number is provided, use an elective group. Else, use the name group.
-        this.group = electiveNum ? `ELECTIVE ${electiveNum}` : this.name;
     }
 
     /**
@@ -50,13 +44,13 @@ export default class Course {
      * @returns {string} - A string representation of the course section.
      */
     toString() {
-        return `${this.group.padEnd(10, ' ')} -> ${this.crn} ${this.dept} ${this.level.padEnd(4, ' ')} ${this.section} ${this.tbStrings}`;
+        return `${this.name.padEnd(10, ' ')} -> ${this.crn} ${this.dept} ${this.level.padEnd(4, ' ')} ${this.section} ${this.tbStrings}`;
     }
 
     /**
      * Returns true if this course section overlaps with another course section on the same day.
      *
-     * @param {Course} other - The course section to check for conflicts with this course section.
+     * @param {CourseSection} other - The course section to check for conflicts with this course section.
      * @returns {boolean} True if the two course sections overlap on the same day, false otherwise.
      */
     isConflictingWith(other) {
@@ -74,11 +68,4 @@ export default class Course {
         printDebugMessage('No conflict found!')
         return false;
     }
-
-    /**
-     * Returns true if this course section is being considered as an elective for some elective slot.
-     *
-     * @returns {boolean} True if the course section is an elective, false otherwise.
-     */
-    isElective() { return this.electiveNum !== null; }
 }

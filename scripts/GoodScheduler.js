@@ -2,7 +2,7 @@ import {printDebugMessage} from './helpers.js';
 import Schedule from './Schedule.js';
 
 /**
- * The fundamental class that handles the generation of all possible course combinations.
+ * The fundamental class that handles the generation of all possible course section combinations.
  */
 export default class GoodScheduler {
     /**
@@ -45,13 +45,13 @@ export default class GoodScheduler {
         }
     }
 
-    getPath(courses) {
-        let groups = {}; // make a new object to have group attributes as keys and lists of courses as values
-        for (let course of courses) {
-            if (course.group in groups) {
-                groups[course.group].push(course);
+    getPath(courseSections) {
+        let groups = {}; // make a new object to have group attributes as keys and lists of course sections as values
+        for (let courseSection of courseSections) {
+            if (courseSection.name in groups) {
+                groups[courseSection.name].push(courseSection);
             } else {
-                groups[course.group] = [course];
+                groups[courseSection.name] = [courseSection];
             }
         }
         return Object.values(groups).sort((a, b) => a.length - b.length); // sort the lists by length from least to greatest
@@ -64,20 +64,20 @@ export default class GoodScheduler {
         if (groupsToAdd.length === 0) { // when all groups have been added
             this.addSchedule(schedule); // add the finished schedule to schedules list
         } else {
-            let nextGroupToAdd = groupsToAdd[0]; // list of courses with same group attribute
-            for (let course of nextGroupToAdd) { // recurse on each possibility from this same-group list
+            let nextGroupToAdd = groupsToAdd[0]; // list of course sections with same group attribute
+            for (let courseSection of nextGroupToAdd) { // recurse on each possibility from this same-group list
                 let localSchedule = schedule.deepCopy();
-                localSchedule.addCourse(course); // add it to the newly-created schedule
+                localSchedule.addCourseSection(courseSection); // add it to the newly-created schedule
                 this.buildSchedules(groupsToAdd.slice(1), localSchedule); // with the group taken care of, proceed
             }
         }
     }
 
-    findAllSchedules(courses) {
+    findAllSchedules(courseSections) {
         this.schedules = [];
         this.nonConflictingSchedules = [];
         this.numRecursions = 0;
-        const path = this.getPath(courses);
+        const path = this.getPath(courseSections);
         this.buildSchedules(path);
         this.printSchedules();
         return this.nonConflictingSchedules;

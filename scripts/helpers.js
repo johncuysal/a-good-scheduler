@@ -35,6 +35,7 @@ export function convert24(timeStr) {
 
 export function clear(element) {
     element.innerHTML = '';
+    element.value = ''; // Has no effect on elements without the 'value' property
 }
 
 export function setText(element, text) {

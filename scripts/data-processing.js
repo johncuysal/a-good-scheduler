@@ -1,7 +1,8 @@
 import {inform, printDebugMessage, warn} from './helpers.js';
-import Course from './Course.js';
+import CourseSection from './CourseSection.js';
+import CorequisiteGroup from './CorequisiteGroup.js';
 
-export function getCoursesFromJSON(allCourses, allCorequisiteGroups) {
+export function getCoursesFromJSON(allCourseSections, allCorequisiteGroups) {
     fetch('course_data.json')
         .then(response => response.json())
         .then(data => {
@@ -50,34 +51,18 @@ export function getCoursesFromJSON(allCourses, allCorequisiteGroups) {
                     continue;
                 }
 
-                // Create a new Course object using the extracted information
+                // Create a new CourseSection object using the extracted information
                 //printDebugMessage(`Creating course ${courseCode} with crn = ${crn}, department = ${department}, level = ${level}, section = ${section}, title = ${title}, timeBlocks = ${timeBlocks}.`)
-                const course = new Course(crn, department, level, section, title, timeBlocks);
-                allCourses.push(course);
+                const courseSection = new CourseSection(crn, department, level, section, title, timeBlocks);
+                allCourseSections.push(courseSection);
 
-                // The following code sets up corequisiteGroups structure to be easily searched later!
-                if (!allCorequisiteGroups[course.corequisiteGroupName]) {
-                    // If the corequisite group doesn't exist, create it
-                    allCorequisiteGroups[course.corequisiteGroupName] = {};
+                // If a corequisite group doesn't exist with the course section's corequisite group name... create an empty one with that name
+                if (!(allCorequisiteGroups.some(corequisiteGroup => corequisiteGroup.name === courseSection.corequisiteGroupName))) {
+                    const corequisiteGroup = new CorequisiteGroup(courseSection.corequisiteGroupName);
+                    allCorequisiteGroups.push(corequisiteGroup);
                 }
-
-                if (!allCorequisiteGroups[course.corequisiteGroupName][course.name]) {
-                    // If the name group doesn't exist under the corequisite, create it
-                    allCorequisiteGroups[course.corequisiteGroupName][course.name] = [];
-                }
-
-                // Add the course to the appropriate name group under the corequisite
-                allCorequisiteGroups[course.corequisiteGroupName][course.name].push(course);
-
-                // The course whose corequisite name is the same as its name decides the corequisite group's search term
-                // But still, have it initially set to a backup with the first course that gets read in that group
-                if (!allCorequisiteGroups[course.corequisiteGroupName]['searchTerm']) {
-                    allCorequisiteGroups[course.corequisiteGroupName]['searchTerm'] = `${course.corequisiteGroupName} — ${course.title}`;
-                }
-                // Then, if a course does exist whose name matches the corequisite group name, override that backup (fixes SIGN 101A being the only course of the SIGN 101 corequisite group)
-                if (course.name === course.corequisiteGroupName) {
-                    allCorequisiteGroups[course.corequisiteGroupName]['searchTerm'] = `${course.corequisiteGroupName} — ${course.title}`;
-                }
+                const corequisiteGroup = allCorequisiteGroups.find(corequisiteGroup => corequisiteGroup.name === courseSection.corequisiteGroupName);
+                corequisiteGroup.addCourseSection(courseSection);
             }
         })
         .catch(error => {

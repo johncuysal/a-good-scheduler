@@ -1,4 +1,4 @@
-import Course from './Course.js';
+import CourseSection from './CourseSection.js';
 
 /**
  * Represents a collection of course sections.
@@ -8,7 +8,7 @@ export default class Schedule {
      * Creates a new Schedule object.
      */
     constructor() {
-        this.courses = [];
+        this.courseSections = [];
         this.hasConflict = false;
     }
 
@@ -19,8 +19,8 @@ export default class Schedule {
      */
     toString() {
         let s = `${'─'.repeat(78)}\n`;
-        for (let course of this.courses) {
-            s += `${course}\n`;
+        for (let courseSection of this.courseSections) {
+            s += `${courseSection}\n`;
         }
         s += `${'─'.repeat(78)}\n`;
         return s;
@@ -29,17 +29,17 @@ export default class Schedule {
     /**
      * Adds a course section to the schedule. If this results in a conflict, {@link hasConflict} is updated.
      *
-     * @param {Course} courseToAdd - The course section to add to the schedule.
+     * @param {CourseSection} courseSectionToAdd - The course section to add to the schedule.
      * @returns {void}
      */
-    addCourse(courseToAdd) {
-        for (let existingCourse of this.courses) { // For every course currently in the schedule...
-            if (courseToAdd.isConflictingWith(existingCourse)) { // If it conflicts with the course being added...
+    addCourseSection(courseSectionToAdd) {
+        for (let existingCourseSection of this.courseSections) { // For every course section currently in the schedule...
+            if (courseSectionToAdd.isConflictingWith(existingCourseSection)) { // If it conflicts with the course section being added...
                 this.hasConflict = true; // Mark the schedule as having a conflict, and stop checking for conflicts
                 break;
             }
         }
-        this.courses.push(courseToAdd);
+        this.courseSections.push(courseSectionToAdd);
     }
 
     /**
@@ -50,15 +50,15 @@ export default class Schedule {
     deepCopy() {
         let scheduleDataObject = JSON.parse(JSON.stringify(this)); // Plain object holding the schedule's attributes
         let copiedSchedule = new Schedule(); // A new blank schedule.
-        for (let courseDataObject of scheduleDataObject.courses) {
+        for (let courseDataObject of scheduleDataObject.courseSections) {
             let attributeCrn = courseDataObject.crn;
             let attributeDept = courseDataObject.dept;
             let attributeLevel = courseDataObject.level;
             let attributeSection = courseDataObject.section;
             let attributeTitle = courseDataObject.title;
             let attributeTbStrings = courseDataObject.tbStrings;
-            let courseCopy = new Course(attributeCrn, attributeDept, attributeLevel, attributeSection, attributeTitle, attributeTbStrings);
-            copiedSchedule.addCourse(courseCopy)
+            let courseSectionCopy = new CourseSection(attributeCrn, attributeDept, attributeLevel, attributeSection, attributeTitle, attributeTbStrings);
+            copiedSchedule.addCourseSection(courseSectionCopy)
         }
         copiedSchedule.hasConflict = scheduleDataObject.hasConflict;
         return copiedSchedule;

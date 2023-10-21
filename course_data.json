@@ -3808,7 +3808,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "0.25 - 1"
@@ -19143,7 +19143,7 @@
       "Dutcher, Dabrina D."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -20334,6 +20334,48 @@
     ],
     "CR": [
       "0"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56251"
+    ],
+    "Course": [
+      "CHEM 665 01"
+    ],
+    "Title": [
+      "Adv Environ Chem- HS Teachers"
+    ],
+    "Time": [
+      "MWF 1:00 PM - 1:50 PM"
+    ],
+    "Location": [
+      "DANA 117"
+    ],
+    "Instructor": [
+      "Dutcher, Dabrina D."
+    ],
+    "UNRES Seats Avail": [
+      "2"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
     ],
     "Gen Ed": [],
     "Guide": [
@@ -21636,7 +21678,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -25969,9 +26013,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -26011,7 +26053,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -30450,9 +30494,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -30495,7 +30537,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -30676,7 +30720,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENFS 235 01: Crosslisted with WMST 235"
     ]
   },
   {
@@ -30723,7 +30767,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENFS 242 01: Film screenings will be shown at the Campus Theatre on the following dates: Feb. 7, Feb. 21, Mar. 6 and Mar. 27"
     ]
   },
   {
@@ -34534,7 +34578,7 @@
       "Campbell, Claire E."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -34917,9 +34961,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -39439,9 +39481,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -39744,7 +39784,7 @@
       "Campbell, Claire E."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48375,7 +48415,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MECH 457 01: Preference given to MECH majors, others should waitlist"
+      "Department Note:"
     ]
   },
   {
@@ -52684,9 +52724,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52728,7 +52766,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -56937,9 +56977,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -56979,7 +57017,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -65779,7 +65819,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -70102,9 +70144,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -70149,7 +70189,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -71492,6 +71534,50 @@
     "Text Books": [],
     "Notes": [
       "Section WMST 224 01: Crosslisted with ECON 224"
+    ]
+  },
+  {
+    "Crn": [
+      "56250"
+    ],
+    "Course": [
+      "WMST 235 01"
+    ],
+    "Title": [
+      "Gender and Film/Media"
+    ],
+    "Time": [
+      "TR 10:00 AM - 11:20 AM"
+    ],
+    "Location": [
+      "LANG 301"
+    ],
+    "Instructor": [
+      "Barth, Josie T."
+    ],
+    "UNRES Seats Avail": [
+      "35"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section WMST 235 01: Crosslisted with ENFS 235"
     ]
   },
   {
