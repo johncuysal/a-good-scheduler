@@ -207,26 +207,26 @@ window.addEventListener('DOMContentLoaded', () => {
         timetableEventElement.style.gridRow = `${(timeBlock.startMinute / 5) - 83} / span ${(timeBlock.endMinute - timeBlock.startMinute) / 5}`;
         switch (timeBlock.day) {
             case 'M': // Monday
-                timetableEventElement.style.gridColumn = '2 / span 1';
+                timetableEventElement.style.gridColumn = '2';
                 break;
             case 'T': // Tuesday
-                timetableEventElement.style.gridColumn = '3 / span 1';
+                timetableEventElement.style.gridColumn = '3';
                 break;
             case 'W': // Wednesday
-                timetableEventElement.style.gridColumn = '4 / span 1';
+                timetableEventElement.style.gridColumn = '4';
                 break;
             case 'R': // Thursday
-                timetableEventElement.style.gridColumn = '5 / span 1';
+                timetableEventElement.style.gridColumn = '5';
                 break;
             case 'F': // Friday
-                timetableEventElement.style.gridColumn = '6 / span 1';
+                timetableEventElement.style.gridColumn = '6';
                 break;
             case 'S': // Saturday
                 break;
             case 'U': // Sunday
                 break;
         }
-
+        timetableEventElement.style.gridColumn = timetableEventElement.style.gridColumn + ' / span 1';
         return timetableEventElement;
     }
 

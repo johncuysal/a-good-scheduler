@@ -2396,6 +2396,46 @@
   },
   {
     "Crn": [
+      "56256"
+    ],
+    "Course": [
+      "ANBE 391 08"
+    ],
+    "Title": [
+      "Research"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Wang, Wei-Chun"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "50640"
     ],
     "Course": [
@@ -4386,9 +4426,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -4432,7 +4470,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -8829,9 +8869,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -8871,7 +8909,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -13031,9 +13071,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -13601,11 +13639,10 @@
       "Sustainable Design"
     ],
     "Time": [
-      "MWF 11:00 AM - 11:50 AM",
+      "MWF 1:00 PM - 1:50 PM",
       "W 3:00 PM - 4:50 PM"
     ],
     "Location": [
-      "ACET 120",
       "ACET 120"
     ],
     "Instructor": [
@@ -13724,6 +13761,46 @@
   },
   {
     "Crn": [
+      "56252"
+    ],
+    "Course": [
+      "CEEG 480 01"
+    ],
+    "Title": [
+      "Special Topics in CEEG"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Tymvios, Nicholas"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.25 - 1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "53898"
     ],
     "Course": [
@@ -13754,7 +13831,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -13798,7 +13877,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -13842,7 +13923,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -13886,7 +13969,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -13931,7 +14016,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -13976,7 +14063,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -14020,7 +14109,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -14063,7 +14154,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -14108,7 +14201,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -17251,9 +17346,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -17343,7 +17436,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -21593,6 +21688,48 @@
   },
   {
     "Crn": [
+      "56254"
+    ],
+    "Course": [
+      "CLAS 250 A6"
+    ],
+    "Title": [
+      "Beginning Modern Greek"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Larson, Stephanie L."
+    ],
+    "UNRES Seats Avail": [
+      "25"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section CLAS 250 A6: This course is offered to students participating in the Bucknell in Athens program."
+    ]
+  },
+  {
+    "Crn": [
       "55905"
     ],
     "Course": [
@@ -24195,7 +24332,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section CSCI 379 02: This course is being offered as 0.5 credit."
     ]
   },
   {
@@ -25886,9 +26023,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -26013,7 +26148,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -28224,7 +28361,8 @@
       "1"
     ],
     "Gen Ed": [
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -29904,54 +30042,6 @@
   },
   {
     "Crn": [
-      "55903"
-    ],
-    "Course": [
-      "ENCW 202 03"
-    ],
-    "Title": [
-      "Fiction Workshop"
-    ],
-    "Time": [
-      "M 7:00 PM - 9:50 PM"
-    ],
-    "Location": [
-      "BIOL 221"
-    ],
-    "Instructor": [
-      "Gabriel, Bix"
-    ],
-    "UNRES Seats Avail": [
-      "7"
-    ],
-    "Wait List": [],
-    "Res Seats": [
-      "5"
-    ],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "AHLG",
-      "ARHC",
-      "W2"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section ENCW 202 03: Seniors require permission of the instructor."
-    ]
-  },
-  {
-    "Crn": [
       "55520"
     ],
     "Course": [
@@ -30494,7 +30584,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -30557,6 +30649,48 @@
     "Location": [],
     "Instructor": [
       "Rosenberg, Robert A."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56255"
+    ],
+    "Course": [
+      "ENCW 379 02"
+    ],
+    "Title": [
+      "Senior Thesis"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Scapellato, Joe F."
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -30984,6 +31118,7 @@
     ],
     "Gen Ed": [
       "ARHC",
+      "CCQR",
       "W2"
     ],
     "Guide": [
@@ -31005,7 +31140,7 @@
       "ENFS 340 01"
     ],
     "Title": [
-      "Film/Media Prod Practicum"
+      "Animating in After Effects"
     ],
     "Time": [
       "M 3:00 PM - 4:20 PM"
@@ -31734,7 +31869,7 @@
       "Lab-Experiment Design/Data Anl"
     ],
     "Time": [
-      "W 10:00 AM - 11:50 AM"
+      "W 10:00 AM - 10:50 AM"
     ],
     "Location": [
       "DANA 214"
@@ -31743,7 +31878,7 @@
       "Maneval, James E."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33170,7 +33305,7 @@
       "Hamilton, Ted E."
     ],
     "UNRES Seats Avail": [
-      "35"
+      "25"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33415,6 +33550,7 @@
     "Gen Ed": [
       "ARHC",
       "EVCN",
+      "NPJ",
       "W2"
     ],
     "Guide": [
@@ -33754,7 +33890,7 @@
       "Gregory, Chase P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33796,7 +33932,7 @@
       "Chow, Jeremy H."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34961,7 +35097,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -35855,7 +35993,8 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -37297,7 +37436,7 @@
       "Jacob, Rob W."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -38956,7 +39095,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "DUSC"
+      "DUSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -39339,9 +39479,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -39481,7 +39619,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -48238,9 +48378,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52593,9 +52731,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52724,7 +52860,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -56851,9 +56989,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -56977,7 +57113,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -65647,9 +65785,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -66813,50 +66949,6 @@
   },
   {
     "Crn": [
-      "56072"
-    ],
-    "Course": [
-      "SOCI 109 01"
-    ],
-    "Title": [
-      "Sociology of Social Problems"
-    ],
-    "Time": [
-      "TR 8:30 AM - 9:50 AM"
-    ],
-    "Location": [
-      "ACWS 210"
-    ],
-    "Instructor": [
-      "Cannady, Emmanuel B."
-    ],
-    "UNRES Seats Avail": [
-      "35"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section SOCI 109 01: First and second year students"
-    ]
-  },
-  {
-    "Crn": [
       "54485"
     ],
     "Course": [
@@ -67056,6 +67148,50 @@
     ],
     "Instructor": [
       "Altendorf, Karen A."
+    ],
+    "UNRES Seats Avail": [
+      "25"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56257"
+    ],
+    "Course": [
+      "SOCI 233 01"
+    ],
+    "Title": [
+      "Sociology of Social Problems"
+    ],
+    "Time": [
+      "TR 8:30 AM - 9:50 AM"
+    ],
+    "Location": [
+      "ACWS 210"
+    ],
+    "Instructor": [
+      "Cannady, Emmanuel B."
     ],
     "UNRES Seats Avail": [
       "25"
@@ -67303,6 +67439,46 @@
       "SLSC",
       "SSLG"
     ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56253"
+    ],
+    "Course": [
+      "SOCI 326 01"
+    ],
+    "Title": [
+      "Advanced Reading in Sociology"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Durden, Elizabeth"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 2"
+    ],
+    "Gen Ed": [],
     "Guide": [
       "Guide"
     ],
@@ -70144,7 +70320,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -70826,6 +71004,53 @@
     "Instructor": [
       "Blanco, Fernando A.",
       "Vernengo, Matias"
+    ],
+    "UNRES Seats Avail": [
+      "See Guide"
+    ],
+    "Wait List": [],
+    "Res Seats": [
+      "32"
+    ],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "CCIP"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56258"
+    ],
+    "Course": [
+      "UNIV 200 17"
+    ],
+    "Title": [
+      "Identity, SocialJustice &Music"
+    ],
+    "Time": [
+      "TR 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "BIOL 101"
+    ],
+    "Instructor": [
+      "Temkin, Daniel E.",
+      "Scott, Jocelyne B."
     ],
     "UNRES Seats Avail": [
       "See Guide"

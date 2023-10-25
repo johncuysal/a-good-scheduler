@@ -18,7 +18,7 @@ export default class CourseSection {
      * const requiredCourseSection = new CourseSection('12566', 'CSCI', '204', '3', ['MW 10:00 AM - 11:20 AM', 'R 7:00 PM - 9:50 PM']);
      */
     constructor(crn, department, level, section, title, tbStrings) {
-        this.crn = crn.padStart(5, '0');
+        this.crn = crn.padStart(5, '0'); // Pad the start with 0's until the string is 5 characters long
         this.dept = department;
         this.level = level.padStart(3, '0'); // Pad the start with 0's until the string is 3 characters long
         this.name = `${this.dept} ${this.level}`; // PHYS 211L

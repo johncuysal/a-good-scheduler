@@ -19,23 +19,25 @@ export default class CorequisiteGroup {
      * @param {CourseSection} courseSectionToAdd - The course section to add to the corequisite group.
      */
     addCourseSection(courseSectionToAdd) {
+        // If there's no course cluster with the same name as the course section to add, create it
         if (!(this.courseClusters.some(courseCluster => courseCluster.name === courseSectionToAdd.name))) {
             const courseCluster = new CourseCluster(courseSectionToAdd.name);
             this.courseClusters.push(courseCluster);
         }
+        // Add the course section to the course cluster of the same name
         const courseCluster = this.courseClusters.find(courseCluster => courseCluster.name === courseSectionToAdd.name);
         courseCluster.addCourseSection(courseSectionToAdd);
 
-        // Find the CourseCluster with the shortest name
-        const shortestCluster = this.courseClusters.reduce((shortest, currentCluster) => {
-            if (!shortest || currentCluster.name.length < shortest.name.length) {
+        // Now, update the corequisite group's search term
+        const clusterWithShortestName = this.courseClusters.reduce((clusterWithShortestName, currentCluster) => {
+            if (!clusterWithShortestName || currentCluster.name.length < clusterWithShortestName.name.length) {
                 return currentCluster;
             } else {
-                return shortest;
+                return clusterWithShortestName;
             }
         }, null);
-
-        const decidingSection = shortestCluster.courseSections[0];
+        // The first course section in the course cluster with the shortest name decides the corequisite group's search term
+        const decidingSection = clusterWithShortestName.courseSections[0];
         this.searchTerm = `${decidingSection.corequisiteGroupName} — ${decidingSection.title}`
     }
 }
