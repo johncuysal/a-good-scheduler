@@ -1,6 +1,6 @@
-import {printDebugMessage, warn, inform, clear, setText, createElementFromTemplate, hyphenate, move} from './helpers.js';
-import {getCoursesFromJSON} from './data-processing.js';
-import GoodScheduler from './GoodScheduler.js';
+import {printDebugMessage, warn, inform, clear, setText, createElementFromTemplate, hyphenate, move} from './helpers.js?v=2.0.2';
+import {getCoursesFromJSON} from './data-processing.js?v=2.0.2';
+import GoodScheduler from './GoodScheduler.js?v=2.0.2';
 
 const NUMBER_OF_COLORS = 8;
 const colorCount = new Array(NUMBER_OF_COLORS).fill(0);
