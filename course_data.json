@@ -951,6 +951,48 @@
   },
   {
     "Crn": [
+      "56264"
+    ],
+    "Course": [
+      "ACFM 311 01"
+    ],
+    "Title": [
+      "Teaching Assistant in ACFM"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Lawson, James G."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1 - 1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "55628"
     ],
     "Course": [
@@ -1554,7 +1596,7 @@
       "Schreiner, Frank J."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -1910,7 +1952,7 @@
       "Smith, Nathan E."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -1998,7 +2040,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -2618,7 +2660,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -3010,7 +3052,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 102 01: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3057,7 +3099,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 102 02: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3104,7 +3146,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 102 03: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3151,7 +3193,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 102 04: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3198,7 +3240,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 102 05: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3242,7 +3284,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 202 01: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3286,7 +3328,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 202 02: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3330,7 +3372,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 202 03: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3374,7 +3416,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 202 04: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3418,7 +3460,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 202 05: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -3462,7 +3504,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ANOP 202 06: Preference given to BSBA & MGEG students. All others may waitlist for consideration after registration is over."
     ]
   },
   {
@@ -4426,7 +4468,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -4935,6 +4979,48 @@
     "Res Seats": [],
     "Prm": [
       "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56260"
+    ],
+    "Course": [
+      "ARBC 251 01"
+    ],
+    "Title": [
+      "Adv. Independent Study in ARBC"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Isleem, Martin"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
     ],
     "CR": [
       "1"
@@ -5649,7 +5735,7 @@
       "Boxer, Carly B."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5693,7 +5779,7 @@
       "Tardio, Katie"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5868,7 +5954,7 @@
       "Boxer, Carly B."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -7641,7 +7727,7 @@
       "Human Physiology"
     ],
     "Time": [
-      "TR 8:00 AM - 9:20 AM"
+      "TR 8:30 AM - 9:50 AM"
     ],
     "Location": [
       "ACET 227"
@@ -7999,7 +8085,7 @@
       "Campbell, Terry G."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8045,7 +8131,7 @@
       "Stevens, Dale R."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8091,7 +8177,7 @@
       "Lingo, Jordan C."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8135,7 +8221,7 @@
       "Pearson, James T."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8179,7 +8265,7 @@
       "Smith, Nathan E."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8271,7 +8357,7 @@
       "Pizzorno, Marie P."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "28"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8405,7 +8491,7 @@
       "Wang, Wei-Chun"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8451,7 +8537,7 @@
       "Chambers, Moria C."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8539,7 +8625,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8583,7 +8669,7 @@
       "Pizzorno, Marie P."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8629,7 +8715,7 @@
       "Chambers, Moria C."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8675,7 +8761,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8869,7 +8955,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -10121,7 +10209,7 @@
       "Lower, Sarah E."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -10165,7 +10253,7 @@
       "Pizzorno, Marie P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -10421,7 +10509,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -10463,7 +10551,7 @@
       "Pizzorno, Marie P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -11441,7 +11529,7 @@
       "WF 1:00 PM - 1:50 PM"
     ],
     "Location": [
-      "ACET 120"
+      "ACET 225"
     ],
     "Instructor": [
       "Baish, James W."
@@ -11867,10 +11955,10 @@
     ],
     "Instructor": [
       "Kennedy, Eric A.",
+      "Boerman, Olivia",
       "Cavanagh, Dan P.",
       "Ebenstein, Donna M.",
-      "Malaga, Karlo A.",
-      "Boerman, Olivia"
+      "Malaga, Karlo A."
     ],
     "UNRES Seats Avail": [
       "18"
@@ -12037,9 +12125,11 @@
       "Neural Engineering"
     ],
     "Time": [
-      "MWF 2:00 PM - 2:50 PM"
+      "M 2:00 PM - 2:50 PM",
+      "WF 2:00 PM - 2:50 PM"
     ],
     "Location": [
+      "ACET 225",
       "ACET 120"
     ],
     "Instructor": [
@@ -12082,7 +12172,7 @@
       "M 1:00 PM - 1:50 PM"
     ],
     "Location": [
-      "ACET 120"
+      "ACET 225"
     ],
     "Instructor": [
       "Malaga, Karlo A."
@@ -13071,7 +13161,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -13643,6 +13735,7 @@
       "W 3:00 PM - 4:50 PM"
     ],
     "Location": [
+      "ACET 120",
       "ACET 120"
     ],
     "Instructor": [
@@ -13786,6 +13879,46 @@
     ],
     "CR": [
       "0.25 - 1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56261"
+    ],
+    "Course": [
+      "CEEG 481 01"
+    ],
+    "Title": [
+      "Undergraduate Research"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Ziemian, Ronald D."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
     ],
     "Gen Ed": [],
     "Guide": [
@@ -14580,7 +14713,7 @@
       "Snyder, Ryan C."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14622,7 +14755,7 @@
       "Snyder, Ryan C."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14831,8 +14964,8 @@
     ],
     "Instructor": [
       "Miskioglu, Elif E.",
-      "Raymond, Tim M.",
-      "Maneval, James E."
+      "Maneval, James E.",
+      "Raymond, Tim M."
     ],
     "UNRES Seats Avail": [
       "10"
@@ -17346,7 +17479,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -19194,7 +19329,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21514,9 +21649,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -21794,7 +21927,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "20"
+      "17"
     ],
     "Prm": [
       "N"
@@ -21843,7 +21976,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "20"
+      "18"
     ],
     "Prm": [
       "N"
@@ -24932,6 +25065,50 @@
   },
   {
     "Crn": [
+      "56262"
+    ],
+    "Course": [
+      "EAST 132 01"
+    ],
+    "Title": [
+      "Brush Calligraphy II"
+    ],
+    "Time": [
+      "T 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "HOLM 345"
+    ],
+    "Instructor": [
+      "Armstrong, Elizabeth L."
+    ],
+    "UNRES Seats Avail": [
+      "12"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "0.5"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "55187"
     ],
     "Course": [
@@ -25627,7 +25804,7 @@
       "Lamparter, Matt P."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25855,9 +26032,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -26023,7 +26198,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -26046,7 +26223,7 @@
       "Cheville, Alan"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28227,7 +28404,8 @@
       "1"
     ],
     "Gen Ed": [
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -29179,6 +29357,48 @@
     ],
     "CR": [
       "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56265"
+    ],
+    "Course": [
+      "EDUC 317 01"
+    ],
+    "Title": [
+      "Problems in Education"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Henry, Sue Ellen"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
     ],
     "Gen Ed": [
       "SLSC"
@@ -30156,7 +30376,7 @@
       "Hauser, Brian R."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -30269,9 +30489,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -30338,7 +30556,7 @@
       "Rosenberg, Robert A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30971,7 +31189,7 @@
       "Eisenstein, Ken B."
     ],
     "UNRES Seats Avail": [
-      "35"
+      "34"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32651,7 +32869,7 @@
       "Siewers, Paul K."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33031,7 +33249,7 @@
       "Drexler, Michael J."
     ],
     "UNRES Seats Avail": [
-      "35"
+      "34"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33169,7 +33387,7 @@
       "Loney, Emily L."
     ],
     "UNRES Seats Avail": [
-      "35"
+      "34"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33258,7 +33476,7 @@
       "Dalleo, Rafe"
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33619,10 +33837,10 @@
       "History of Sexuality in Lit"
     ],
     "Time": [
-      "W 1:00 PM - 3:50 PM"
+      "W 7:00 PM - 9:50 PM"
     ],
     "Location": [
-      "DANA 130"
+      "COLE 118"
     ],
     "Instructor": [
       "Gregory, Chase P."
@@ -33881,10 +34099,10 @@
       "History of Sexuality in Lit"
     ],
     "Time": [
-      "W 1:00 PM - 3:50 PM"
+      "W 7:00 PM - 9:50 PM"
     ],
     "Location": [
-      "DANA 130"
+      "COLE 118"
     ],
     "Instructor": [
       "Gregory, Chase P."
@@ -34066,7 +34284,7 @@
       "McTammany, Matthew E."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34154,7 +34372,7 @@
       "McTammany, Matthew E."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -36211,7 +36429,7 @@
       "MW 12:00 PM - 1:20 PM"
     ],
     "Location": [
-      "OBSV 105"
+      "ACWS 209"
     ],
     "Instructor": [
       "Oduro Appiah, Joseph"
@@ -38851,10 +39069,12 @@
       "Rogovin, Or M."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "14"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "8"
+    ],
     "Prm": [
       "N"
     ],
@@ -38910,8 +39130,11 @@
       "1"
     ],
     "Gen Ed": [
+      "AHLG",
       "ARHC",
-      "FRST"
+      "DUSC",
+      "FRST",
+      "RPI"
     ],
     "Guide": [
       "Guide"
@@ -39479,7 +39702,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -42837,6 +43062,48 @@
   },
   {
     "Crn": [
+      "56259"
+    ],
+    "Course": [
+      "ITAL 390 01"
+    ],
+    "Title": [
+      "Independent Study"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Kuhn, Bernhard"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "50096"
     ],
     "Course": [
@@ -43610,9 +43877,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -47799,10 +48064,12 @@
       "Solid Mechanics"
     ],
     "Time": [
-      "MWF 11:00 AM - 11:50 AM"
+      "MWF 11:00 AM - 11:50 AM",
+      "R 7:00 PM - 8:20 PM"
     ],
     "Location": [
-      "BRKI 264"
+      "BRKI 264",
+      "BRKI 066"
     ],
     "Instructor": [
       "Instructor"
@@ -48378,7 +48645,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -48932,6 +49201,48 @@
     "Text Books": [],
     "Notes": [
       "Section MECH 684 01: Preference given to MECH majors. Others should waitlist."
+    ]
+  },
+  {
+    "Crn": [
+      "56263"
+    ],
+    "Course": [
+      "MECH 684 02"
+    ],
+    "Title": [
+      "Machine Learning for Engr Sys"
+    ],
+    "Time": [
+      "TR 3:00 PM - 4:50 PM"
+    ],
+    "Location": [
+      "ACET 225"
+    ],
+    "Instructor": [
+      "Brahma, Indranil"
+    ],
+    "UNRES Seats Avail": [
+      "3"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -52434,9 +52745,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52731,7 +53040,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -56161,7 +56472,7 @@
       "Grisel, Judy E."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -56339,7 +56650,7 @@
       "Wang, Wei-Chun"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -56695,9 +57006,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -56989,7 +57298,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -61659,7 +61970,7 @@
       "Grisel, Judy E."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62419,7 +62730,7 @@
       "Mena, Jasmine A."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "24"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62431,6 +62742,7 @@
     ],
     "Gen Ed": [
       "DUSC",
+      "RPI",
       "SLSC",
       "W2"
     ],
@@ -62509,7 +62821,7 @@
       "Winter, Nicole"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -63706,7 +64018,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section PSYC 339 01: Some background in music required. Prerequisites: PSYC 204 or PSYC 252 AND permission of the instructor."
+      "Section PSYC 339 01: Some background in music required. Prerequisites: PSYC 204 or PSYC 252 AND permission of the instructor. Course fulfills the Psychology CE requirement."
     ]
   },
   {
@@ -65483,9 +65795,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -65785,7 +66095,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -71230,10 +71542,12 @@
       "Rogovin, Or M."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "11"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "6"
+    ],
     "Prm": [
       "N"
     ],

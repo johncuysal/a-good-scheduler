@@ -1,13 +1,18 @@
-:root {
-    --primary-color: #204280;
-    --secondary-color: #00a0ce;
-    --header-footer-color: black;
-    --background-color: #111111;
+* {
+    box-sizing: border-box;
+}
+
+.dark-theme {
+    --primary-color: black;
+    --main-background-color: #111111;
     --border-color: #444444;
+    --selection-color: #00a0ce;
     --text-color: white;
-    --faded-text-color: rgba(255, 255, 255, 0.75);
-    --slot-text-color: white;
-    --slot-candidate-color: rgba(0, 0, 0, 0.5);
+
+    --header-element-text-color: rgba(255, 255, 255, 0.75);
+
+    --slot-overlay-text-color: white;
+    --slot-candidate-background-color: rgba(0, 0, 0, 0.5);
     --slot-candidate-text-color-on: white;
     --slot-candidate-text-color-off: gray;
 
@@ -21,8 +26,28 @@
     --slot-color-7: #5e4242;
 }
 
-* {
-    box-sizing: border-box;
+.light-theme {
+    --primary-color: white;
+    --main-background-color: #eeeeee;
+    --border-color: #bbbbbb;
+    --selection-color: #00c6ff;
+    --text-color: black;
+
+    --header-element-text-color: rgba(0, 0, 0, 0.75);
+
+    --slot-overlay-text-color: white;
+    --slot-candidate-background-color: rgba(0, 0, 0, 0.3);
+    --slot-candidate-text-color-on: white;
+    --slot-candidate-text-color-off: #b9b9b9;
+
+    --slot-color-0: #5883d1;
+    --slot-color-1: #e2417a;
+    --slot-color-2: #2caa5a;
+    --slot-color-3: #e9b73d;
+    --slot-color-4: #ba5edf;
+    --slot-color-5: #38a093;
+    --slot-color-6: #eb743a;
+    --slot-color-7: #9c8282;
 }
 
 /* FONT DEFINITIONS */
@@ -59,19 +84,19 @@ body {
     margin: 0;
     font-family: 'Liberation Mono', monospace;
     font-size: 16px;
-    background-color: var(--header-footer-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
 }
 
 header, footer {
     padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header {
     border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 footer {
@@ -85,9 +110,36 @@ h1 {
     font-size: 32px;
 }
 
-#version, #donate-link {
-    color: var(--faded-text-color);
+.header-section-version, .header-section-extras {
+    color: var(--header-element-text-color);
     width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.header-section-version {
+    justify-content: left;
+}
+
+.header-section-extras {
+    justify-content: right;
+    gap: 4px;
+}
+
+#dark-mode-button {
+    font-weight: bold;
+    padding: 0;
+    color: var(--header-element-text-color);
+    margin: 0 0 0 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background: none;
+    border: 0;
+}
+
+#dark-mode-button:hover {
+    color: var(--selection-color);
 }
 
 #version {
@@ -95,7 +147,7 @@ h1 {
 }
 
 #donate-link {
-    text-align: right;
+    color: var(--header-element-text-color);
 }
 
 #donate-link:hover {
@@ -115,26 +167,7 @@ main {
     padding: 10px;
     display: flex;
     gap: 10px;
-    background-color: var(--background-color);
-}
-
-.delete-button-container {
-    display: flex;
-    align-items: center;
-}
-
-.delete-button {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: inherit;
-    color: var(--text-color);
-    border: 0;
-}
-
-.delete-button:hover {
-    background-color: black;
+    background-color: var(--main-background-color);
 }
 
 .schedule-list {
@@ -150,7 +183,7 @@ main {
     padding: 4px;
     background-color: #ff00ff;
     font-size: 12px;
-    color: var(--slot-text-color);
+    color: var(--slot-overlay-text-color);
     display: flex;
     border-radius: 6px;
     width: 180px;
@@ -188,7 +221,7 @@ main {
 
 .timetable-event {
     background-color: #ff00ff;
-    color: var(--slot-text-color);
+    color: var(--slot-overlay-text-color);
     padding: 2px;
     font-size: 12px;
     text-align: center;
@@ -214,7 +247,7 @@ main {
 #search-bar {
     width: 100%;
     border: 1px solid var(--border-color);
-    background-color: var(--header-footer-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     border-radius: 32px;
     font-family: inherit;
@@ -225,7 +258,7 @@ main {
 
 #search-bar:focus {
     outline: none;
-    border-color: var(--secondary-color);
+    border-color: var(--selection-color);
 }
 
 #search-bar-result-container {
@@ -241,7 +274,7 @@ main {
 }
 
 .search-result {
-    background-color: var(--header-footer-color);
+    background-color: var(--primary-color);
     color: var(--text-color);
     display: flex;
     align-items: center;
@@ -250,9 +283,9 @@ main {
 }
 
 .search-result:hover {
-    background-color: var(--secondary-color);
-    text-decoration: none;
+    background-color: var(--selection-color);
     color: var(--text-color);
+    text-decoration: none;
 }
 
 #slot-container {
@@ -265,7 +298,7 @@ main {
 
 .slot {
     background-color: #ff00ff;
-    color: var(--slot-text-color);
+    color: var(--slot-overlay-text-color);
     padding: 6px;
     border-radius: 12px;
 }
@@ -287,7 +320,7 @@ main {
     margin: 0 0 0 4px;
     background: none;
     border: 0;
-    color: var(--slot-text-color);
+    color: var(--slot-overlay-text-color);
 }
 
 .slot-delete-button:hover {
@@ -314,7 +347,8 @@ main {
 
 .slot-candidate {
     display: flex;
-    background-color: var(--slot-candidate-color);
+    background-color: var(--slot-candidate-background-color);
+    color: var(--slot-candidate-text-color-on);
     border-radius: 8px;
     padding: 4px;
 
@@ -326,7 +360,7 @@ main {
 }
 
 .slot-candidate:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--selection-color);
 }
 
 .slot-candidate-infobox {
@@ -355,7 +389,7 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--border-color);
-    background-color: var(--header-footer-color);
+    background-color: var(--primary-color);
     border-radius: 6px;
     padding: 6px;
     height: 43px;
@@ -372,7 +406,7 @@ input[type="checkbox"] {
 }
 
 .schedule {
-    background-color: var(--header-footer-color);
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     border-radius: 6px;
@@ -406,8 +440,8 @@ input[type="checkbox"] {
         margin-bottom: 4px;
     }
 
-    #version, #donate-link {
-        text-align: center;
+    .header-section-version, .header-section-extras {
+        justify-content: center;
     }
 }
 

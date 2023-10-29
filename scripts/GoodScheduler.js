@@ -1,5 +1,5 @@
-import {printDebugMessage} from './helpers.js?v=2.0.2';
-import Schedule from './Schedule.js?v=2.0.2';
+import {printDebugMessage} from './helpers.js?v=2.0.3';
+import Schedule from './Schedule.js?v=2.0.3';
 
 /**
  * The fundamental class that handles the generation of all possible course section combinations.

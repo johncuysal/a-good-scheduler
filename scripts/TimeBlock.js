@@ -1,4 +1,4 @@
-import {calcMinutes, convert24} from './helpers.js?v=2.0.2';
+import {calcMinutes, convert24} from './helpers.js?v=2.0.3';
 
 /**
  * Represents a block of time on a particular day.

@@ -1,6 +1,6 @@
-import {printDebugMessage, warn, inform, clear, setText, createElementFromTemplate, hyphenate, move} from './helpers.js?v=2.0.2';
-import {getCoursesFromJSON} from './data-processing.js?v=2.0.2';
-import GoodScheduler from './GoodScheduler.js?v=2.0.2';
+import {printDebugMessage, warn, inform, clear, setText, createElementFromTemplate, hyphenate, move} from './helpers.js?v=2.0.3';
+import {getCoursesFromJSON} from './data-processing.js?v=2.0.3';
+import GoodScheduler from './GoodScheduler.js?v=2.0.3';
 
 const NUMBER_OF_COLORS = 8;
 const colorCount = new Array(NUMBER_OF_COLORS).fill(0);
@@ -19,6 +19,7 @@ const scheduler = new GoodScheduler();
 
 window.addEventListener('DOMContentLoaded', () => {
     // Get references to essential elements and templates when the page first loads up
+    const bodyElement                     = document.body;
     const slotContainerElement            = document.getElementById('slot-container');
     const scheduleContainerElement        = document.getElementById('schedule-container');
     const searchBarElement                = document.getElementById('search-bar');
@@ -26,13 +27,18 @@ window.addEventListener('DOMContentLoaded', () => {
     const statusContainerElement          = document.getElementById('status-container');
     const scheduleTemplateElement         = document.getElementById('schedule-template');
     const slotTemplateElement             = document.getElementById('slot-template');
+    const darkModeButtonElement           = document.getElementById('dark-mode-button');
     const slotCandidateTemplate           = document.getElementById('slot-candidate-template');
     const timetableEventTemplate          = document.getElementById('timetable-event-template');
     const scheduleListItemTemplate        = document.getElementById('schedule-list-item-template');
 
-    // Set up event handling for the search bar element and search bar result container element
+    // Set up event handling
     setupSearchBarElement(searchBarElement);
     setupSearchBarResultContainerElement(searchBarResultContainerElement);
+    setupDarkModeButtonElement(darkModeButtonElement);
+
+    // Initialize theme based on user preferences
+    initializeTheme();
 
     /**
      * Compute all possible schedules and update the schedule container element.
@@ -278,6 +284,24 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
+     * Filters through the array of all corequisite groups to return the ones whose search terms match the given search term.
+     *
+     * @param {string} searchTerm - The given search term.
+     * @returns {<Array>.CorequisiteGroup} - An array of corequisite groups that match the given search term.
+     */
+    function findMatchingCorequisiteGroups(searchTerm) {
+        const matchingCorequisiteGroups = [];
+
+        allCorequisiteGroups.forEach(corequisiteGroup => {
+            let corequisiteSearchTerm = corequisiteGroup.searchTerm;
+            if (corequisiteSearchTerm.toLowerCase().includes(searchTerm)) {
+                matchingCorequisiteGroups.push(corequisiteGroup);
+            }
+        });
+        return matchingCorequisiteGroups;
+    }
+
+    /**
      * Sets up event handling for a search bar element.
      *
      * @param {Element} searchBarElement - The search bar used to add slots.
@@ -294,18 +318,10 @@ window.addEventListener('DOMContentLoaded', () => {
             }
 
             // An array to hold the corequisite group objects whose search phrases include the search term
-            const matchingCorequisiteGroups = [];
+            const matchingCorequisiteGroups = findMatchingCorequisiteGroups(searchTerm);
 
-            allCorequisiteGroups.forEach(corequisiteGroup => {
-                let corequisiteSearchTerm = corequisiteGroup.searchTerm;
-                if (corequisiteSearchTerm.toLowerCase().includes(searchTerm)) {
-                    matchingCorequisiteGroups.push(corequisiteGroup);
-                }
-            });
-
+            // Clear then display the matching elements in the search results container
             clear(searchBarResultContainerElement);
-
-            // Display the matching elements in the search results container
             matchingCorequisiteGroups.forEach(matchingCorequisiteGroup => {
                 let searchResult = document.createElement('div');
                 setText(searchResult, matchingCorequisiteGroup.searchTerm);
@@ -380,5 +396,29 @@ window.addEventListener('DOMContentLoaded', () => {
         searchBarResultContainerElement.addEventListener('mousedown', event => {
             event.preventDefault();
         });
+    }
+
+    /**
+     * Sets up event handling for a dark mode button element.
+     *
+     * @param darkModeButtonElement - The dark mode button element that toggles the theme.
+     */
+    function setupDarkModeButtonElement(darkModeButtonElement) {
+        darkModeButtonElement.addEventListener('click', function () {
+            bodyElement.classList.toggle('dark-theme');
+            bodyElement.classList.toggle('light-theme');
+        });
+    }
+
+    /**
+     * Initialize the theme based on the user's operating system or browser preferences.
+     */
+    function initializeTheme() {
+        const prefersLightMode = window.matchMedia('(prefers-color-scheme: light)').matches;
+        if (prefersLightMode) {
+            document.body.classList.add('light-theme');
+        } else {
+            document.body.classList.add('dark-theme');
+        }
     }
 });
