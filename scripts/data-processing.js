@@ -1,6 +1,6 @@
-import {inform, printDebugMessage, warn} from './helpers.js?v=2.0.3';
-import CourseSection from './CourseSection.js?v=2.0.3';
-import CorequisiteGroup from './CorequisiteGroup.js?v=2.0.3';
+import {inform, printDebugMessage, warn} from './helpers.js?v=2.0.4';
+import CourseSection from './CourseSection.js?v=2.0.4';
+import CorequisiteGroup from './CorequisiteGroup.js?v=2.0.4';
 
 export function getCoursesFromJSON(allCourseSections, allCorequisiteGroups) {
     fetch('course_data.json')
