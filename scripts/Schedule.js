@@ -1,4 +1,4 @@
-import CourseSection from './CourseSection.js?v=2.0.4';
+import CourseSection from './CourseSection.js?v=2.0.5';
 
 /**
  * Represents a collection of course sections.

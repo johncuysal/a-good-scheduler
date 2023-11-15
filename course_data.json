@@ -21,10 +21,10 @@
       "Lawson, James G."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "1"
     ],
     "Wait List": [
-      "1"
+      "6"
     ],
     "Res Seats": [],
     "Prm": [
@@ -69,10 +69,10 @@
       "Lawson, James G."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
     "Wait List": [
-      "10"
+      "13"
     ],
     "Res Seats": [],
     "Prm": [
@@ -117,10 +117,10 @@
       "Lawson, James G."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "1"
     ],
     "Wait List": [
-      "4"
+      "7"
     ],
     "Res Seats": [],
     "Prm": [
@@ -165,10 +165,10 @@
       "Jensen, David E."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -213,10 +213,10 @@
       "Suslava, Kate V."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "Closed"
     ],
     "Wait List": [
-      "7"
+      "8"
     ],
     "Res Seats": [],
     "Prm": [
@@ -261,7 +261,7 @@
       "Suslava, Kate V."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
     "Wait List": [
       "6"
@@ -307,7 +307,7 @@
       "Gutkowski, Missy M."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [
       "9"
@@ -404,7 +404,7 @@
       "Closed"
     ],
     "Wait List": [
-      "7"
+      "6"
     ],
     "Res Seats": [],
     "Prm": [
@@ -517,52 +517,6 @@
   },
   {
     "Crn": [
-      "55651"
-    ],
-    "Course": [
-      "ACFM 203 01"
-    ],
-    "Title": [
-      "Corporate Finance"
-    ],
-    "Time": [
-      "TR 1:00 PM - 2:20 PM",
-      "W 7:00 PM - 9:50 PM"
-    ],
-    "Location": [
-      "HOLM 251",
-      "DANA 113"
-    ],
-    "Instructor": [
-      "Geurts, Tom G."
-    ],
-    "UNRES Seats Avail": [
-      "13"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section ACFM 203 01: Preference given to BSBA students. All others may waitlist for consideration after registration is over; we anticipate that seats WILL be available. No Wednesday common hour conflicts are permitted."
-    ]
-  },
-  {
-    "Crn": [
       "55652"
     ],
     "Course": [
@@ -583,7 +537,7 @@
       "Geurts, Tom G."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "15"
     ],
     "Wait List": [
       "1"
@@ -631,11 +585,9 @@
       "Geurts, Tom G."
     ],
     "UNRES Seats Avail": [
-      "4"
-    ],
-    "Wait List": [
       "2"
     ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -679,11 +631,9 @@
       "McGrath, Karen M."
     ],
     "UNRES Seats Avail": [
-      "2"
-    ],
-    "Wait List": [
       "1"
     ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -725,10 +675,10 @@
       "Pareek, Ankur"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [
-      "6"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -773,11 +723,9 @@
       "Stauffer, Ryan C."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
-    "Wait List": [
-      "2"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -824,7 +772,7 @@
       "Closed"
     ],
     "Wait List": [
-      "4"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -869,10 +817,10 @@
       "Lawson, Amber L."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -918,7 +866,7 @@
       "Closed"
     ],
     "Wait List": [
-      "16"
+      "15"
     ],
     "Res Seats": [],
     "Prm": [
@@ -964,7 +912,7 @@
       "Closed"
     ],
     "Wait List": [
-      "11"
+      "12"
     ],
     "Res Seats": [],
     "Prm": [
@@ -1091,7 +1039,7 @@
       "Aikey, Kylie S."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -1416,7 +1364,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -1461,10 +1409,10 @@
       "McGrath, Karen M."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "2"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -1520,6 +1468,51 @@
       "1"
     ],
     "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56313"
+    ],
+    "Course": [
+      "ACFM 367 01"
+    ],
+    "Title": [
+      "The Global Flow of Capital"
+    ],
+    "Time": [
+      "TR 1:00 PM - 2:20 PM"
+    ],
+    "Location": [
+      "HOLM 251"
+    ],
+    "Instructor": [
+      "Geurts, Tom G."
+    ],
+    "UNRES Seats Avail": [
+      "12"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "GBCC",
       "SLSC"
     ],
     "Guide": [
@@ -1642,7 +1635,7 @@
       "Schreiner, Frank J."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -1686,10 +1679,10 @@
       "Schreiner, Frank J."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "2"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -1732,10 +1725,10 @@
       "Schreiner, Frank J."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -1781,7 +1774,7 @@
       "Closed"
     ],
     "Wait List": [
-      "8"
+      "7"
     ],
     "Res Seats": [],
     "Prm": [
@@ -1870,7 +1863,7 @@
       "Nicholls, Curtis M."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -1914,14 +1907,12 @@
       "Judge, Peter G."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "5"
+      "2"
     ],
-    "Res Seats": [
-      "5"
-    ],
+    "Res Seats": [],
     "Prm": [
       "N"
     ],
@@ -2140,7 +2131,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -2184,7 +2175,7 @@
       "Judge, Peter G."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -3130,10 +3121,10 @@
       "Wilck, Joe H."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
     "Wait List": [
-      "8"
+      "7"
     ],
     "Res Seats": [],
     "Prm": [
@@ -3179,10 +3170,10 @@
       "Chen, Xinwei"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "1"
     ],
     "Wait List": [
-      "5"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -3228,10 +3219,10 @@
       "Chen, Xinwei"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "Closed"
     ],
     "Wait List": [
-      "11"
+      "15"
     ],
     "Res Seats": [],
     "Prm": [
@@ -3277,7 +3268,7 @@
       "Whitesel, Behnaz M."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "Closed"
     ],
     "Wait List": [
       "6"
@@ -3315,8 +3306,8 @@
       "Spreadsheet Modeling"
     ],
     "Time": [
-      "MW 1:30 PM - 2:50 PM",
-      "F 1:30 PM - 2:50 PM"
+      "F 1:30 PM - 2:50 PM",
+      "MW 1:30 PM - 2:50 PM"
     ],
     "Location": [
       "HOLM 107",
@@ -3326,10 +3317,10 @@
       "Whitesel, Behnaz M."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "8"
     ],
     "Wait List": [
-      "3"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -3417,7 +3408,7 @@
       "Chen, Jimmy"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -3455,13 +3446,13 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "HOLM 301"
+      "HOLM 107"
     ],
     "Instructor": [
       "Paine, James E."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -3499,13 +3490,13 @@
       "TR 3:00 PM - 4:20 PM"
     ],
     "Location": [
-      "HOLM 301"
+      "HOLM 107"
     ],
     "Instructor": [
       "Paine, James E."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -3552,7 +3543,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -3595,7 +3586,7 @@
       "Whitesel, Behnaz M."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -3639,13 +3630,13 @@
       "Serra, Thiago"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "9"
     ],
     "Wait List": [
       "1"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -3687,13 +3678,11 @@
       "Serra, Thiago"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -3735,13 +3724,13 @@
       "Wilck, Joe H."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "17"
     ],
     "Res Seats": [
-      "1"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -3783,7 +3772,7 @@
       "Serra, Thiago"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -3832,7 +3821,7 @@
       "Closed"
     ],
     "Wait List": [
-      "10"
+      "7"
     ],
     "Res Seats": [
       "Closed"
@@ -3871,16 +3860,16 @@
       "TR 3:00 PM - 4:20 PM"
     ],
     "Location": [
-      "HOLM 107"
+      "HOLM 301"
     ],
     "Instructor": [
       "Stanciu, Alia C."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "2"
     ],
     "Wait List": [
-      "4"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -3917,7 +3906,7 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "HOLM 107"
+      "HOLM 301"
     ],
     "Instructor": [
       "Stanciu, Alia C."
@@ -3925,9 +3914,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "3"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -4053,11 +4040,11 @@
       "Bailey, Matt D."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -4099,13 +4086,13 @@
       "Paine, James E."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "4"
     ],
     "Wait List": [
       "1"
     ],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -4194,7 +4181,7 @@
       "Tran, Allen L."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -4241,11 +4228,13 @@
       "Villa-Palomino, Julio C."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -4290,7 +4279,7 @@
       "Villa-Palomino, Julio C."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -4340,7 +4329,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -4481,13 +4470,13 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "9"
+      "6"
     ],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -4530,13 +4519,13 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "4"
     ],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -4579,13 +4568,13 @@
       "Searles, Edmund Q."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "2"
     ],
     "Wait List": [
-      "7"
+      "4"
     ],
     "Res Seats": [
-      "12"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -4633,7 +4622,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -4677,7 +4668,7 @@
       "Pouchet, Jessica"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -4848,7 +4839,7 @@
       "Isleem, Dena"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -4894,7 +4885,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -4936,7 +4927,7 @@
       "Isleem, Dena"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -4982,7 +4973,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5224,6 +5215,48 @@
   },
   {
     "Crn": [
+      "56307"
+    ],
+    "Course": [
+      "ARBC 380 01"
+    ],
+    "Title": [
+      "Independent Study in Arabic"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Isleem, Martin"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "55998"
     ],
     "Course": [
@@ -5242,13 +5275,13 @@
       "Bayar, Tulu"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -5292,13 +5325,13 @@
       "Lopez, Eddy A."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "2"
     ],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -5342,11 +5375,13 @@
       "Frey, Jonathan C."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -5390,13 +5425,13 @@
       "Kell, Anna K."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "5"
+      "11"
     ],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -5440,7 +5475,7 @@
       "Kell, Anna K."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5485,7 +5520,7 @@
       "Lopez, Eddy A."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5743,7 +5778,7 @@
       "Kell, Anna K."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5787,9 +5822,11 @@
       "Boxer, Carly B."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "2"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -5833,9 +5870,11 @@
       "Rothman, Roger I."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -5880,7 +5919,7 @@
       "Boxer, Carly B."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -5972,7 +6011,7 @@
       "Lintott, Sheila M."
     ],
     "UNRES Seats Avail": [
-      "28"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -6101,7 +6140,7 @@
       "Boxer, Carly B."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -6187,13 +6226,13 @@
       "Thornley, Michele D."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "10"
+      "13"
     ],
     "Res Seats": [
-      "15"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -6239,13 +6278,13 @@
       "Thornley, Michele D."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "9"
+      "11"
     ],
     "Res Seats": [
-      "15"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -6291,13 +6330,13 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -6340,13 +6379,13 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -6389,13 +6428,13 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "4"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -6438,7 +6477,7 @@
       "Gallimore, Jack F."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -6526,10 +6565,10 @@
       "Gates, Julie A."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "4"
     ],
     "Wait List": [
-      "12"
+      "15"
     ],
     "Res Seats": [],
     "Prm": [
@@ -6577,7 +6616,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -6619,7 +6660,7 @@
       "Seiler, Meredith B."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
       "4"
@@ -6666,9 +6707,11 @@
       "Seiler, Meredith B."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -6756,7 +6799,7 @@
       "Seiler, Meredith B."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -6894,9 +6937,11 @@
       "Stowe, Emily L."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "3"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -6939,7 +6984,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -6984,7 +7029,7 @@
       "Martine, Chris T."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -7028,7 +7073,7 @@
       "Haussmann, Mark F."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "4"
     ],
     "Wait List": [
       "1"
@@ -7075,9 +7120,11 @@
       "Clark, Matthew"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "5"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7120,9 +7167,11 @@
       "Clark, Matthew"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7167,9 +7216,11 @@
       "Wang, Wei-Chun"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7212,7 +7263,7 @@
       "Pearson, James T."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -7256,9 +7307,11 @@
       "Heintzelman, Matthew B."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7301,9 +7354,11 @@
       "Heintzelman, Matthew B."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "2"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7346,7 +7401,7 @@
       "Spiro, Mark D."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -7391,9 +7446,11 @@
       "Stayton, Tristan"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7439,7 +7496,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -7527,7 +7584,7 @@
       "Stevenson, Rebekah A."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -7569,9 +7626,11 @@
       "Campbell, Terry G."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7611,7 +7670,7 @@
       "Liu, Yen-Chyi"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -7653,9 +7712,11 @@
       "Liu, Yen-Chyi"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7697,7 +7758,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7779,9 +7842,11 @@
       "Liu, Yen-Chyi"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "8"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -7863,9 +7928,11 @@
       "Smith, Nathan E."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -8161,11 +8228,9 @@
       "Judge, Peter G."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [
-      "3"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -8302,7 +8367,7 @@
       "Stevens, Dale R."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8528,10 +8593,10 @@
       "Pizzorno, Marie P."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "1"
     ],
     "Wait List": [
-      "3"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -8577,7 +8642,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -8723,7 +8788,8 @@
       "1"
     ],
     "Gen Ed": [
-      "NSMC"
+      "NSMC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -8800,7 +8866,7 @@
       "Capaldi, Elizabeth A."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8956,9 +9022,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -8980,7 +9044,7 @@
       "Judge, Peter G."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -10104,6 +10168,48 @@
   },
   {
     "Crn": [
+      "56302"
+    ],
+    "Course": [
+      "BIOL 399 27"
+    ],
+    "Title": [
+      "Mentored Undergraduate Researc"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Switzer, Rebecca L."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 2"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "50268"
     ],
     "Course": [
@@ -10212,7 +10318,7 @@
       "Stevens, Dale R."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -10726,7 +10832,7 @@
       "Pizzorno, Marie P."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -11708,7 +11814,7 @@
       "Cavanagh, Dan P."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -11876,9 +11982,11 @@
       "Hopper, Theo"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "5"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -11918,9 +12026,11 @@
       "Hopper, Theo"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -11960,7 +12070,7 @@
       "Hopper, Theo"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -12171,10 +12281,10 @@
     ],
     "Instructor": [
       "Kennedy, Eric A.",
-      "Boerman, Olivia",
-      "Malaga, Karlo A.",
+      "Cavanagh, Dan P.",
       "Ebenstein, Donna M.",
-      "Cavanagh, Dan P."
+      "Malaga, Karlo A.",
+      "Boerman, Olivia"
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -13076,7 +13186,7 @@
       "Brady, Nicholas A."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13099,9 +13209,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -13123,7 +13231,7 @@
       "Smith, Hiram L."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13167,7 +13275,7 @@
       "Brady, Nicholas A."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13190,7 +13298,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -13212,12 +13322,10 @@
       "Cort, Aisha Z."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [
-      "3"
-    ],
+    "Res Seats": [],
     "Prm": [
       "N"
     ],
@@ -13305,7 +13413,7 @@
       "Saucier, P. Khalil"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13353,7 +13461,7 @@
       "Saucier, P. Khalil"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13399,7 +13507,7 @@
       "Butcher, Kenton"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13444,9 +13552,11 @@
       "Gwin, Carley A."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -13486,7 +13596,7 @@
       "Gwin, Carley A."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13654,7 +13764,7 @@
       "Beiler, Michelle R."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13696,7 +13806,7 @@
       "Gabauer, Doug J."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -13824,7 +13934,7 @@
       "Ziemian, Ronald D."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14000,7 +14110,7 @@
       "Gilmore, Kevin R."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14623,7 +14733,7 @@
       "Wakabayashi, Kat"
     ],
     "UNRES Seats Avail": [
-      "40"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14797,7 +14907,7 @@
       "Mineart, Kenny P."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14840,7 +14950,7 @@
       "Wakabayashi, Kat"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14883,7 +14993,7 @@
       "Wakabayashi, Kat"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14925,7 +15035,7 @@
       "Snyder, Ryan C."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -14967,7 +15077,7 @@
       "Snyder, Ryan C."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -15009,7 +15119,7 @@
       "Snyder, Ryan C."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -15218,8 +15328,8 @@
     ],
     "Instructor": [
       "Miskioglu, Elif E.",
-      "Maneval, James E.",
-      "Raymond, Tim M."
+      "Raymond, Tim M.",
+      "Maneval, James E."
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -15434,8 +15544,8 @@
     ],
     "Instructor": [
       "Vogel, Brandon M.",
-      "Raymond, Tim M.",
-      "Dutcher, Dabrina D."
+      "Dutcher, Dabrina D.",
+      "Raymond, Tim M."
     ],
     "UNRES Seats Avail": [
       "12"
@@ -16526,7 +16636,7 @@
       "Vogel, Brandon M."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -16656,7 +16766,7 @@
       "Vogel, Brandon M."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -16980,7 +17090,7 @@
       "Fernando, Ashantha A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17027,7 +17137,7 @@
       "Fernando, Ashantha A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17072,7 +17182,7 @@
       "Lam, Yan Choi"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17118,7 +17228,7 @@
       "Castle, Karen J."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17164,7 +17274,7 @@
       "Connelly, Kaitlyn J."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17208,7 +17318,7 @@
       "Wijenayaka, Amugoda Kankanange Lahiru A."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17252,7 +17362,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17296,7 +17406,7 @@
       "Lam, Yan Choi"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17340,7 +17450,7 @@
       "Castle, Karen J."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17360,9 +17470,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -17384,7 +17492,7 @@
       "Casteel, Dee A."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17433,7 +17541,7 @@
       "Arslan, Hasan"
     ],
     "UNRES Seats Avail": [
-      "46"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17480,7 +17588,7 @@
       "Kerber, Will D."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17527,7 +17635,7 @@
       "Stockland, Robert A."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17574,7 +17682,7 @@
       "Stockland, Robert A."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17623,7 +17731,7 @@
       "Merriett, Erica"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17669,7 +17777,7 @@
       "Kerber, Will D."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17715,7 +17823,7 @@
       "Connelly, Kaitlyn J."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17761,7 +17869,7 @@
       "Merriett, Erica"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17807,7 +17915,7 @@
       "Arslan, Hasan"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17853,7 +17961,7 @@
       "Kerber, Will D."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17899,7 +18007,7 @@
       "Stockland, Robert A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17945,7 +18053,7 @@
       "Connelly, Kaitlyn J."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17991,7 +18099,7 @@
       "Merriett, Erica"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18037,7 +18145,7 @@
       "Connelly, Kaitlyn J."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18081,7 +18189,7 @@
       "Casteel, Dee A."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18125,7 +18233,7 @@
       "Arslan, Hasan"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18169,7 +18277,7 @@
       "Kerber, Will D."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18213,7 +18321,7 @@
       "Stockland, Robert A."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18257,7 +18365,7 @@
       "Stockland, Robert A."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18301,7 +18409,7 @@
       "Arslan, Hasan"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -18528,7 +18636,7 @@
       "Closed"
     ],
     "Wait List": [
-      "18"
+      "19"
     ],
     "Res Seats": [],
     "Prm": [
@@ -18850,7 +18958,7 @@
       "Closed"
     ],
     "Wait List": [
-      "10"
+      "13"
     ],
     "Res Seats": [],
     "Prm": [
@@ -18900,7 +19008,7 @@
       "Closed"
     ],
     "Wait List": [
-      "4"
+      "7"
     ],
     "Res Seats": [],
     "Prm": [
@@ -18994,7 +19102,7 @@
       "Closed"
     ],
     "Wait List": [
-      "7"
+      "9"
     ],
     "Res Seats": [],
     "Prm": [
@@ -19037,7 +19145,7 @@
       "Krout, Michael R."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -19620,7 +19728,8 @@
       "1"
     ],
     "Gen Ed": [
-      "NSMC"
+      "NSMC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -20327,7 +20436,7 @@
       "Collins, Douglas B."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -20371,7 +20480,7 @@
       "Krout, Michael R."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21479,7 +21588,7 @@
       "Collins, Douglas B."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21601,7 +21710,7 @@
       "Xu, Yunjing"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21647,7 +21756,7 @@
       "Xu, Yunjing"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21689,7 +21798,7 @@
       "Xu, Yunjing"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21707,9 +21816,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -21731,7 +21838,7 @@
       "Tian, Xi"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21777,7 +21884,7 @@
       "Tian, Xi"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21795,7 +21902,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -21859,7 +21968,7 @@
       "Xu, Yunjing"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21904,11 +22013,11 @@
       "Daly, Kevin F."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -21991,7 +22100,7 @@
       "Larson, Stephanie L."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22075,7 +22184,7 @@
       "Larson, Stephanie L."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22203,13 +22312,13 @@
       "Trego, Kris M."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "4"
+      "6"
     ],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -22254,13 +22363,11 @@
       "Trego, Kris M."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
-      "7"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -22305,13 +22412,13 @@
       "Tardio, Katie"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "5"
     ],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -22446,7 +22553,7 @@
       "Mir, Darakhshan J."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22486,13 +22593,13 @@
       "TR 2:00 PM - 2:50 PM"
     ],
     "Location": [
-      "DANA 113"
+      "BRKI 166"
     ],
     "Instructor": [
       "Perrone, Luiz Felipe F."
     ],
     "UNRES Seats Avail": [
-      "45"
+      "46"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22536,7 +22643,7 @@
       "Fuchsberger, Alexander"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22582,7 +22689,7 @@
       "Baish, Susan R."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "6"
     ],
     "Wait List": [
       "7"
@@ -22630,7 +22737,7 @@
       "Havill, Jessen T."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
     "Wait List": [
       "3"
@@ -22678,7 +22785,7 @@
       "Baish, Susan R."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "5"
     ],
     "Wait List": [
       "1"
@@ -22726,7 +22833,7 @@
       "Baish, Susan R."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "12"
     ],
     "Wait List": [
       "4"
@@ -22770,7 +22877,7 @@
       "Fuchsberger, Alexander"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "10"
     ],
     "Wait List": [
       "3"
@@ -22814,7 +22921,7 @@
       "Baish, Susan R."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "1"
     ],
     "Wait List": [
       "1"
@@ -22858,7 +22965,7 @@
       "Fuchsberger, Alexander"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22900,7 +23007,7 @@
       "Lee, SingChun"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22945,7 +23052,7 @@
       "Fuchsberger, Alexander"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22990,11 +23097,9 @@
       "Kumar, Rajesh"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -23037,7 +23142,7 @@
       "Lee, SingChun"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -23079,7 +23184,7 @@
       "Lee, SingChun"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -23121,11 +23226,9 @@
       "Kumar, Rajesh"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "10"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -23165,9 +23268,11 @@
       "Stough, Joshua V."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "4"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -23212,7 +23317,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -23297,9 +23402,11 @@
       "Romano, Lily R."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -23339,7 +23446,7 @@
       "Mir, Darakhshan J."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -23503,7 +23610,7 @@
       "T 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "DANA 303"
+      "DANA 214"
     ],
     "Instructor": [
       "King, Brian R."
@@ -23645,7 +23752,7 @@
       "Perrone, Luiz Felipe F."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -23784,7 +23891,7 @@
       "Closed"
     ],
     "Wait List": [
-      "4"
+      "6"
     ],
     "Res Seats": [],
     "Prm": [
@@ -23830,7 +23937,7 @@
       "Closed"
     ],
     "Wait List": [
-      "3"
+      "5"
     ],
     "Res Seats": [],
     "Prm": [
@@ -23920,7 +24027,7 @@
       "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -23961,7 +24068,7 @@
       "Talmage, Edward L."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -24005,9 +24112,11 @@
       "Talmage, Edward L."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -24049,9 +24158,11 @@
       "Talmage, Edward L."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "6"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -24133,7 +24244,7 @@
       "Marchiori, Alan M."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -24177,7 +24288,7 @@
       "King, Brian R."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
       "1"
@@ -24560,6 +24671,48 @@
     "Location": [],
     "Instructor": [
       "Marchiori, Alan M."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56303"
+    ],
+    "Course": [
+      "CSCI 378 04"
+    ],
+    "Title": [
+      "Individual Study in Comp Sci"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Romano, Lily R."
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -24992,7 +25145,7 @@
       "King, Brian R."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25040,10 +25193,10 @@
       "See Guide"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [
-      "10"
+      "5"
     ],
     "Prm": [
       "N"
@@ -25093,7 +25246,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "3"
     ],
     "Prm": [
       "N"
@@ -25137,11 +25290,11 @@
       "Knox, Kelly H."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -25185,7 +25338,7 @@
       "Martincich, Dustyn R."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25231,7 +25384,7 @@
       "Knox, Kelly H."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25276,9 +25429,11 @@
       "Hu, Er-dong"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -25321,7 +25476,7 @@
       "Hu, Er-dong"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25367,7 +25522,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "5"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -25413,10 +25570,10 @@
       "See Guide"
     ],
     "Wait List": [
-      "4"
+      "5"
     ],
     "Res Seats": [
-      "9"
+      "7"
     ],
     "Prm": [
       "N"
@@ -25461,7 +25618,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -25589,7 +25748,7 @@
       "Chen, Song"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25635,7 +25794,7 @@
       "Xu, Yunjing"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25682,7 +25841,7 @@
       "Chen, Song"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25729,7 +25888,7 @@
       "Chen, Song"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25776,7 +25935,7 @@
       "Zhu, Zhiqun"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25821,7 +25980,7 @@
       "Nanavati, Abhishek"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25868,7 +26027,7 @@
       "Nanavati, Abhishek"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25916,7 +26075,7 @@
       "Zhu, Zhiqun"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -25960,7 +26119,7 @@
       "Nanavati, Abhishek"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26111,9 +26270,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -26136,9 +26293,11 @@
       "Kozick, Rich J."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "6"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -26181,9 +26340,11 @@
       "Kozick, Rich J."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "2"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -26224,7 +26385,7 @@
       "Kozick, Rich J."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26242,7 +26403,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -26306,7 +26469,7 @@
       "Farhadi, Vaji"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26348,7 +26511,7 @@
       "Farhadi, Vaji"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26390,7 +26553,7 @@
       "Farhadi, Vaji"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26474,7 +26637,7 @@
       "Hass, Joe J."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26516,7 +26679,7 @@
       "Hass, Joe J."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26750,6 +26913,46 @@
   },
   {
     "Crn": [
+      "56305"
+    ],
+    "Course": [
+      "ECEG 308 02"
+    ],
+    "Title": [
+      "Independent Study"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Kozick, Rich J."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.25 - 1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "55456"
     ],
     "Course": [
@@ -26768,7 +26971,7 @@
       "Kabalan, Amal A."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26810,7 +27013,7 @@
       "Kelley, Dave F."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26852,7 +27055,7 @@
       "Kelley, Dave F."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -26895,7 +27098,7 @@
       "Kelley, Dave F."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -27112,9 +27315,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27156,9 +27357,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27198,7 +27397,7 @@
       "Marchiori, Alan M."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -27240,7 +27439,7 @@
       "Kozick, Rich J."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -27282,7 +27481,7 @@
       "Kozick, Rich J."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -27448,7 +27647,7 @@
       "Marchiori, Alan M."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -27576,9 +27775,11 @@
       "Powell, Jacob"
     ],
     "UNRES Seats Avail": [
-      "32"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27624,9 +27825,11 @@
       "Powell, Jacob"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27672,9 +27875,11 @@
       "Powell, Jacob"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "4"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27720,9 +27925,11 @@
       "Powell, Jacob"
     ],
     "UNRES Seats Avail": [
-      "30"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "4"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27768,9 +27975,11 @@
       "Kinnaman, Thomas C."
     ],
     "UNRES Seats Avail": [
-      "35"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27816,9 +28025,11 @@
       "Kinnaman, Thomas C."
     ],
     "UNRES Seats Avail": [
-      "35"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27864,7 +28075,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27909,7 +28122,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -27955,7 +28170,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -27999,10 +28214,10 @@
       "Landsman, Rachel B."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "4"
+      "8"
     ],
     "Res Seats": [],
     "Prm": [
@@ -28046,10 +28261,10 @@
       "Sharma Paudel, Nawaraj"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -28095,7 +28310,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -28138,9 +28353,11 @@
       "Velasquez, Ivan D."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -28183,9 +28400,11 @@
       "Azhar, Shahram"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -28229,7 +28448,7 @@
       "Knoedler, Jan T."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28278,7 +28497,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -28323,9 +28542,11 @@
       "Velasquez, Ivan D."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -28368,7 +28589,7 @@
       "Velasquez, Ivan D."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28412,7 +28633,7 @@
       "Sharma Paudel, Nawaraj"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28456,7 +28677,7 @@
       "Banks, Nina E."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28546,9 +28767,11 @@
       "Wolaver, Amy M."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -28590,10 +28813,10 @@
       "Wolaver, Amy M."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -28681,7 +28904,7 @@
       "Ngo, Christine"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28725,7 +28948,7 @@
       "Ngo, Christine"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28811,7 +29034,7 @@
       "Ngo, Christine"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28855,7 +29078,7 @@
       "Lin, Carl"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -28899,7 +29122,7 @@
       "Vernengo, Matias"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -29175,7 +29398,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -29400,7 +29623,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "6"
     ],
     "Res Seats": [],
     "Prm": [
@@ -29447,9 +29670,11 @@
       "Murray, Joe L."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -29495,9 +29720,11 @@
       "Fruja, Ramona M."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -29543,9 +29770,11 @@
       "Henry, Sue Ellen"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -29591,7 +29820,7 @@
       "Lockard, Allison J."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -29637,7 +29866,7 @@
       "Kim, Grace J."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -29683,7 +29912,7 @@
       "Dira, Lori A."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -29729,9 +29958,11 @@
       "Murray, Joe L."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -29775,7 +30006,7 @@
       "Fruja, Ramona M."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -29821,10 +30052,10 @@
       "MacKenzie-Dawson, Sarah K."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "7"
     ],
     "Wait List": [
-      "3"
+      "5"
     ],
     "Res Seats": [],
     "Prm": [
@@ -29912,7 +30143,7 @@
       "Henry, Sue Ellen"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30001,7 +30232,7 @@
       "Lockard, Allison J."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30131,7 +30362,7 @@
       "Henry, Sue Ellen"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30178,7 +30409,7 @@
       "Golightly, Amy"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30489,7 +30720,7 @@
       "Cantagallo, Heather"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30509,9 +30740,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -30533,7 +30762,7 @@
       "Kim, Grace J."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30575,7 +30804,7 @@
       "Kim, Grace J."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30681,7 +30910,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -30741,7 +30972,7 @@
       "Cantagallo, Heather"
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30783,7 +31014,7 @@
       "Buck, Jim H."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30829,9 +31060,11 @@
       "Buck, Jim H."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -30875,7 +31108,7 @@
       "Agbo, Elinam"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -30925,7 +31158,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -30972,9 +31205,7 @@
       "1"
     ],
     "Wait List": [],
-    "Res Seats": [
-      "5"
-    ],
+    "Res Seats": [],
     "Prm": [
       "N"
     ],
@@ -31017,12 +31248,10 @@
       "Camuto, Chris A."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "Closed"
     ],
     "Wait List": [],
-    "Res Seats": [
-      "5"
-    ],
+    "Res Seats": [],
     "Prm": [
       "N"
     ],
@@ -31118,7 +31347,7 @@
       "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [
       "Closed"
@@ -31209,7 +31438,7 @@
       "Waldrep, G.C. C."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31254,7 +31483,7 @@
       "Gabriel, Bix"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31344,7 +31573,7 @@
       "Camuto, Chris A."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31389,9 +31618,11 @@
       "Buck, Jim H."
     ],
     "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [
       "1"
     ],
-    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -31479,7 +31710,7 @@
       "Agbo, Elinam"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31524,7 +31755,7 @@
       "Camuto, Chris A."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31700,9 +31931,11 @@
       "Eisenstein, Ken B."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -31748,9 +31981,11 @@
       "Eisenstein, Ken B."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -31794,7 +32029,7 @@
       "Barth, Josie T."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31840,7 +32075,7 @@
       "Barth, Josie T."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31885,7 +32120,7 @@
       "Barth, Josie T."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -31932,7 +32167,7 @@
       "Eisenstein, Ken B."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "24"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32020,7 +32255,7 @@
       "Meyers, Rebecca A."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32067,7 +32302,7 @@
       "Faden, Eric S."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32113,7 +32348,7 @@
       "Nienhuis, Daniel A."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32157,9 +32392,11 @@
       "Higgins, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -32201,7 +32438,7 @@
       "Higgins, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32245,9 +32482,11 @@
       "Higgins, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -32289,9 +32528,11 @@
       "Higgins, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -32333,7 +32574,7 @@
       "Higgins, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32377,7 +32618,7 @@
       "Dutcher, Dabrina D."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32419,7 +32660,7 @@
       "Dutcher, Dabrina D."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32461,7 +32702,7 @@
       "Dutcher, Dabrina D."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32503,7 +32744,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32545,7 +32786,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32587,7 +32828,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32629,7 +32870,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32671,7 +32912,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32713,7 +32954,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -32758,7 +32999,7 @@
       "7"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -32844,7 +33085,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -33097,7 +33338,7 @@
       "Salyards, Kelly A."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33141,7 +33382,7 @@
       "Salyards, Kelly A."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33183,7 +33424,7 @@
       "Maneval, James E."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "1"
     ],
     "Wait List": [
       "1"
@@ -33271,7 +33512,7 @@
       "Maneval, James E."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33315,9 +33556,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -33359,9 +33598,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -33445,7 +33682,7 @@
       "Buonopane, Stephen G."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33579,7 +33816,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -33627,7 +33866,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -33682,7 +33921,7 @@
       "3"
     ],
     "Res Seats": [
-      "7"
+      "1"
     ],
     "Prm": [
       "N"
@@ -33731,7 +33970,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "14"
+      "4"
     ],
     "Prm": [
       "N"
@@ -33778,10 +34017,10 @@
       "See Guide"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [
-      "5"
+      "1"
     ],
     "Prm": [
       "N"
@@ -33826,7 +34065,7 @@
       "Gregory, Chase P."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33873,7 +34112,7 @@
       "Ponnuswami, Meenakshi"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33919,7 +34158,7 @@
       "Butcher, Kenton"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33965,7 +34204,7 @@
       "Gregory, Chase P."
     ],
     "UNRES Seats Avail": [
-      "26"
+      "27"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34010,7 +34249,7 @@
       "Machado, Elena"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34058,7 +34297,7 @@
       "Drexler, Michael J."
     ],
     "UNRES Seats Avail": [
-      "30"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34103,9 +34342,11 @@
       "Ponnuswami, Meenakshi"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -34149,7 +34390,7 @@
       "Siewers, Paul K."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34196,7 +34437,7 @@
       "Loney, Emily L."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34240,9 +34481,11 @@
       "Chow, Jeremy H."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "21"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -34332,7 +34575,7 @@
       "Hamilton, Ted E."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34376,7 +34619,7 @@
       "Shields, James M."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34421,7 +34664,7 @@
       "Butcher, Kenton"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34551,7 +34794,7 @@
       "Butcher, Kenton"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34596,7 +34839,7 @@
       "Shleyfer Lavine, Ludmila S."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34818,7 +35061,7 @@
       "Gregory, Chase P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34863,7 +35106,7 @@
       "Chow, Jeremy H."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
       "1"
@@ -34956,7 +35199,7 @@
       "Shleyfer Lavine, Ludmila S."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -35142,7 +35385,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note: The following courses being taught this semester count toward the BA in Environmental Studies: ANTH/LAMS 202/ENST 209, ECON 231, GEOG 257; ENLS 278; UNIV 200-10 The Anthropocene. The following courses being taught this semester count toward the BA in Environmental Science: BIOL 204, BIOL 266, BIOL 305, BIOL 313, BIOL 320, BIOL 321, BIOL 341, BIOL 370, BIOL/ANBE 381, CHEG 455, GEOG/ENST 234, GEOG 257, GEOL 230, GEOL 304, GEOL 317. Please consult the catalog to determine which courses count toward specific distribution requirements."
+    ]
   },
   {
     "Crn": [
@@ -35164,13 +35409,13 @@
       "Oduro Appiah, Joseph"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "3"
     ],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -35214,9 +35459,11 @@
       "Wilshusen, Peter R."
     ],
     "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [
       "1"
     ],
-    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -35258,10 +35505,10 @@
       "McTammany, Matthew E."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "1"
     ],
     "Wait List": [
-      "1"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -35306,7 +35553,7 @@
       "McTammany, Matthew E."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -35348,9 +35595,11 @@
       "McTammany, Matthew E."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -35393,10 +35642,10 @@
       "See Guide"
     ],
     "Wait List": [
-      "3"
+      "5"
     ],
     "Res Seats": [
-      "7"
+      "2"
     ],
     "Prm": [
       "N"
@@ -35444,10 +35693,10 @@
       "See Guide"
     ],
     "Wait List": [
-      "4"
+      "5"
     ],
     "Res Seats": [
-      "9"
+      "5"
     ],
     "Prm": [
       "N"
@@ -35492,13 +35741,13 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "10"
+      "7"
     ],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -35541,13 +35790,13 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "4"
     ],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -35592,7 +35841,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -35636,7 +35887,7 @@
       "Adomako, Janet"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -35729,13 +35980,11 @@
       "Stuhl, Andrew T."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "7"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
-      "13"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -35778,10 +36027,10 @@
       "Dalleo, Rafe"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -35827,13 +36076,13 @@
       "Wilshusen, Peter R."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "5"
     ],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -35878,7 +36127,7 @@
       "Hamilton, Ted E."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "See Guide"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -36061,13 +36310,13 @@
       "Stuhl, Andrew T."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "3"
     ],
     "Wait List": [
-      "2"
+      "1"
     ],
     "Res Seats": [
-      "5"
+      "1"
     ],
     "Prm": [
       "N"
@@ -36151,7 +36400,7 @@
       "Pouchet, Jessica"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -36198,7 +36447,7 @@
       "Wooden, Amanda E."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -36330,7 +36579,7 @@
       "Daly, Katie D."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -36376,11 +36625,11 @@
       "Martin, Helene C."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "See Guide"
     ],
     "Wait List": [],
     "Res Seats": [
-      "12"
+      "1"
     ],
     "Prm": [
       "N"
@@ -36428,7 +36677,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "12"
+      "5"
     ],
     "Prm": [
       "N"
@@ -36472,11 +36721,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -36516,11 +36765,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "See Guide"
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "1"
     ],
     "Prm": [
       "N"
@@ -36564,7 +36813,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "3"
     ],
     "Prm": [
       "N"
@@ -36608,7 +36857,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "2"
     ],
     "Prm": [
       "N"
@@ -36652,7 +36901,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "12"
+      "4"
     ],
     "Prm": [
       "N"
@@ -36700,7 +36949,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "1"
     ],
     "Prm": [
       "N"
@@ -36744,7 +36993,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "3"
     ],
     "Prm": [
       "N"
@@ -36788,7 +37037,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "8"
+      "7"
     ],
     "Prm": [
       "N"
@@ -36836,7 +37085,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "4"
+      "3"
     ],
     "Prm": [
       "N"
@@ -36920,11 +37169,11 @@
       "Dupont, Nathalie"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [
-      "8"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -36969,11 +37218,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37013,11 +37262,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37101,7 +37350,7 @@
       "Dupont, Nathalie"
     ],
     "UNRES Seats Avail": [
-      "13"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -37288,7 +37537,7 @@
       "Christian, Jenna M."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -37336,7 +37585,7 @@
       "Christian, Jenna M."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -37384,13 +37633,13 @@
       "Oduro Appiah, Joseph"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37440,7 +37689,7 @@
       "2"
     ],
     "Res Seats": [
-      "13"
+      "10"
     ],
     "Prm": [
       "N"
@@ -37482,7 +37731,7 @@
       "Oduro Appiah, Joseph"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -37526,11 +37775,11 @@
       "Biswas, Ritwika"
     ],
     "UNRES Seats Avail": [
-      "2"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [
-      "8"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37574,11 +37823,11 @@
       "Biswas, Ritwika"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [
-      "8"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37622,13 +37871,13 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "4"
+      "3"
     ],
     "Res Seats": [
-      "2"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37671,13 +37920,13 @@
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "3"
     ],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37766,7 +38015,7 @@
       "Adomako, Janet"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -37810,13 +38059,13 @@
       "Griffin, Duane A."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "10"
     ],
     "Res Seats": [
-      "6"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37860,13 +38109,13 @@
       "Griffin, Duane A."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "6"
     ],
     "Res Seats": [
-      "8"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -37953,7 +38202,7 @@
       "Massaro, Vanessa A."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -38001,7 +38250,7 @@
       "Wooden, Amanda E."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -38087,13 +38336,13 @@
       "Daniel, Christopher G."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38136,13 +38385,13 @@
       "Curtin, Lorelei"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "6"
     ],
     "Res Seats": [
-      "7"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38188,13 +38437,13 @@
       "Curtin, Lorelei"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "5"
+      "7"
     ],
     "Res Seats": [
-      "9"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38240,13 +38489,13 @@
       "Curtin, Lorelei"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38288,13 +38537,13 @@
       "Curtin, Lorelei"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "6"
     ],
     "Res Seats": [
-      "6"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38336,13 +38585,13 @@
       "Chamberlin, Ellen P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "Closed"
     ],
     "Wait List": [
-      "1"
+      "5"
     ],
     "Res Seats": [
-      "9"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38388,13 +38637,13 @@
       "Chamberlin, Ellen P."
     ],
     "UNRES Seats Avail": [
-      "1"
-    ],
-    "Wait List": [
       "2"
     ],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38442,9 +38691,11 @@
     "UNRES Seats Avail": [
       "3"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [
-      "9"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38486,13 +38737,13 @@
       "Chamberlin, Ellen P."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -38536,7 +38787,7 @@
       "Jacob, Rob W."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [
       "5"
@@ -38584,9 +38835,11 @@
       "Gray, Mary Beth"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "3"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -38634,7 +38887,7 @@
       "Gray, Mary Beth"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "11"
     ],
     "Wait List": [
       "2"
@@ -38684,9 +38937,11 @@
       "Jacob, Rob W."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "12"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -38729,7 +38984,7 @@
       "Jacob, Rob W."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "2"
     ],
     "Wait List": [
       "2"
@@ -38867,7 +39122,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -38914,7 +39169,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -39409,7 +39664,7 @@
       "Daly, Kevin F."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39498,7 +39753,7 @@
       "Nousek, Katrina L."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39544,7 +39799,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39562,9 +39817,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -39586,7 +39839,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39628,7 +39881,7 @@
       "Slodounik, Rebekah A."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39674,7 +39927,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39716,7 +39969,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -39734,7 +39987,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -39886,9 +40141,11 @@
       "Slodounik, Rebekah A."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -40023,7 +40280,7 @@
       "Rogovin, Or M."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40067,7 +40324,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40153,11 +40410,11 @@
       "Rogovin, Or M."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
-      "4"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -40203,7 +40460,7 @@
       "Barba, Paul A."
     ],
     "UNRES Seats Avail": [
-      "30"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40251,7 +40508,7 @@
       "Kasimova, Zukhra"
     ],
     "UNRES Seats Avail": [
-      "31"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40297,7 +40554,7 @@
       "Chen, Song"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40343,7 +40600,7 @@
       "Enyeart, John P."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40389,7 +40646,7 @@
       "Barba, Paul A."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40440,7 +40697,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -40528,7 +40785,7 @@
       "Shields, James M."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40572,7 +40829,7 @@
       "Kasimova, Zukhra"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40664,7 +40921,7 @@
       "Kasimova, Zukhra"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40677,7 +40934,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "GBCC"
+      "GBCC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -40710,7 +40968,7 @@
       "Osei, Cassie"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -40759,7 +41017,7 @@
       "Osei, Cassie"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40808,7 +41066,7 @@
       "Osei, Cassie"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40857,7 +41115,7 @@
       "Dosemeci, Mehmet"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -40903,9 +41161,11 @@
       "Thomson, Jennifer C."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -40951,9 +41211,11 @@
       "Thomson, Jennifer C."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -40999,7 +41261,7 @@
       "Fourshey, Cymone"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41046,7 +41308,7 @@
       "Nanavati, Abhishek"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41094,7 +41356,7 @@
       "Del Testa, David W."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41141,7 +41403,7 @@
       "Chen, Song"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41187,7 +41449,7 @@
       "Chen, Song"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41233,7 +41495,7 @@
       "Nanavati, Abhishek"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41280,7 +41542,7 @@
       "Campbell, Claire E."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41373,7 +41635,7 @@
       "Dosemeci, Mehmet"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41419,7 +41681,7 @@
       "Jakacki, Diane K."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41466,7 +41728,7 @@
       "Leraul, D. Bret B."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41513,7 +41775,7 @@
       "Jakacki, Diane K."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41558,7 +41820,7 @@
       "Hunter, John C."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41603,7 +41865,7 @@
       "Hunter, John C."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41648,7 +41910,7 @@
       "Shields, James M."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41737,7 +41999,7 @@
       "Leraul, D. Bret B."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -42826,7 +43088,7 @@
       "Larrabure, Manuel E."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -42871,7 +43133,7 @@
       "Banks, Emma L."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
       "2"
@@ -42969,7 +43231,7 @@
       "Zhu, Zhiqun"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43058,7 +43320,7 @@
       "Larrabure, Manuel E."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43104,9 +43366,11 @@
       "Ucarer, Emek M."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -43149,7 +43413,7 @@
       "Fourshey, Cymone"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43196,7 +43460,7 @@
       "Mitchell, David M."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43242,7 +43506,7 @@
       "Zhu, Zhiqun"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43287,7 +43551,7 @@
       "Jozwiak, Joseph F."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43472,13 +43736,13 @@
       "Paparcone, Anna"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "9"
+      "12"
     ],
     "Res Seats": [
-      "17"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -43522,13 +43786,13 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "4"
     ],
     "Res Seats": [
-      "8"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -43568,13 +43832,13 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [
-      "9"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -43614,7 +43878,7 @@
       "Perrone, Lisa A."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43660,7 +43924,7 @@
       "Perrone, Lisa A."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43706,7 +43970,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43748,7 +44012,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43790,7 +44054,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43830,7 +44094,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43872,7 +44136,7 @@
       "Paparcone, Anna"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43918,7 +44182,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -43976,9 +44240,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -44000,7 +44262,7 @@
       "Kuhn, Bernhard"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44086,7 +44348,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44148,7 +44410,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -44170,7 +44434,7 @@
       "Perrone, Lisa A."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44306,7 +44570,7 @@
       "Armstrong, Elizabeth L."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44352,7 +44616,7 @@
       "Armstrong, Elizabeth L."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44394,7 +44658,7 @@
       "Armstrong, Elizabeth L."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44436,7 +44700,7 @@
       "Lofgren, Erik R."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44482,7 +44746,7 @@
       "Lofgren, Erik R."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44614,7 +44878,7 @@
       "Cort, Aisha Z."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44758,13 +45022,13 @@
       "Rojas, David M."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
       "3"
     ],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -44812,7 +45076,7 @@
       "Perez-Zetune, Elena"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -44856,12 +45120,10 @@
       "Cort, Aisha Z."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "11"
     ],
     "Wait List": [],
-    "Res Seats": [
-      "2"
-    ],
+    "Res Seats": [],
     "Prm": [
       "N"
     ],
@@ -44906,7 +45168,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "2"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -44952,7 +45214,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "10"
+      "7"
     ],
     "Prm": [
       "N"
@@ -44996,7 +45258,7 @@
       "Baker, Ashli J."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45045,7 +45307,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "10"
+      "1"
     ],
     "Prm": [
       "N"
@@ -45093,7 +45355,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "10"
+      "3"
     ],
     "Prm": [
       "N"
@@ -45137,7 +45399,7 @@
       "Smith, Hiram L."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45231,7 +45493,7 @@
       "Mitchel, Aaron D."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45317,7 +45579,7 @@
       "Pouchet, Jessica"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45362,7 +45624,7 @@
       "Lorimor, Heidi M."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45499,9 +45761,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "28"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -45548,9 +45812,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -45597,9 +45863,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -45646,9 +45914,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -45695,7 +45965,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "26"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45744,9 +46014,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -45793,9 +46065,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -45842,7 +46116,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "28"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45890,7 +46164,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "28"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45938,7 +46212,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -45986,7 +46260,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46034,7 +46308,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46082,7 +46356,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "28"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46130,7 +46404,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46223,7 +46497,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46271,7 +46545,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46319,7 +46593,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46365,7 +46639,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46459,7 +46733,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46505,9 +46781,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46554,7 +46832,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46605,7 +46883,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46654,7 +46934,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46701,9 +46983,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46750,9 +47034,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46799,9 +47085,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -46848,7 +47136,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "26"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46897,7 +47185,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -46989,7 +47277,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47037,7 +47325,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47127,14 +47415,12 @@
       "Flynt, Abby"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "12"
     ],
     "Wait List": [
       "1"
     ],
-    "Res Seats": [
-      "5"
-    ],
+    "Res Seats": [],
     "Prm": [
       "N"
     ],
@@ -47219,7 +47505,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47307,7 +47593,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "8"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47352,7 +47638,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47442,7 +47728,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47534,7 +47820,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47561,6 +47847,52 @@
   },
   {
     "Crn": [
+      "56310"
+    ],
+    "Course": [
+      "MATH 280 02"
+    ],
+    "Title": [
+      "Logic, Sets, and Proofs"
+    ],
+    "Time": [
+      "MWF 11:00 AM - 11:50 AM",
+      "W 7:00 PM - 8:20 PM"
+    ],
+    "Location": [
+      "OLIN 351",
+      "COLE 022"
+    ],
+    "Instructor": [
+      "Instructor"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section MATH 280 02: The evening time is for exams and will not be used every week"
+    ]
+  },
+  {
+    "Crn": [
       "50775"
     ],
     "Course": [
@@ -47579,7 +47911,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47623,7 +47955,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47715,7 +48047,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47742,27 +48074,27 @@
   },
   {
     "Crn": [
-      "50777"
+      "56309"
     ],
     "Course": [
-      "MATH 320 01"
+      "MATH 308 02"
     ],
     "Title": [
-      "Abstract Algebra I"
+      "Real Analysis I"
     ],
     "Time": [
-      "MWF 1:00 PM - 1:50 PM",
-      "M 7:00 PM - 8:20 PM"
+      "MWF 2:00 PM - 2:50 PM",
+      "R 7:00 PM - 8:20 PM"
     ],
     "Location": [
-      "OLIN 371",
+      "BIOL 101",
       "OLIN 255"
     ],
     "Instructor": [
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47773,8 +48105,7 @@
       "1"
     ],
     "Gen Ed": [
-      "NSMC",
-      "W2"
+      "NSMC"
     ],
     "Guide": [
       "Guide"
@@ -47784,7 +48115,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MATH 320 01: The evening time is for exams and will not be used every week."
+      "Section MATH 308 02: The evening time is for exams and will not be used every week."
     ]
   },
   {
@@ -47807,7 +48138,7 @@
       "Smolka, Linda B."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47854,10 +48185,10 @@
       "Waddell, Lucas A."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "2"
     ],
     "Wait List": [
-      "6"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -47883,6 +48214,53 @@
   },
   {
     "Crn": [
+      "56311"
+    ],
+    "Course": [
+      "MATH 358 02"
+    ],
+    "Title": [
+      "Topics in Operations Research"
+    ],
+    "Time": [
+      "MWF 11:00 AM - 11:50 AM",
+      "R 7:00 PM - 8:20 PM"
+    ],
+    "Location": [
+      "OLIN 254",
+      "COLE 023"
+    ],
+    "Instructor": [
+      "Waddell, Lucas A."
+    ],
+    "UNRES Seats Avail": [
+      "2"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "CCQR",
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section MATH 358 02: The evening time is for exams and will not be used every week."
+    ]
+  },
+  {
+    "Crn": [
       "55929"
     ],
     "Course": [
@@ -47903,7 +48281,7 @@
       "Bickel, Kelly A."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -47971,6 +48349,48 @@
   },
   {
     "Crn": [
+      "56304"
+    ],
+    "Course": [
+      "MATH 391 02"
+    ],
+    "Title": [
+      "Reading and Research"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Kang, Keegan"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 2"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "50839"
     ],
     "Course": [
@@ -48013,50 +48433,6 @@
     "Text Books": [],
     "Notes": [
       "Section MATH 407 01: The evening time is for exams and will not be used every week."
-    ]
-  },
-  {
-    "Crn": [
-      "55982"
-    ],
-    "Course": [
-      "MATH 446 01"
-    ],
-    "Title": [
-      "Abstract Algebra II"
-    ],
-    "Time": [
-      "MWF 11:00 AM - 11:50 AM"
-    ],
-    "Location": [
-      "OLIN 351"
-    ],
-    "Instructor": [
-      "Berg, Jen S."
-    ],
-    "UNRES Seats Avail": [
-      "14"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "NSMC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
     ]
   },
   {
@@ -48277,48 +48653,6 @@
   },
   {
     "Crn": [
-      "55983"
-    ],
-    "Course": [
-      "MATH 646 01"
-    ],
-    "Title": [
-      "Abstract Algebra II"
-    ],
-    "Time": [
-      "MWF 11:00 AM - 11:50 AM"
-    ],
-    "Location": [
-      "OLIN 351"
-    ],
-    "Instructor": [
-      "Berg, Jen S."
-    ],
-    "UNRES Seats Avail": [
-      "4"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "Y"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section MATH 646 01: Prerequisite: MATH 320."
-    ]
-  },
-  {
-    "Crn": [
       "55979"
     ],
     "Course": [
@@ -48381,7 +48715,7 @@
       "Waddell, Lucas A."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48401,6 +48735,50 @@
     "Text Books": [],
     "Notes": [
       "Section MATH 658 01: The evening time is for exams and will not be used every week."
+    ]
+  },
+  {
+    "Crn": [
+      "56312"
+    ],
+    "Course": [
+      "MATH 658 02"
+    ],
+    "Title": [
+      "Topics in Operations Research"
+    ],
+    "Time": [
+      "MWF 11:00 AM - 11:50 AM",
+      "R 7:00 PM - 8:22 PM"
+    ],
+    "Location": [
+      "OLIN 254",
+      "COLE 023"
+    ],
+    "Instructor": [
+      "Waddell, Lucas A."
+    ],
+    "UNRES Seats Avail": [
+      "2"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -48467,9 +48845,11 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -48509,7 +48889,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48551,7 +48931,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48593,7 +48973,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48635,7 +49015,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48677,9 +49057,11 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -48719,7 +49101,7 @@
       "Scott, William L."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48737,7 +49119,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -48761,9 +49145,11 @@
       "Sloboda, Andrew R."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -48805,7 +49191,7 @@
       "Sloboda, Andrew R."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48893,7 +49279,7 @@
       "Siegel, Nate P."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -48935,7 +49321,7 @@
       "Siegel, Nate P."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49019,7 +49405,7 @@
       "Siegel, Nate P."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49103,7 +49489,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49187,7 +49573,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49271,7 +49657,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49399,7 +49785,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49525,7 +49911,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -49949,10 +50335,10 @@
     ],
     "Instructor": [
       "Beal, Craig E.",
-      "Torres, Jonathan",
-      "Arthur, James K.",
       "Brahma, Indranil",
-      "Beninati, M. Laura L."
+      "Beninati, M. Laura L.",
+      "Arthur, James K.",
+      "Torres, Jonathan"
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -49996,8 +50382,8 @@
     "Instructor": [
       "Beal, Craig E.",
       "Torres, Jonathan",
-      "Brahma, Indranil",
       "Arthur, James K.",
+      "Brahma, Indranil",
       "Beninati, M. Laura L."
     ],
     "UNRES Seats Avail": [
@@ -50136,7 +50522,7 @@
       "Closed"
     ],
     "Wait List": [
-      "7"
+      "5"
     ],
     "Res Seats": [],
     "Prm": [
@@ -50180,7 +50566,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -50224,7 +50610,7 @@
       "Closed"
     ],
     "Wait List": [
-      "10"
+      "9"
     ],
     "Res Seats": [],
     "Prm": [
@@ -50849,9 +51235,11 @@
       "Hiller, Tammy B."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -50898,10 +51286,10 @@
       "Hiller, Tammy B."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -50949,9 +51337,11 @@
       "Eversole, Robyn"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -50998,9 +51388,11 @@
       "Eversole, Robyn"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -51088,13 +51480,13 @@
       "Grant, Annetta"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "1"
+      "4"
     ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51137,11 +51529,13 @@
       "Grant, Annetta"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "12"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51184,11 +51578,11 @@
       "Guzel, Gulay"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
-      "14"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51231,13 +51625,13 @@
       "Guzel, Gulay"
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
     "Wait List": [
-      "2"
+      "4"
     ],
     "Res Seats": [
-      "6"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51280,11 +51674,13 @@
       "Kumar, Ankita"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [
-      "15"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51327,11 +51723,13 @@
       "Kumar, Ankita"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "15"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51374,11 +51772,13 @@
       "Kumar, Ankita"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "16"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -51423,7 +51823,7 @@
       "Closed"
     ],
     "Wait List": [
-      "5"
+      "6"
     ],
     "Res Seats": [],
     "Prm": [
@@ -51443,7 +51843,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MIDE 300 01: All seats are reserved for MIDE (and intended) majors.  All others may waitlist for consideration after registration."
+      "Department Note:"
     ]
   },
   {
@@ -51466,7 +51866,7 @@
       "Diego, Gabriela"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "9"
     ],
     "Wait List": [
       "1"
@@ -51512,7 +51912,7 @@
       "Diego, Gabriela"
     ],
     "UNRES Seats Avail": [
-      "2"
+      "3"
     ],
     "Wait List": [
       "2"
@@ -51560,9 +51960,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "2"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -51606,9 +52004,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -51650,7 +52046,7 @@
       "Chen, Cathy"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -51740,7 +52136,7 @@
       "Chen, Cathy"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -51833,7 +52229,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "0.25"
@@ -51878,7 +52274,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "0.25"
@@ -52044,7 +52440,7 @@
       "Closed"
     ],
     "Wait List": [
-      "7"
+      "8"
     ],
     "Res Seats": [],
     "Prm": [
@@ -52087,9 +52483,11 @@
       "Dhar, Udayan"
     ],
     "UNRES Seats Avail": [
-      "10"
+      "4"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52131,7 +52529,7 @@
       "Hill, Vanessa"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52175,7 +52573,7 @@
       "Dhar, Udayan"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [
       "1"
@@ -52265,11 +52663,9 @@
       "Bonfim, Leandro R."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52312,11 +52708,9 @@
       "Martin, Eric C."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "8"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52362,7 +52756,7 @@
       "Closed"
     ],
     "Wait List": [
-      "2"
+      "5"
     ],
     "Res Seats": [],
     "Prm": [
@@ -52405,7 +52799,7 @@
       "Intindola, Melissa L."
     ],
     "UNRES Seats Avail": [
-      "17"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52452,7 +52846,7 @@
       "Closed"
     ],
     "Wait List": [
-      "6"
+      "1"
     ],
     "Res Seats": [],
     "Prm": [
@@ -52499,9 +52893,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "4"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52547,9 +52939,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "6"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52559,7 +52949,8 @@
     ],
     "Gen Ed": [
       "DUSC",
-      "SLSC"
+      "SLSC",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -52592,11 +52983,9 @@
       "Intindola, Melissa L."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "5"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52683,7 +53072,7 @@
       "Martin, Eric C."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52728,7 +53117,7 @@
       "Martin, Eric C."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52879,9 +53268,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52905,7 +53292,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52948,9 +53337,11 @@
       "Roseth, Nicholas E."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -52993,7 +53384,7 @@
       "Crecca, Elizabeth L."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -53033,13 +53424,13 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "SWMU 117"
+      "SWMU 116"
     ],
     "Instructor": [
       "Para, Christopher"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -53147,7 +53538,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -54518,7 +54911,7 @@
       "Crecca, Elizabeth L."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -54601,7 +54994,7 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "SWMU 116"
+      "SWMU 117"
     ],
     "Instructor": [
       "Yamin, Tyler"
@@ -54649,7 +55042,7 @@
       "Temkin, Daniel E."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -54822,7 +55215,7 @@
       "Yamin, Tyler"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "23"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -54869,7 +55262,7 @@
       "Crecca, Elizabeth L."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -57151,9 +57544,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -57401,7 +57792,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -57969,7 +58362,7 @@
       "Grisel, Judy E."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59153,11 +59546,13 @@
       "Turner, Jeffrey S."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "10"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59201,11 +59596,11 @@
       "Leddington, Jason"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59249,13 +59644,11 @@
       "Balcells, Maria L."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
-      "15"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59299,11 +59692,13 @@
       "Groff, Peter S."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59348,11 +59743,11 @@
       "Nguyen, Jen B."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59396,13 +59791,11 @@
       "Burgos, Adam B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "4"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
-      "14"
+      "2"
     ],
     "Prm": [
       "N"
@@ -59446,11 +59839,11 @@
       "Nguyen, Jen B."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59494,11 +59887,11 @@
       "Ward, Katherine"
     ],
     "UNRES Seats Avail": [
-      "34"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [
-      "20"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -59542,7 +59935,7 @@
       "Nguyen, Jen B."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "21"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59587,7 +59980,7 @@
       "Turner, Jeffrey S."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59633,7 +60026,7 @@
       "White, Carol W."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59678,7 +60071,7 @@
       "Leddington, Jason"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59722,7 +60115,7 @@
       "Balcells, Maria L."
     ],
     "UNRES Seats Avail": [
-      "31"
+      "30"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59767,7 +60160,7 @@
       "Turner, Jeffrey S."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59812,7 +60205,7 @@
       "Burgos, Adam B."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "24"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -59856,7 +60249,7 @@
       "Lintott, Sheila M."
     ],
     "UNRES Seats Avail": [
-      "28"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60079,7 +60472,7 @@
       "Gurmessa, Bekele J."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60140,7 +60533,10 @@
       "1"
     ],
     "Gen Ed": [
+      "CCQR",
       "FRST",
+      "LBSC",
+      "NMLG",
       "NSMC"
     ],
     "Guide": [
@@ -60173,12 +60569,15 @@
       "OLIN 268"
     ],
     "Instructor": [
-      "Vollmayr-Lee, Ben P."
+      "Vollmayr-Lee, Ben P.",
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "89"
+      "76"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "6"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60217,12 +60616,15 @@
       "VAUG 100"
     ],
     "Instructor": [
-      "Vollmayr-Lee, Ben P."
+      "Vollmayr-Lee, Ben P.",
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "66"
+      "4"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60262,9 +60664,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "17"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60306,9 +60710,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60350,9 +60756,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60394,7 +60802,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60438,9 +60846,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "6"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60482,7 +60892,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60526,7 +60936,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60570,9 +60980,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60611,10 +61023,10 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60658,10 +61070,10 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60705,10 +61117,10 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60752,12 +61164,14 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60799,12 +61213,14 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60846,12 +61262,14 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "8"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60893,10 +61311,10 @@
       "ACWS 215"
     ],
     "Instructor": [
-      "Instructor"
+      "Ladd, Ned F."
     ],
     "UNRES Seats Avail": [
-      "26"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -60945,11 +61363,9 @@
       "Iyer, Deepak G."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -60995,7 +61411,7 @@
       "Iyer, Deepak G."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61041,7 +61457,7 @@
       "Amthor, Matt M."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61068,50 +61484,6 @@
   },
   {
     "Crn": [
-      "50184"
-    ],
-    "Course": [
-      "PHYS 235L 60"
-    ],
-    "Title": [
-      "Laboratory-Applied Electronics"
-    ],
-    "Time": [
-      "TR 1:00 PM - 2:50 PM"
-    ],
-    "Location": [
-      "OLIN 271"
-    ],
-    "Instructor": [
-      "Amthor, Matt M."
-    ],
-    "UNRES Seats Avail": [
-      "12"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "0"
-    ],
-    "Gen Ed": [
-      "NSMC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section PHYS 235L 60: If necessary, balancing may occur following registration."
-    ]
-  },
-  {
-    "Crn": [
       "50185"
     ],
     "Course": [
@@ -61130,7 +61502,7 @@
       "Amthor, Matt M."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61174,7 +61546,7 @@
       "Gallimore, Jack F."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61264,7 +61636,7 @@
       "Vollmayr-Lee, Ben P."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61502,6 +61874,48 @@
   },
   {
     "Crn": [
+      "56308"
+    ],
+    "Course": [
+      "PHYS 350 05"
+    ],
+    "Title": [
+      "Astroparticle Research"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Kopec, Abigail M."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section PHYS 350 05: Full title: '\"Experimental Astroparticle Physics Research\""
+    ]
+  },
+  {
+    "Crn": [
       "54853"
     ],
     "Course": [
@@ -61520,7 +61934,7 @@
       "Chidambaram, Soundarya"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61567,7 +61981,7 @@
       "Chidambaram, Soundarya"
     ],
     "UNRES Seats Avail": [
-      "26"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61614,9 +62028,11 @@
       "Xydias, Christina V."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -61643,52 +62059,6 @@
   },
   {
     "Crn": [
-      "54859"
-    ],
-    "Course": [
-      "POLS 140 01"
-    ],
-    "Title": [
-      "American Politics"
-    ],
-    "Time": [
-      "MWF 8:00 AM - 8:50 AM"
-    ],
-    "Location": [
-      "ACWS 108"
-    ],
-    "Instructor": [
-      "Kim, Yongkwang"
-    ],
-    "UNRES Seats Avail": [
-      "33"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "FRST",
-      "SLSC",
-      "SSLG"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section POLS 140 01: Open to first and second year students only; others will be admitted at the discretion of the instructor."
-    ]
-  },
-  {
-    "Crn": [
       "54860"
     ],
     "Course": [
@@ -61707,7 +62077,7 @@
       "Kim, Yongkwang"
     ],
     "UNRES Seats Avail": [
-      "34"
+      "1"
     ],
     "Wait List": [
       "1"
@@ -61755,7 +62125,7 @@
       "Ellis, Chris R."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61801,7 +62171,7 @@
       "Ellis, Chris R."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61847,9 +62217,11 @@
       "Doces, John A."
     ],
     "UNRES Seats Avail": [
-      "28"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -61894,9 +62266,11 @@
       "Burns, Courtney N."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -61941,7 +62315,7 @@
       "Mitchell, David M."
     ],
     "UNRES Seats Avail": [
-      "29"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -61988,7 +62362,7 @@
       "James, Michael R."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62033,7 +62407,7 @@
       "James, Michael R."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62078,7 +62452,7 @@
       "Zhu, Zhiqun"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62122,7 +62496,7 @@
       "Gasaway, Brantley W."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62170,7 +62544,7 @@
       "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -62213,7 +62587,7 @@
       "Bermingham, Kate C."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62258,7 +62632,7 @@
       "Mitchell, David M."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62304,9 +62678,11 @@
       "Ucarer, Emek M."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -62395,7 +62771,7 @@
       "Zhu, Zhiqun"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62440,7 +62816,7 @@
       "Jozwiak, Joseph F."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62480,7 +62856,7 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "BRKI 166"
+      "COLE 150"
     ],
     "Instructor": [
       "Stedem, Kelly A."
@@ -62488,9 +62864,7 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -62625,7 +62999,7 @@
       "Kim, Yongkwang"
     ],
     "UNRES Seats Avail": [
-      "1"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62670,11 +63044,54 @@
       "Doces, John A."
     ],
     "UNRES Seats Avail": [
-      "Closed"
-    ],
-    "Wait List": [
       "3"
     ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "CCQR",
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "56306"
+    ],
+    "Course": [
+      "POLS 296 03"
+    ],
+    "Title": [
+      "Quantitative Methods"
+    ],
+    "Time": [
+      "MWF 12:00 PM - 12:50 PM"
+    ],
+    "Location": [
+      "ACWS 204"
+    ],
+    "Instructor": [
+      "Kim, Yongkwang"
+    ],
+    "UNRES Seats Avail": [
+      "6"
+    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -62805,7 +63222,7 @@
       "Bermingham, Kate C."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -62985,11 +63402,13 @@
       "Evans, David W."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "4"
+    ],
     "Res Seats": [
-      "7"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -63033,13 +63452,13 @@
       "Mena, Jasmine A."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "Closed"
     ],
     "Wait List": [
-      "3"
+      "7"
     ],
     "Res Seats": [
-      "7"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -63083,11 +63502,13 @@
       "Myers, Kevin P."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [
-      "7"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -63131,11 +63552,13 @@
       "Winter, Nicole"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
-      "7"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -63179,10 +63602,10 @@
       "Myers, Kevin P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [
-      "10"
+      "7"
     ],
     "Res Seats": [],
     "Prm": [
@@ -63230,7 +63653,7 @@
       "Closed"
     ],
     "Wait List": [
-      "7"
+      "9"
     ],
     "Res Seats": [],
     "Prm": [
@@ -63274,9 +63697,11 @@
       "Boyatzis, Chris J."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -63319,9 +63744,11 @@
       "Wade, T. Joel"
     ],
     "UNRES Seats Avail": [
-      "2"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -63366,7 +63793,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -63408,9 +63837,11 @@
       "Ptacek, John T."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "4"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -63453,9 +63884,11 @@
       "Winter, Nicole"
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "7"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -63501,7 +63934,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -63544,7 +63977,7 @@
       "Daubman, Kim A."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -63632,7 +64065,7 @@
       "Grisel, Judy E."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -64348,7 +64781,7 @@
       "Mitchel, Aaron D."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -64392,10 +64825,10 @@
       "Mena, Jasmine A."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "2"
+      "3"
     ],
     "Res Seats": [],
     "Prm": [
@@ -64441,10 +64874,10 @@
       "Grisel, Judy E."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -64487,7 +64920,7 @@
       "Winter, Nicole"
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -64531,11 +64964,9 @@
       "Judge, Peter G."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "Closed"
     ],
-    "Wait List": [
-      "6"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -65955,9 +66386,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -66207,7 +66636,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -66442,7 +66873,7 @@
       "Judge, Peter G."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -66994,7 +67425,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "19"
+      "16"
     ],
     "Prm": [
       "N"
@@ -67039,11 +67470,11 @@
       "White, Carol W."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [
-      "17"
+      "7"
     ],
     "Prm": [
       "N"
@@ -67086,11 +67517,11 @@
       "Olson, Caitlyn M."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [
-      "19"
+      "9"
     ],
     "Prm": [
       "N"
@@ -67134,7 +67565,7 @@
       "Olson, Caitlyn M."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67180,7 +67611,7 @@
       "McLain, Karline M."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67271,7 +67702,7 @@
       "McLain, Karline M."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67316,7 +67747,7 @@
       "Penniman, John D."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67363,7 +67794,7 @@
       "Olson, Caitlyn M."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67409,7 +67840,7 @@
       "Gasaway, Brantley W."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67500,9 +67931,11 @@
       "Gregory, Chase P."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -67542,7 +67975,7 @@
       "Leddington, Jason"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67585,7 +68018,7 @@
       "Brooksbank, Peter A."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67707,15 +68140,17 @@
       "Food Dinner Seminar"
     ],
     "Time": [
-      "TBA"
+      "W 5:00 PM - 6:20 PM"
     ],
-    "Location": [],
+    "Location": [
+      "ACET 327"
+    ],
     "Instructor": [
       "Wakabayashi, Kat",
       "Scholnick, Jonathan B."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67758,7 +68193,7 @@
       "Ponnuswami, Meenakshi"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67801,7 +68236,7 @@
       "Eversole, Robyn"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67844,7 +68279,7 @@
       "Henry, Sue Ellen"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67889,7 +68324,7 @@
       "Murphy, Lenora C."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67933,7 +68368,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -67975,7 +68410,7 @@
       "Murphy, Lenora C."
     ],
     "UNRES Seats Avail": [
-      "21"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68019,7 +68454,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68101,7 +68536,7 @@
       "Murphy, Lenora C."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68187,7 +68622,7 @@
       "Shleyfer Lavine, Ludmila S."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68276,7 +68711,7 @@
       "Shleyfer Lavine, Ludmila S."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68322,9 +68757,11 @@
       "Warnock, Nicole L."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "3"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -68367,7 +68804,7 @@
       "Warnock, Nicole L."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68410,7 +68847,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "500"
+      "40"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68652,7 +69089,7 @@
       "Koutsoliotas, Sally"
     ],
     "UNRES Seats Avail": [
-      "38"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68694,7 +69131,7 @@
       "Koutsoliotas, Sally"
     ],
     "UNRES Seats Avail": [
-      "26"
+      "24"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68736,7 +69173,7 @@
       "Koutsoliotas, Sally"
     ],
     "UNRES Seats Avail": [
-      "27"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -68820,9 +69257,11 @@
       "Mtshali, Marya T."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "1"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "5"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -68868,9 +69307,11 @@
       "Altendorf, Karen A."
     ],
     "UNRES Seats Avail": [
-      "1"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "6"
+    ],
     "Res Seats": [
       "Closed"
     ],
@@ -68918,9 +69359,11 @@
       "Baltz, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -68966,7 +69409,7 @@
       "Riley, Alexander T."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69014,7 +69457,7 @@
       "Durden, Elizabeth"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69063,7 +69506,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [],
     "Prm": [
@@ -69109,7 +69552,7 @@
       "Closed"
     ],
     "Wait List": [
-      "3"
+      "4"
     ],
     "Res Seats": [],
     "Prm": [
@@ -69200,7 +69643,7 @@
       "Cannady, Emmanuel B."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69244,7 +69687,7 @@
       "Riley, Alexander T."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69291,7 +69734,7 @@
       "Baltz, Matthew J."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69429,7 +69872,7 @@
       "Riley, Alexander T."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69514,7 +69957,7 @@
       "Altendorf, Karen A."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69559,11 +70002,9 @@
       "Cannady, Emmanuel B."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -69583,7 +70024,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section SOCI 342 01: Open to junior and senior Sociology majors, and sophomore, junior, and senior Race & Ethnicity Studies, Social Justice, and Sociology minors. Prerequisite prior Sociology course."
+      "Department Note:"
     ]
   },
   {
@@ -69606,7 +70047,7 @@
       "Mtshali, Marya T."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69650,7 +70091,7 @@
       "\u00c1lvarez Guill\u00e9n, Ana"
     ],
     "UNRES Seats Avail": [
-      "22"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69694,7 +70135,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69736,7 +70177,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69778,7 +70219,7 @@
       "\u00c1lvarez Guill\u00e9n, Ana"
     ],
     "UNRES Seats Avail": [
-      "23"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69823,7 +70264,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69865,7 +70306,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69907,7 +70348,7 @@
       "Garcia Ramirez, Victor E."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69953,7 +70394,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69995,7 +70436,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70037,7 +70478,7 @@
       "McCloskey, Jason A."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70083,7 +70524,7 @@
       "\u00c1lvarez Guill\u00e9n, Ana"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70129,7 +70570,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70171,7 +70612,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70213,7 +70654,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "14"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70255,7 +70696,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70297,7 +70738,7 @@
       "Blanco, Fernando A."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70344,7 +70785,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70386,7 +70827,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "16"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70428,7 +70869,7 @@
       "Garcia Ramirez, Victor E."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70473,7 +70914,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "13"
+      "8"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70515,7 +70956,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "11"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70557,7 +70998,7 @@
       "\u00c1lvarez Guill\u00e9n, Ana"
     ],
     "UNRES Seats Avail": [
-      "17"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70579,7 +71020,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -70601,7 +71044,7 @@
       "Guerrero, Elisabeth S."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70692,7 +71135,7 @@
       "Blanco, Fernando A."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70739,7 +71182,7 @@
       "Garcia Ramirez, Victor E."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70783,7 +71226,7 @@
       "Smith, Hiram L."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70827,7 +71270,7 @@
       "Smith, Hiram L."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -70916,7 +71359,7 @@
       "Guerrero, Elisabeth S."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71175,7 +71618,7 @@
       "Hutchinson, Anjalee D."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71221,7 +71664,7 @@
       "Hutchinson, Anjalee D."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71269,7 +71712,7 @@
       "Williams, Elaine"
     ],
     "UNRES Seats Avail": [
-      "4"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71315,7 +71758,7 @@
       "Hansum, Heath J."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71360,9 +71803,11 @@
       "Holzwarth, Carly N."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -71404,7 +71849,7 @@
       "Shields, James M."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71660,7 +72105,7 @@
       "Daubman, Kim A."
     ],
     "UNRES Seats Avail": [
-      "3"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71701,7 +72146,7 @@
       "Daubman, Kim A."
     ],
     "UNRES Seats Avail": [
-      "6"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71742,7 +72187,7 @@
       "Daubman, Kim A."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71784,7 +72229,7 @@
       "Patterson, Alison S."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71820,15 +72265,17 @@
       "T 1:00 PM - 1:50 PM"
     ],
     "Location": [
-      "OLIN 372"
+      "BRKI 166"
     ],
     "Instructor": [
       "Gorby, Molly E."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "5"
+    ],
     "Res Seats": [],
     "Prm": [
       "N"
@@ -71868,7 +72315,7 @@
       "Fruja, Ramona M."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -71912,11 +72359,9 @@
       "Shull, Marilyn H."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "3"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
       "Closed"
     ],
@@ -71958,13 +72403,11 @@
       "Matlack, Christa L."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "6"
     ],
-    "Wait List": [
-      "3"
-    ],
+    "Wait List": [],
     "Res Seats": [
-      "2"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -72004,11 +72447,9 @@
       "Meyers, Patricia A."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "4"
     ],
-    "Wait List": [
-      "2"
-    ],
+    "Wait List": [],
     "Res Seats": [
       "Closed"
     ],
@@ -72050,11 +72491,9 @@
       "Keiser, Pamela G."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "11"
     ],
-    "Wait List": [
-      "1"
-    ],
+    "Wait List": [],
     "Res Seats": [
       "Closed"
     ],
@@ -72096,7 +72535,7 @@
       "Bell, Sarah E."
     ],
     "UNRES Seats Avail": [
-      "16"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -72184,7 +72623,7 @@
       "Nelson, Kurt D."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -72235,49 +72674,6 @@
     ],
     "CR": [
       "0.25"
-    ],
-    "Gen Ed": [],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "55895"
-    ],
-    "Course": [
-      "UNIV 199 01"
-    ],
-    "Title": [
-      "Arts Leadership"
-    ],
-    "Time": [
-      "W 1:00 PM - 3:50 PM"
-    ],
-    "Location": [
-      "WEIS 205"
-    ],
-    "Instructor": [
-      "Maguet, Kathryn L.",
-      "Rinehart, Rick J."
-    ],
-    "UNRES Seats Avail": [
-      "11"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
     ],
     "Gen Ed": [],
     "Guide": [
@@ -72458,7 +72854,7 @@
       "Closed"
     ],
     "Wait List": [
-      "5"
+      "4"
     ],
     "Res Seats": [
       "Closed"
@@ -72504,10 +72900,10 @@
       "Delsandro, Erica G."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "1"
     ],
     "Wait List": [
-      "4"
+      "5"
     ],
     "Res Seats": [
       "Closed"
@@ -72604,7 +73000,9 @@
     "UNRES Seats Avail": [
       "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "1"
+    ],
     "Res Seats": [
       "Closed"
     ],
@@ -72649,11 +73047,11 @@
       "Drexler, Michael J."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [
-      "17"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -72699,7 +73097,7 @@
       "Closed"
     ],
     "Wait List": [
-      "5"
+      "6"
     ],
     "Res Seats": [
       "Closed"
@@ -72746,11 +73144,11 @@
       "Herman, Ellen K."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [
-      "16"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -72793,11 +73191,11 @@
       "Roseth, Nicholas E."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [
-      "3"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -72892,7 +73290,7 @@
       "Closed"
     ],
     "Wait List": [
-      "1"
+      "2"
     ],
     "Res Seats": [
       "Closed"
@@ -72938,11 +73336,11 @@
       "Lightman, Taylor M."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "25"
     ],
     "Wait List": [],
     "Res Seats": [
-      "24"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -72985,11 +73383,11 @@
       "Jasinska, Agnes J."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [
-      "1"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -73081,11 +73479,11 @@
       "Scott, Jocelyne B."
     ],
     "UNRES Seats Avail": [
-      "See Guide"
+      "9"
     ],
     "Wait List": [],
     "Res Seats": [
-      "8"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -73170,7 +73568,7 @@
       "Jozwiak, Joseph F."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73214,7 +73612,7 @@
       "Li, Weijia"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73258,11 +73656,11 @@
       "Rogovin, Or M."
     ],
     "UNRES Seats Avail": [
-      "10"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [
-      "6"
+      "3"
     ],
     "Prm": [
       "N"
@@ -73307,7 +73705,7 @@
       "Yocum, Hannah C."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73351,7 +73749,7 @@
       "Yocum, Hannah C."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73435,7 +73833,7 @@
       "Fourshey, Cymone"
     ],
     "UNRES Seats Avail": [
-      "30"
+      "31"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73445,7 +73843,9 @@
     "CR": [
       "1"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -73477,11 +73877,13 @@
       "Trusty, Rachel A."
     ],
     "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [
       "2"
     ],
-    "Wait List": [],
     "Res Seats": [
-      "11"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -73527,11 +73929,13 @@
       "Trusty, Rachel A."
     ],
     "UNRES Seats Avail": [
+      "1"
+    ],
+    "Wait List": [
       "5"
     ],
-    "Wait List": [],
     "Res Seats": [
-      "15"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -73577,11 +73981,13 @@
       "McCabe, Katharine"
     ],
     "UNRES Seats Avail": [
-      "7"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [
-      "19"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -73627,11 +74033,13 @@
       "Christian, Jenna M."
     ],
     "UNRES Seats Avail": [
-      "9"
+      "Closed"
     ],
-    "Wait List": [],
+    "Wait List": [
+      "2"
+    ],
     "Res Seats": [
-      "17"
+      "Closed"
     ],
     "Prm": [
       "N"
@@ -73677,7 +74085,7 @@
       "Perez-Zetune, Elena"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73767,7 +74175,7 @@
       "Banks, Nina E."
     ],
     "UNRES Seats Avail": [
-      "13"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73811,7 +74219,7 @@
       "Barth, Josie T."
     ],
     "UNRES Seats Avail": [
-      "22"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73855,7 +74263,7 @@
       "McCabe, Katharine"
     ],
     "UNRES Seats Avail": [
-      "20"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73901,7 +74309,7 @@
       "Delsandro, Erica G."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73947,7 +74355,7 @@
       "Bermingham, Kate C."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "2"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -73991,7 +74399,7 @@
       "Trusty, Rachel A."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "17"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -74035,7 +74443,7 @@
       "Fourshey, Cymone"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -74126,7 +74534,7 @@
       "Massaro, Vanessa A."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "5"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -74257,7 +74665,7 @@
       "McCabe, Katharine"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
