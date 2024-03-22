@@ -54,16 +54,16 @@
 
 @font-face {
     font-family: 'Liberation Mono';
-    src: url('../fonts/LiberationMono-Bold.woff2') format('woff2');
-    font-weight: bold;
+    src: url('../fonts/LiberationMono-Regular.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Liberation Mono';
-    src: url('../fonts/LiberationMono-BoldItalic.woff2') format('woff2');
+    src: url('../fonts/LiberationMono-Bold.woff2') format('woff2');
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
 }
 
 @font-face {
@@ -75,9 +75,9 @@
 
 @font-face {
     font-family: 'Liberation Mono';
-    src: url('../fonts/LiberationMono-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fonts/LiberationMono-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
 }
 
 body {
@@ -89,25 +89,30 @@ body {
 }
 
 header, footer {
-    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 16px;
 }
 
 header {
     border-bottom: 1px solid var(--border-color);
+    height: 64px;
 }
 
 footer {
     border-top: 1px solid var(--border-color);
 }
 
-h1 {
+#desktop-title, #mobile-title {
     text-align: center;
     margin: 0;
     font-weight: bold;
     font-size: 32px;
+}
+
+#mobile-title {
+    display: none;
 }
 
 .header-section-version, .header-section-extras {
@@ -144,6 +149,10 @@ h1 {
 
 #version {
     text-align: left;
+}
+
+#a-good-logo {
+    width: 50px;
 }
 
 #donate-link {
@@ -430,22 +439,15 @@ input[type="checkbox"] {
     }
 }
 
-@media only screen and (max-width: 660px) {
-    header {
-        flex-direction: column;
+@media only screen and (max-width: 650px) {
+    #desktop-title {
+        display: none;
     }
 
-    h1 {
-        margin-top: 4px;
-        margin-bottom: 4px;
+    #mobile-title {
+        display: block;
     }
 
-    .header-section-version, .header-section-extras {
-        justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 550px) {
     #input-section {
         width: 300px;
     }
@@ -456,10 +458,6 @@ input[type="checkbox"] {
 
     body {
         font-size: 14px;
-    }
-
-    h1 {
-        font-size: 28px;
     }
 
     #search-bar {

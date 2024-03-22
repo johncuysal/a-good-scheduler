@@ -1,5 +1,5 @@
-import {printDebugMessage} from './helpers.js?v=2.0.6';
-import TimeBlock from './TimeBlock.js?v=2.0.6';
+import {printDebugMessage} from './helpers.js?v=2024.03.21';
+import TimeBlock from './TimeBlock.js?v=2024.03.21';
 
 /**
  * Represents a specific section of a course.

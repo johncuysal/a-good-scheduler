@@ -1,6 +1,6 @@
-import {printDebugMessage, warn, inform, clear, setText, createElementFromTemplate, hyphenate, move} from './helpers.js?v=2.0.6';
-import {getCoursesFromJSON} from './data-processing.js?v=2.0.6';
-import GoodScheduler from './GoodScheduler.js?v=2.0.6';
+import {printDebugMessage, warn, inform, clear, setText, createElementFromTemplate, hyphenate, move} from './helpers.js?v=2024.03.21';
+import {getCoursesFromJSON} from './data-processing.js?v=2024.03.21';
+import GoodScheduler from './GoodScheduler.js?v=2024.03.21';
 
 const NUMBER_OF_COLORS = 8;
 const colorCount = new Array(NUMBER_OF_COLORS).fill(0);
@@ -32,13 +32,25 @@ window.addEventListener('DOMContentLoaded', () => {
     const timetableEventTemplate          = document.getElementById('timetable-event-template');
     const scheduleListItemTemplate        = document.getElementById('schedule-list-item-template');
 
+    // Initialize theme
+    initializeTheme();
+
     // Set up event handling
     setupSearchBarElement(searchBarElement);
     setupSearchBarResultContainerElement(searchBarResultContainerElement);
     setupDarkModeButtonElement(darkModeButtonElement);
 
-    // Initialize theme based on user preferences
-    initializeTheme();
+    /**
+     * Initialize the theme based on the user's operating system or browser preferences.
+     */
+    function initializeTheme() {
+        const prefersLightMode = window.matchMedia('(prefers-color-scheme: light)').matches;
+        if (prefersLightMode) {
+            document.body.classList.add('light-theme');
+        } else {
+            document.body.classList.add('dark-theme');
+        }
+    }
 
     /**
      * Compute all possible schedules and update the schedule container element.
@@ -408,17 +420,5 @@ window.addEventListener('DOMContentLoaded', () => {
             bodyElement.classList.toggle('dark-theme');
             bodyElement.classList.toggle('light-theme');
         });
-    }
-
-    /**
-     * Initialize the theme based on the user's operating system or browser preferences.
-     */
-    function initializeTheme() {
-        const prefersLightMode = window.matchMedia('(prefers-color-scheme: light)').matches;
-        if (prefersLightMode) {
-            document.body.classList.add('light-theme');
-        } else {
-            document.body.classList.add('dark-theme');
-        }
     }
 });
