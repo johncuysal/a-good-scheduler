@@ -205,7 +205,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
       "0.5"
@@ -1052,11 +1052,11 @@
       "Intermediate Financial Acct II"
     ],
     "Time": [
-      "MW 12:00 PM - 1:20 PM",
+      "MW 10:00 AM - 11:20 AM",
       "M 7:00 PM - 9:50 PM"
     ],
     "Location": [
-      "OLIN 275"
+      "HOLM 202"
     ],
     "Instructor": [
       "Instructor"
@@ -1860,10 +1860,10 @@
       "Behavioral Finance"
     ],
     "Time": [
-      "MW 10:00 AM - 11:20 AM"
+      "MW 12:00 PM - 1:20 PM"
     ],
     "Location": [
-      "HOLM 202"
+      "HOLM 231"
     ],
     "Instructor": [
       "Pareek, Ankur"
@@ -3570,55 +3570,6 @@
   },
   {
     "Crn": [
-      "16443"
-    ],
-    "Course": [
-      "ANOP 102 03"
-    ],
-    "Title": [
-      "Spreadsheet Modeling"
-    ],
-    "Time": [
-      "TR 8:30 AM - 9:50 AM",
-      "W 10:00 AM - 10:50 AM"
-    ],
-    "Location": [
-      "HOLM 301",
-      "HOLM 301"
-    ],
-    "Instructor": [
-      "Stanciu, Alia C."
-    ],
-    "UNRES Seats Avail": [
-      "4"
-    ],
-    "Wait List": [],
-    "Res Seats": [
-      "18"
-    ],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "CCQR",
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section ANOP 102 03: Lab will meet weekly on Wednesdays from 10:00-10:50 am"
-    ]
-  },
-  {
-    "Crn": [
       "16444"
     ],
     "Course": [
@@ -4233,11 +4184,9 @@
       "Decision Models & Optimization"
     ],
     "Time": [
-      "MW 1:30 PM - 2:50 PM",
-      "F 1:30 PM - 2:50 PM"
+      "MW 1:30 PM - 2:50 PM"
     ],
     "Location": [
-      "HOLM 102",
       "HOLM 102"
     ],
     "Instructor": [
@@ -4267,7 +4216,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section ANOP 370 01: The common hour on Fridays, 1:30-2:50 PM will meet regularly.  Conflicts will not be accepted."
+      "Section ANOP 370 01: Conflicts will not be accepted."
     ]
   },
   {
@@ -4281,8 +4230,8 @@
       "Business Analytics Practicum"
     ],
     "Time": [
-      "F 12:00 PM - 1:20 PM",
-      "MW 12:00 PM - 1:20 PM"
+      "MW 12:00 PM - 1:20 PM",
+      "F 12:00 PM - 1:20 PM"
     ],
     "Location": [
       "HOLM 101",
@@ -4551,51 +4500,6 @@
     "Text Books": [],
     "Notes": [
       "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "16774"
-    ],
-    "Course": [
-      "ANTH 232 01"
-    ],
-    "Title": [
-      "Gender & Sexuality in S. Asia"
-    ],
-    "Time": [
-      "TR 1:00 PM - 2:20 PM"
-    ],
-    "Location": [
-      "COLE 150"
-    ],
-    "Instructor": [
-      "Reed, Susan A."
-    ],
-    "UNRES Seats Avail": [
-      "25"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "GBCC",
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section ANTH 232 01: Crosslisted with WMST 232"
     ]
   },
   {
@@ -5558,6 +5462,51 @@
   },
   {
     "Crn": [
+      "16885"
+    ],
+    "Course": [
+      "ARTD 239 01"
+    ],
+    "Title": [
+      "DigitalSculpture 1:Fabrication"
+    ],
+    "Time": [
+      "TR 1:00 PM - 2:50 PM"
+    ],
+    "Location": [
+      "HOLM 301"
+    ],
+    "Instructor": [
+      "Meiser, Joseph D."
+    ],
+    "UNRES Seats Avail": [
+      "16"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "AHLG",
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "16762"
     ],
     "Course": [
@@ -5713,51 +5662,6 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "15673"
-    ],
-    "Course": [
-      "ARTD 352 01"
-    ],
-    "Title": [
-      "Digital Sculpture 2: VR"
-    ],
-    "Time": [
-      "TR 1:00 PM - 2:50 PM"
-    ],
-    "Location": [
-      "HOLM 301"
-    ],
-    "Instructor": [
-      "Meiser, Joseph D."
-    ],
-    "UNRES Seats Avail": [
-      "16"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "Y"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "AHLG",
       "ARHC"
     ],
     "Guide": [
@@ -6682,6 +6586,270 @@
     "Text Books": [],
     "Notes": [
       "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16878"
+    ],
+    "Course": [
+      "BIOL 201 01"
+    ],
+    "Title": [
+      "Biology Inquiry & Observation"
+    ],
+    "Time": [
+      "MW 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "BIOL 104"
+    ],
+    "Instructor": [
+      "Benowitz-Fredericks, Morgan"
+    ],
+    "UNRES Seats Avail": [
+      "18"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section BIOL 201 01: Open to first year students interested in majoring in Animal Behavior, Biology, Cell Biology/Biochemistry, Neuroscience."
+    ]
+  },
+  {
+    "Crn": [
+      "16879"
+    ],
+    "Course": [
+      "BIOL 201 02"
+    ],
+    "Title": [
+      "Biology Inquiry & Observation"
+    ],
+    "Time": [
+      "TR 8:30 AM - 9:50 AM"
+    ],
+    "Location": [
+      "BIOL 104"
+    ],
+    "Instructor": [
+      "Takahashi, Mizuki"
+    ],
+    "UNRES Seats Avail": [
+      "18"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section BIOL 201 02: Open to first year students interested in majoring in Animal Behavior, Biology, Cell Biology/Biochemistry, Neuroscience."
+    ]
+  },
+  {
+    "Crn": [
+      "16880"
+    ],
+    "Course": [
+      "BIOL 201 03"
+    ],
+    "Title": [
+      "Biology Inquiry & Observation"
+    ],
+    "Time": [
+      "WF 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "RCHM 101"
+    ],
+    "Instructor": [
+      "Jordan, Steve D."
+    ],
+    "UNRES Seats Avail": [
+      "18"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section BIOL 201 03: Open to first year students interested in majoring in Animal Behavior, Biology, Cell Biology/Biochemistry, Neuroscience."
+    ]
+  },
+  {
+    "Crn": [
+      "16881"
+    ],
+    "Course": [
+      "BIOL 201 04"
+    ],
+    "Title": [
+      "Biology Inquiry & Observation"
+    ],
+    "Time": [
+      "TR 10:00 AM - 11:20 AM"
+    ],
+    "Location": [
+      "BIOL 104"
+    ],
+    "Instructor": [
+      "Haussmann, Mark F."
+    ],
+    "UNRES Seats Avail": [
+      "18"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section BIOL 201 04: Open to first year students interested in majoring in Animal Behavior, Biology, Cell Biology/Biochemistry, Neuroscience."
+    ]
+  },
+  {
+    "Crn": [
+      "16882"
+    ],
+    "Course": [
+      "BIOL 201 05"
+    ],
+    "Title": [
+      "Biology Inquiry & Observation"
+    ],
+    "Time": [
+      "MWF 9:00 AM - 9:50 AM"
+    ],
+    "Location": [
+      "BIOL 318"
+    ],
+    "Instructor": [
+      "Martine, Chris T."
+    ],
+    "UNRES Seats Avail": [
+      "18"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section BIOL 201 05: Open to first year students interested in majoring in Animal Behavior, Biology, Cell Biology/Biochemistry, Neuroscience."
+    ]
+  },
+  {
+    "Crn": [
+      "16883"
+    ],
+    "Course": [
+      "BIOL 201 06"
+    ],
+    "Title": [
+      "Biology Inquiry & Observation"
+    ],
+    "Time": [
+      "TR 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "BIOL 104"
+    ],
+    "Instructor": [
+      "Smith, Nathan E."
+    ],
+    "UNRES Seats Avail": [
+      "18"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section BIOL 201 06: Open to first year students interested in majoring in Animal Behavior, Biology, Cell Biology/Biochemistry, Neuroscience."
     ]
   },
   {
@@ -8546,11 +8714,9 @@
       "Advanced Data Analysis"
     ],
     "Time": [
-      "TR 8:30 AM - 9:50 AM",
-      "T 1:00 PM - 3:50 PM"
+      "TR 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "OLRY 202",
       "OLRY 202"
     ],
     "Instructor": [
@@ -8583,20 +8749,18 @@
   },
   {
     "Crn": [
-      "16656"
+      "16886"
     ],
     "Course": [
-      "BIOL 364 02"
+      "BIOL 364L 60"
     ],
     "Title": [
-      "Advanced Data Analysis"
+      "Lab for Advanced Data Analysis"
     ],
     "Time": [
-      "TR 8:30 AM - 9:50 AM",
-      "R 1:00 PM - 3:50 PM"
+      "T 1:00 PM - 3:50 PM"
     ],
     "Location": [
-      "OLRY 202",
       "OLRY 202"
     ],
     "Instructor": [
@@ -8608,10 +8772,54 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "Y"
+      "N"
     ],
     "CR": [
-      "1"
+      "0"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16888"
+    ],
+    "Course": [
+      "BIOL 364L 61"
+    ],
+    "Title": [
+      "Lab for Advanced Data Analysis"
+    ],
+    "Time": [
+      "R 1:00 PM - 3:50 PM"
+    ],
+    "Location": [
+      "OLRY 202"
+    ],
+    "Instructor": [
+      "Field, Ken A."
+    ],
+    "UNRES Seats Avail": [
+      "12"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "0"
     ],
     "Gen Ed": [
       "NSMC"
@@ -8919,7 +9127,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -10692,11 +10902,9 @@
       "Advanced Data Analysis"
     ],
     "Time": [
-      "TR 8:30 AM - 9:50 AM",
-      "T 1:00 PM - 3:50 PM"
+      "TR 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "OLRY 202",
       "OLRY 202"
     ],
     "Instructor": [
@@ -10727,27 +10935,25 @@
   },
   {
     "Crn": [
-      "16674"
+      "16887"
     ],
     "Course": [
-      "BIOL 664 02"
+      "BIOL 664L 60"
     ],
     "Title": [
-      "Advanced Data Analysis"
+      "Lab for Advanced Data Analysis"
     ],
     "Time": [
-      "TR 8:30 AM - 9:50 AM",
-      "R 1:00 PM - 3:50 PM"
+      "T 1:00 PM - 3:50 PM"
     ],
     "Location": [
-      "OLRY 202",
       "OLRY 202"
     ],
     "Instructor": [
       "Field, Ken A."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -10755,9 +10961,55 @@
       "Y"
     ],
     "CR": [
+      "0"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16889"
+    ],
+    "Course": [
+      "BIOL 664L 61"
+    ],
+    "Title": [
+      "Lab for Advanced Data Analysis"
+    ],
+    "Time": [
+      "R 1:00 PM - 3:50 PM"
+    ],
+    "Location": [
+      "OLRY 202"
+    ],
+    "Instructor": [
+      "Field, Ken A."
+    ],
+    "UNRES Seats Avail": [
       "1"
     ],
-    "Gen Ed": [],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -10962,6 +11214,46 @@
     ],
     "CR": [
       "1 - 1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16894"
+    ],
+    "Course": [
+      "BIOL 680 03"
+    ],
+    "Title": [
+      "Thesis"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Martine, Chris T."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.5 - 1"
     ],
     "Gen Ed": [],
     "Guide": [
@@ -11655,7 +11947,7 @@
       "BMEG 471 01"
     ],
     "Title": [
-      "Advanced Topics Bio Med Engr"
+      "Design for Community Wellness"
     ],
     "Time": [
       "R 10:00 AM - 10:50 AM",
@@ -11699,7 +11991,7 @@
       "BMEG 471R 40"
     ],
     "Title": [
-      "Recitation for Advanced Topics"
+      "Rec.- Design for Comm Wellness"
     ],
     "Time": [
       "R 11:00 AM - 11:50 AM"
@@ -12820,9 +13112,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -13116,7 +13406,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -14553,7 +14845,7 @@
       "Vogel, Brandon M."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "20"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -15826,10 +16118,10 @@
   },
   {
     "Crn": [
-      "16053"
+      "16899"
     ],
     "Course": [
-      "CHEG 470 01"
+      "CHEG 458 01"
     ],
     "Title": [
       "Fermentation Processes"
@@ -15851,7 +16143,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "1"
@@ -16472,10 +16764,10 @@
   },
   {
     "Crn": [
-      "16623"
+      "16900"
     ],
     "Course": [
-      "CHEG 670 01"
+      "CHEG 658 01"
     ],
     "Title": [
       "Fermentation Processes"
@@ -16972,9 +17264,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -19363,7 +19653,7 @@
       "CHEM 321R 40"
     ],
     "Title": [
-      "Recitation for CHEM 321"
+      "Recitation Inorganic Chem I"
     ],
     "Time": [
       "TBA"
@@ -19859,7 +20149,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -20937,7 +21227,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "28"
+      "27"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21023,7 +21313,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "4"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21407,9 +21697,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -21687,7 +21975,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -21709,7 +21999,7 @@
       "Switzer, Rebecca L."
     ],
     "UNRES Seats Avail": [
-      "8"
+      "7"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22290,7 +22580,7 @@
       "Penniman, John D."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22302,7 +22592,8 @@
     ],
     "Gen Ed": [
       "AHLG",
-      "ARHC"
+      "ARHC",
+      "GBCC"
     ],
     "Guide": [
       "Guide"
@@ -22349,7 +22640,9 @@
     ],
     "Gen Ed": [
       "ARHC",
-      "FRST"
+      "EVCN",
+      "FRST",
+      "GBCC"
     ],
     "Guide": [
       "Guide"
@@ -22402,6 +22695,48 @@
     "Text Books": [],
     "Notes": [
       "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16898"
+    ],
+    "Course": [
+      "CLAS 311 02"
+    ],
+    "Title": [
+      "Artifact Research"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Trego, Kris M."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1 - 1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section CLAS 311 02: Full title: 'Turnure Collection Artifact Research'"
     ]
   },
   {
@@ -23349,7 +23684,7 @@
       "DANA 227"
     ],
     "Instructor": [
-      "Instructor"
+      "Havill, Jessen T."
     ],
     "UNRES Seats Avail": [
       "22"
@@ -23631,7 +23966,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section CSCI 311 02: Students must also register for CSCI 311R-41."
     ]
   },
   {
@@ -24240,57 +24575,13 @@
   },
   {
     "Crn": [
-      "15846"
-    ],
-    "Course": [
-      "CSCI 379 01"
-    ],
-    "Title": [
-      "Topics in Computer Science"
-    ],
-    "Time": [
-      "MWF 11:00 AM - 11:50 AM"
-    ],
-    "Location": [
-      "DANA 137"
-    ],
-    "Instructor": [
-      "Havill, Jessen T."
-    ],
-    "UNRES Seats Avail": [
-      "22"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1 - 1"
-    ],
-    "Gen Ed": [
-      "NSMC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Section CSCI 379 01: Prerequisites: CSCI 204, MATH 227, or permission of the instructor. Open to juniors and seniors. This course is being offered at 1.0 credit."
-    ]
-  },
-  {
-    "Crn": [
       "16401"
     ],
     "Course": [
       "CSCI 379 02"
     ],
     "Title": [
-      "Topics in Computer Science"
+      "Design and Development for XR"
     ],
     "Time": [
       "MW 1:30 PM - 2:50 PM"
@@ -24323,7 +24614,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section CSCI 379 02: Prerequisites: CSCI 204, MATH 227, or permission of the instructor. Open to juniors and seniors. This course is being offered at 1.0 credit."
+      "Section CSCI 379 02: Prerequisites: CSCI 204, MATH 227, or permission of the instructor. Open to juniors and seniors. This course is being offered at 1.0 credit.This course is not open to students who took CSCI 279 01 - Design and Development for XR in Spring 2024."
     ]
   },
   {
@@ -24432,11 +24723,11 @@
       "Knox, Kelly H."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "8"
     ],
     "Prm": [
       "N"
@@ -24480,11 +24771,11 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "15"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [
-      "5"
+      "8"
     ],
     "Prm": [
       "N"
@@ -24700,7 +24991,7 @@
       "DANC 263 01"
     ],
     "Title": [
-      "Special Studies in Dance"
+      "Brazilian Arts Movement Fusion"
     ],
     "Time": [
       "TR 11:30 AM - 12:50 PM"
@@ -24748,7 +25039,7 @@
       "DANC 263 02"
     ],
     "Title": [
-      "Special Studies in Dance"
+      "Brazilian Arts Movement Fusion"
     ],
     "Time": [
       "MW 3:00 PM - 4:20 PM"
@@ -25793,9 +26084,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -25870,7 +26159,9 @@
     "CR": [
       "0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -26091,7 +26382,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -26335,7 +26628,8 @@
       "1"
     ],
     "Gen Ed": [
-      "CEL"
+      "CEL",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -28792,6 +29086,7 @@
       "1"
     ],
     "Gen Ed": [
+      "RPI",
       "SLSC"
     ],
     "Guide": [
@@ -28881,6 +29176,48 @@
     ],
     "CR": [
       "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16895"
+    ],
+    "Course": [
+      "EDUC 317 01"
+    ],
+    "Title": [
+      "Teaching of Social Studies"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Instructor"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.25 - 1"
     ],
     "Gen Ed": [
       "SLSC"
@@ -30254,9 +30591,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -30590,7 +30925,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -31446,12 +31783,9 @@
       "MWF 12:00 PM - 12:50 PM",
       "R 1:00 PM - 4:50 PM"
     ],
-    "Location": [
-      "ACET 115",
-      "ACET 115"
-    ],
+    "Location": [],
     "Instructor": [
-      "Salyards, Kelly A.",
+      "Wheatley, Benjamin B.",
       "Kozick, Rich J."
     ],
     "UNRES Seats Avail": [
@@ -32667,7 +33001,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "FRST"
+      "FRST",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -32715,7 +33050,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "FRST"
+      "FRST",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -32942,7 +33278,7 @@
       "Machado, Elena"
     ],
     "UNRES Seats Avail": [
-      "21"
+      "12"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -32958,6 +33294,7 @@
       "ARHC",
       "DUSC",
       "FRST",
+      "RPI",
       "W2"
     ],
     "Guide": [
@@ -33041,7 +33378,7 @@
     ],
     "Wait List": [],
     "Res Seats": [
-      "12"
+      "9"
     ],
     "Prm": [
       "N"
@@ -33265,7 +33602,7 @@
       "Butcher, Kenton"
     ],
     "UNRES Seats Avail": [
-      "25"
+      "24"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33353,7 +33690,7 @@
       "Gregory, Chase P."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "11"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33491,7 +33828,7 @@
       "Peterson, Jean"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33591,6 +33928,7 @@
     ],
     "Gen Ed": [
       "ARHC",
+      "DUSC",
       "RPI"
     ],
     "Guide": [
@@ -33755,7 +34093,7 @@
       "Peterson, Jean"
     ],
     "UNRES Seats Avail": [
-      "2"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -33797,7 +34135,7 @@
       "Peterson, Jean"
     ],
     "UNRES Seats Avail": [
-      "2"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -34443,7 +34781,7 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "OLIN 451"
+      "BIOL 101"
     ],
     "Instructor": [
       "Pouchet, Jessica"
@@ -34647,6 +34985,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT07",
       "W1"
     ],
     "Guide": [
@@ -34656,9 +34996,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -34677,7 +35015,7 @@
       "COLE 118"
     ],
     "Instructor": [
-      "Instructor"
+      "Mitsch, Chris"
     ],
     "UNRES Seats Avail": [
       "16"
@@ -34739,6 +35077,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT05",
+      "FT06",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -34785,6 +35127,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -34831,6 +35175,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT06",
+      "FT07",
       "W1"
     ],
     "Guide": [
@@ -34877,6 +35224,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
       "W1"
     ],
     "Guide": [
@@ -34923,6 +35271,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
       "W1"
     ],
     "Guide": [
@@ -34969,6 +35318,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT02",
       "W1"
     ],
     "Guide": [
@@ -35015,6 +35365,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
       "W1"
     ],
     "Guide": [
@@ -35024,7 +35375,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -35059,6 +35412,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35105,6 +35462,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT05",
+      "FT07",
       "W1"
     ],
     "Guide": [
@@ -35151,6 +35512,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
       "W1"
     ],
     "Guide": [
@@ -35197,6 +35561,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT04",
       "W1"
     ],
     "Guide": [
@@ -35289,6 +35655,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35335,6 +35702,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT02",
+      "FT07",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35381,6 +35751,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35427,6 +35799,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT04",
+      "FT06",
       "W1"
     ],
     "Guide": [
@@ -35473,6 +35847,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
       "W1"
     ],
     "Guide": [
@@ -35519,6 +35896,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT04",
       "W1"
     ],
     "Guide": [
@@ -35565,6 +35944,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT06",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35611,6 +35993,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT05",
       "W1"
     ],
     "Guide": [
@@ -35638,7 +36022,7 @@
       "MWF 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "BIOL 324"
+      "COLE 020"
     ],
     "Instructor": [
       "Blanco, Fernando A."
@@ -35657,6 +36041,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
       "W1"
     ],
     "Guide": [
@@ -35703,6 +36088,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT06",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35714,6 +36102,52 @@
     "Text Books": [],
     "Notes": [
       "Section FOUN 098 54: Existentialism & Literature: Self, Knowledge, Truth"
+    ]
+  },
+  {
+    "Crn": [
+      "16896"
+    ],
+    "Course": [
+      "FOUN 098 55"
+    ],
+    "Title": [
+      "Pharmaceuticals and Society"
+    ],
+    "Time": [
+      "TR 8:30 AM - 9:50 AM"
+    ],
+    "Location": [
+      "DANA 227"
+    ],
+    "Instructor": [
+      "Snyder, Ryan C."
+    ],
+    "UNRES Seats Avail": [
+      "16"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "FOUN",
+      "FRST",
+      "W1"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
     ]
   },
   {
@@ -35749,6 +36183,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT04",
+      "FT07",
       "W1"
     ],
     "Guide": [
@@ -35795,6 +36233,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35841,6 +36280,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT02",
+      "FT03",
       "W1"
     ],
     "Guide": [
@@ -35867,9 +36308,7 @@
     "Time": [
       "TR 3:00 PM - 4:20 PM"
     ],
-    "Location": [
-      "OLIN 255"
-    ],
+    "Location": [],
     "Instructor": [
       "Rojas, David M."
     ],
@@ -35935,6 +36374,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -35981,6 +36421,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT06",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -36002,7 +36445,7 @@
       "FOUN 098 63"
     ],
     "Title": [
-      "Foundation Seminar"
+      "Money, Capitalism & Inequality"
     ],
     "Time": [
       "TR 8:30 AM - 9:50 AM"
@@ -36027,6 +36470,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
       "W1"
     ],
     "Guide": [
@@ -36073,6 +36518,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT05",
+      "FT06",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -36119,6 +36568,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT04",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -36165,6 +36616,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -36211,6 +36664,13 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT02",
+      "FT03",
+      "FT04",
+      "FT05",
+      "FT06",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -36257,6 +36717,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT06",
+      "FT07",
+      "FT08",
       "W1"
     ],
     "Guide": [
@@ -36303,6 +36768,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT06",
       "W1"
     ],
     "Guide": [
@@ -36349,6 +36816,7 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT02",
       "W1"
     ],
     "Guide": [
@@ -37664,7 +38132,7 @@
       "FREN 230 01"
     ],
     "Title": [
-      "Travel and Discovery"
+      "French Literature I"
     ],
     "Time": [
       "WF 12:00 PM - 1:20 PM"
@@ -37700,7 +38168,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section FREN 230 01: Title - \"Travel and Discovery\""
     ]
   },
   {
@@ -38364,7 +38832,7 @@
       "Mulligan, Adrian N."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -38385,7 +38853,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section GEOG 243 01: Crosslisted with HIST 243 and UNIV 243"
+      "Section GEOG 243 01: Students should enroll in UNIV 243. Students who wish to switch their course designation to GEOG or HIST on their APR may do so through the Registrar's Office once registration is over.Crosslisted with HIST 243 and UNIV 243"
     ]
   },
   {
@@ -38468,6 +38936,7 @@
       "EVCN",
       "GBCC",
       "NPJ",
+      "RPI",
       "SLSC"
     ],
     "Guide": [
@@ -38495,7 +38964,7 @@
       "MW 3:00 PM - 4:20 PM"
     ],
     "Location": [
-      "BIOL 104"
+      "OLIN 451"
     ],
     "Instructor": [
       "Mulligan, Adrian N."
@@ -39136,6 +39605,7 @@
     ],
     "Gen Ed": [
       "FRST",
+      "LBSC",
       "NSMC"
     ],
     "Guide": [
@@ -39191,9 +39661,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -39567,7 +40035,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -39895,10 +40365,12 @@
       "Heinsohn, Bastian"
     ],
     "UNRES Seats Avail": [
-      "24"
+      "14"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "10"
+    ],
     "Prm": [
       "N"
     ],
@@ -39941,10 +40413,12 @@
       "Slodounik, Rebekah A."
     ],
     "UNRES Seats Avail": [
-      "24"
+      "14"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "10"
+    ],
     "Prm": [
       "N"
     ],
@@ -39987,10 +40461,12 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -40029,10 +40505,12 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -40071,10 +40549,12 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -40113,10 +40593,12 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "12"
+      "7"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
@@ -40367,7 +40849,7 @@
       "MWF 11:00 AM - 11:50 AM"
     ],
     "Location": [
-      "OLIN 451"
+      "COLE 118"
     ],
     "Instructor": [
       "Heinsohn, Bastian"
@@ -40417,10 +40899,12 @@
       "Slodounik, Rebekah A."
     ],
     "UNRES Seats Avail": [
-      "30"
+      "24"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "6"
+    ],
     "Prm": [
       "N"
     ],
@@ -40428,7 +40912,8 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "FRST"
     ],
     "Guide": [
       "Guide"
@@ -40754,8 +41239,11 @@
     ],
     "Gen Ed": [
       "ARHC",
+      "DUSC",
       "EVCN",
-      "NPJ"
+      "NPJ",
+      "RPI",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -40847,8 +41335,7 @@
       "AHLG",
       "ARHC",
       "DUSC",
-      "RPI",
-      "W2"
+      "RPI"
     ],
     "Guide": [
       "Guide"
@@ -41071,7 +41558,7 @@
       "Mulligan, Adrian N."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "Closed"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -41093,7 +41580,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section HIST 243 01: Crosslisted with UNIV 243 and GEOG 243."
+      "Section HIST 243 01: Students should enroll in UNIV 243. Students who wish to switch their course designation to GEOG or HIST on their APR may do so through the Registrar's Office once registration is over.Crosslisted with UNIV 243 and GEOG 243."
     ]
   },
   {
@@ -41252,7 +41739,7 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "BIOL 101"
+      "COLE 150"
     ],
     "Instructor": [
       "Fourshey, Cymone"
@@ -41592,7 +42079,9 @@
       "1"
     ],
     "Gen Ed": [
-      "ARHC"
+      "ARHC",
+      "RPI",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -41980,10 +42469,10 @@
       "History of Sexuality"
     ],
     "Time": [
-      "MWF 8:00 AM - 8:50 AM"
+      "MW 1:30 PM - 2:50 PM"
     ],
     "Location": [
-      "COLE 118"
+      "BERT 012"
     ],
     "Instructor": [
       "Trusty, Rachel A."
@@ -42740,7 +43229,7 @@
       "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "BIOL 101"
+      "COLE 150"
     ],
     "Instructor": [
       "Fourshey, Cymone"
@@ -43649,9 +44138,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -44032,7 +44519,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -48214,9 +48703,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -49530,7 +50017,7 @@
       "MECH 488 02"
     ],
     "Title": [
-      "Intro to Tribology"
+      "Advanced Materials Science"
     ],
     "Time": [
       "MW 3:00 PM - 4:50 PM"
@@ -49700,7 +50187,7 @@
       "MECH 688 02"
     ],
     "Title": [
-      "Intro to Tribology"
+      "Advanced Materials Science"
     ],
     "Time": [
       "MW 3:00 PM - 4:50 PM"
@@ -51669,7 +52156,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MORS 201 01: Open to MORS & MSUS majors. All others please waitlist for consideration after registration is over."
+      "Section MORS 201 01: Open to MORS, MSUS and MGEG majors. All others please waitlist for consideration after registration is over."
     ]
   },
   {
@@ -51713,7 +52200,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section MORS 201 02: Open to MORS & MSUS majors. All others please waitlist for consideration after registration is over."
+      "Section MORS 201 02: Open to MORS, MSUS and MGEG majors. All others please waitlist for consideration after registration is over."
     ]
   },
   {
@@ -51913,7 +52400,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -51958,7 +52445,7 @@
       "Instructor"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "19"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52003,7 +52490,7 @@
       "Hill, Vanessa"
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52049,7 +52536,7 @@
       "Intindola, Melissa L."
     ],
     "UNRES Seats Avail": [
-      "18"
+      "16"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -52559,9 +53046,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -52937,7 +53422,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -54152,7 +54639,7 @@
       "Roseth, Nicholas E."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -56807,9 +57294,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -57185,7 +57670,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -58734,11 +59221,11 @@
       "Balcells, Maria L."
     ],
     "UNRES Seats Avail": [
-      "15"
+      "25"
     ],
     "Wait List": [],
     "Res Seats": [
-      "20"
+      "10"
     ],
     "Prm": [
       "N"
@@ -58759,7 +59246,55 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section PHIL 100 10: Philosophy of Space and Time - Open to first-year and sophomores. Juniors and seniors by permission only."
+    ]
+  },
+  {
+    "Crn": [
+      "16890"
+    ],
+    "Course": [
+      "PHIL 100 11"
+    ],
+    "Title": [
+      "Epistemic In/Justice"
+    ],
+    "Time": [
+      "TR 8:30 AM - 9:50 AM"
+    ],
+    "Location": [
+      "COLE 221"
+    ],
+    "Instructor": [
+      "Lintott, Sheila M."
+    ],
+    "UNRES Seats Avail": [
+      "25"
+    ],
+    "Wait List": [],
+    "Res Seats": [
+      "10"
+    ],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "AHLG",
+      "ARHC",
+      "FRST"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section PHIL 100 11: Epistemic In/Justice - Open to first-year and sophomores. Juniors and seniors by permission only."
     ]
   },
   {
@@ -58776,7 +59311,7 @@
       "MWF 2:00 PM - 2:50 PM"
     ],
     "Location": [
-      "LANG 301"
+      "DANA 113"
     ],
     "Instructor": [
       "Slater, Matthew H."
@@ -58954,7 +59489,7 @@
       "PHIL 268 01"
     ],
     "Title": [
-      "Emotion"
+      "Well-Being"
     ],
     "Time": [
       "TR 3:00 PM - 4:20 PM"
@@ -59007,7 +59542,7 @@
       "COLE 150"
     ],
     "Instructor": [
-      "Instructor"
+      "Mitsch, Chris"
     ],
     "UNRES Seats Avail": [
       "35"
@@ -59086,7 +59621,7 @@
       "PHIL 288 01"
     ],
     "Title": [
-      "Friendship"
+      "Lovers, Haters and Friends"
     ],
     "Time": [
       "MWF 11:00 AM - 11:50 AM"
@@ -61694,7 +62229,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -65990,7 +66527,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -66624,7 +67163,7 @@
       "Penniman, John D."
     ],
     "UNRES Seats Avail": [
-      "5"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -66639,7 +67178,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "FRST"
+      "FRST",
+      "GBCC"
     ],
     "Guide": [
       "Guide"
@@ -66685,7 +67225,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "DUSC"
+      "DUSC",
+      "RPI"
     ],
     "Guide": [
       "Guide"
@@ -66868,7 +67409,9 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "GBCC"
+      "EVCN",
+      "GBCC",
+      "NPJ"
     ],
     "Guide": [
       "Guide"
@@ -66916,6 +67459,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT05",
+      "FT06",
+      "FT08",
+      "RART",
       "RESC",
       "W1"
     ],
@@ -66965,6 +67513,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT06",
+      "FT08",
+      "RART",
       "RESC",
       "W1"
     ],
@@ -67014,6 +67566,9 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT05",
+      "FT07",
+      "RART",
       "RESC",
       "W1"
     ],
@@ -67063,7 +67618,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
       "RESC",
+      "RGLO",
       "W1"
     ],
     "Guide": [
@@ -67112,7 +67671,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT07",
       "RESC",
+      "RGLO",
       "W1"
     ],
     "Guide": [
@@ -67161,7 +67723,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
       "RESC",
+      "RGLO",
       "W1"
     ],
     "Guide": [
@@ -67210,6 +67776,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT04",
+      "RDIS",
       "RESC",
       "W1"
     ],
@@ -67259,6 +67827,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT04",
+      "RDIS",
       "RESC",
       "W1"
     ],
@@ -67308,6 +67878,8 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT04",
+      "RDIS",
       "RESC",
       "W1"
     ],
@@ -67357,6 +67929,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT02",
+      "FT03",
+      "FT04",
+      "RENV",
       "RESC",
       "W1"
     ],
@@ -67406,6 +67982,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT02",
+      "FT08",
+      "RENV",
       "RESC",
       "W1"
     ],
@@ -67455,7 +68035,12 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT06",
+      "FT07",
+      "FT08",
       "RESC",
+      "RLAN",
       "W1"
     ],
     "Guide": [
@@ -67504,7 +68089,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT06",
+      "FT07",
+      "FT08",
       "RESC",
+      "RLAN",
       "W1"
     ],
     "Guide": [
@@ -67553,7 +68142,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT05",
+      "FT06",
       "RESC",
+      "RLAN",
       "W1"
     ],
     "Guide": [
@@ -67602,7 +68195,13 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT02",
+      "FT03",
+      "FT07",
+      "FT08",
       "RESC",
+      "RSOJ",
       "W1"
     ],
     "Guide": [
@@ -67651,7 +68250,13 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT05",
+      "FT06",
+      "FT08",
       "RESC",
+      "RSOJ",
       "W1"
     ],
     "Guide": [
@@ -67700,7 +68305,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT04",
       "RESC",
+      "RSOJ",
       "W1"
     ],
     "Guide": [
@@ -67749,7 +68357,13 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT05",
+      "FT06",
+      "FT08",
       "RESC",
+      "RSOJ",
       "W1"
     ],
     "Guide": [
@@ -67779,7 +68393,7 @@
     ],
     "Location": [
       "COLE 219",
-      "HMHC 101"
+      "LANG 301"
     ],
     "Instructor": [
       "Gasaway, Brantley W."
@@ -67798,7 +68412,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT08",
       "RESC",
+      "RHUM",
       "W1"
     ],
     "Guide": [
@@ -67828,7 +68446,7 @@
     ],
     "Location": [
       "COLE 219",
-      "HMHC 101"
+      "LANG 301"
     ],
     "Instructor": [
       "Dosemeci, Mehmet"
@@ -67847,7 +68465,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
       "RESC",
+      "RHUM",
       "W1"
     ],
     "Guide": [
@@ -67876,7 +68498,7 @@
       "TR 3:00 PM - 4:20 PM"
     ],
     "Location": [
-      "HMHC 101",
+      "LANG 301",
       "COLE 219"
     ],
     "Instructor": [
@@ -67896,7 +68518,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT07",
       "RESC",
+      "RHUM",
       "W1"
     ],
     "Guide": [
@@ -67945,7 +68570,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT02",
+      "FT04",
       "RESC",
+      "RFOO",
       "W1"
     ],
     "Guide": [
@@ -67974,7 +68603,7 @@
       "W 1:30 PM - 2:50 PM"
     ],
     "Location": [
-      "HOLM 231",
+      "OLIN 275",
       "VAUG 100"
     ],
     "Instructor": [
@@ -67994,7 +68623,11 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT03",
+      "FT07",
       "RESC",
+      "RFOO",
       "W1"
     ],
     "Guide": [
@@ -68043,7 +68676,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT03",
+      "FT04",
       "RESC",
+      "RSOT",
       "W1"
     ],
     "Guide": [
@@ -68092,7 +68728,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT01",
+      "FT04",
       "RESC",
+      "RSOT",
       "W1"
     ],
     "Guide": [
@@ -68141,7 +68780,10 @@
     "Gen Ed": [
       "FOUN",
       "FRST",
+      "FT02",
+      "FT04",
       "RESC",
+      "RSOT",
       "W1"
     ],
     "Guide": [
@@ -68186,6 +68828,7 @@
       "0.25"
     ],
     "Gen Ed": [
+      "RENV",
       "RESC"
     ],
     "Guide": [
@@ -68228,6 +68871,7 @@
       "0.25"
     ],
     "Gen Ed": [
+      "RDIS",
       "RESC"
     ],
     "Guide": [
@@ -68270,7 +68914,8 @@
       "0.25"
     ],
     "Gen Ed": [
-      "RESC"
+      "RESC",
+      "RLAN"
     ],
     "Guide": [
       "Guide"
@@ -68313,7 +68958,8 @@
       "0.25"
     ],
     "Gen Ed": [
-      "RESC"
+      "RESC",
+      "RFOO"
     ],
     "Guide": [
       "Guide"
@@ -68355,6 +69001,7 @@
       "0.25"
     ],
     "Gen Ed": [
+      "RART",
       "RESC"
     ],
     "Guide": [
@@ -68397,7 +69044,8 @@
       "0.25"
     ],
     "Gen Ed": [
-      "RESC"
+      "RESC",
+      "RSOJ"
     ],
     "Guide": [
       "Guide"
@@ -68944,7 +69592,7 @@
       "MW 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "COLE 020"
+      "COLE 220"
     ],
     "Instructor": [
       "Warnock, Nicole L."
@@ -68986,10 +69634,10 @@
       "Elementary Amer Sign Lang I"
     ],
     "Time": [
-      "MW 11:00 AM - 11:50 AM"
+      "MW 10:00 AM - 10:50 AM"
     ],
     "Location": [
-      "COLE 118"
+      "COLE 220"
     ],
     "Instructor": [
       "Warnock, Nicole L."
@@ -69018,6 +69666,50 @@
     "Text Books": [],
     "Notes": [
       "Section SIGN 101 02: CCFL requirement will be met only when both the .50 credit SIGN 101 and the .50 credit SIGN 102 courses are completed."
+    ]
+  },
+  {
+    "Crn": [
+      "16897"
+    ],
+    "Course": [
+      "SIGN 103 01"
+    ],
+    "Title": [
+      "Sign Language and Deaf Culture"
+    ],
+    "Time": [
+      "MW 1:00 PM - 1:50 PM"
+    ],
+    "Location": [
+      "COLE 220"
+    ],
+    "Instructor": [
+      "Warnock, Nicole L."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "ARHC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Section SIGN 103 01: Full title - \"Intermediate American Sign Language\""
     ]
   },
   {
@@ -69987,6 +70679,46 @@
   },
   {
     "Crn": [
+      "16891"
+    ],
+    "Course": [
+      "SOCI 319 01"
+    ],
+    "Title": [
+      "Honors Course in Sociology"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Durden, Elizabeth"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": []
+  },
+  {
+    "Crn": [
       "16693"
     ],
     "Course": [
@@ -70122,7 +70854,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section SPAN 103 01: Students must also register for SPAN 103R 40, 41, 42, 43 or 44."
+      "Section SPAN 103 01: Students must also register for SPAN 103R 40, 41, 42, 43 or 44.Instructor: Roberto Martinez Bachrich"
     ]
   },
   {
@@ -70170,7 +70902,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section SPAN 103 02: Students must also register for SPAN 103R 40, 41, 42, 43 or 44."
+      "Section SPAN 103 02: Students must also register for SPAN 103R 40, 41, 42, 43 or 44. Instructor: Roberto Martinez Bachrich"
     ]
   },
   {
@@ -70218,7 +70950,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section SPAN 103 03: Students must also register for SPAN 103R 40, 41, 42, 43 or 44."
+      "Section SPAN 103 03: Students must also register for SPAN 103R 40, 41, 42, 43 or 44. Instructor: Roberto Martinez Bachrich"
     ]
   },
   {
@@ -70838,6 +71570,7 @@
       "1"
     ],
     "Gen Ed": [
+      "AHLG",
       "ARHC",
       "CCFL",
       "FRST"
@@ -71937,10 +72670,10 @@
       "Audition Technique"
     ],
     "Time": [
-      "F 1:00 PM - 2:50 PM"
+      "TBA"
     ],
     "Location": [
-      "COLE 231"
+      "TUST 107"
     ],
     "Instructor": [
       "Hutchinson, Anjalee D."
@@ -72417,7 +73150,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section UNIV 110 02: Section will meet during 4 consecutive Wednesdays (9/25, 10/2, 10/9, 10/16) 4:00-5:20 pm and on Sunday (10/20) 1:00-5:00 pm"
+      "Section UNIV 110 02: Section will meet during 4 consecutive Thursdays (9/26, 10/3, 10/10, 10/17) 4:00-5:20 pm and on Sunday (10/20) 1:00-5:00 pm."
     ]
   },
   {
@@ -72834,17 +73567,21 @@
       "Knox, Kelly H."
     ],
     "UNRES Seats Avail": [
-      "20"
+      "15"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "5"
+    ],
     "Prm": [
       "N"
     ],
     "CR": [
       "0.5 - 0.5"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "FRST"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -72944,26 +73681,25 @@
   },
   {
     "Crn": [
-      "16722"
+      "16884"
     ],
     "Course": [
-      "UNIV 200 01"
+      "UNIV 199 01"
     ],
     "Title": [
-      "Stand-Up Comedy"
+      "Arts Leadership: Survey"
     ],
     "Time": [
-      "R 7:00 PM - 9:50 PM"
+      "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
-      "LANG 301"
+      "WEIS 205"
     ],
     "Instructor": [
-      "Rowe, Chris W.",
-      "Lintott, Sheila M."
+      "Maguet, Kathryn L."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "15"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -72973,9 +73709,7 @@
     "CR": [
       "1"
     ],
-    "Gen Ed": [
-      "CCIP"
-    ],
+    "Gen Ed": [],
     "Guide": [
       "Guide"
     ],
@@ -72984,7 +73718,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section UNIV 200 01: Full title - \"Stand-Up Comedy: Theory, Therapy, Art\""
+      "Department Note:"
     ]
   },
   {
@@ -73008,10 +73742,12 @@
       "Lightman, Taylor M."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -73053,10 +73789,12 @@
       "Stedem, Kelly A."
     ],
     "UNRES Seats Avail": [
-      "32"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "32"
+    ],
     "Prm": [
       "N"
     ],
@@ -73136,7 +73874,7 @@
     ],
     "Location": [],
     "Instructor": [
-      "Instructor"
+      "Ciotola, Andrew P."
     ],
     "UNRES Seats Avail": [
       "12"
@@ -73184,10 +73922,12 @@
       "Mulligan, Adrian N."
     ],
     "UNRES Seats Avail": [
-      "25"
+      "See Guide"
     ],
     "Wait List": [],
-    "Res Seats": [],
+    "Res Seats": [
+      "25"
+    ],
     "Prm": [
       "N"
     ],
@@ -73205,7 +73945,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section UNIV 243 01: Crosslisted with HIST 243 and GEOG 243."
+      "Section UNIV 243 01: Students should enroll in UNIV 243. Students who wish to switch their course designation to GEOG or HIST on their APR may do so through the Registrar's Office once registration is over.Crosslisted with HIST 243 and GEOG 243."
     ]
   },
   {
@@ -73858,7 +74598,7 @@
       "MW 3:00 PM - 4:20 PM"
     ],
     "Location": [
-      "BIOL 104"
+      "OLIN 451"
     ],
     "Instructor": [
       "Mulligan, Adrian N."
@@ -73903,10 +74643,10 @@
       "History of Sexuality"
     ],
     "Time": [
-      "MWF 8:00 AM - 8:50 AM"
+      "MW 1:30 PM - 2:50 PM"
     ],
     "Location": [
-      "COLE 118"
+      "BERT 012"
     ],
     "Instructor": [
       "Trusty, Rachel A."
