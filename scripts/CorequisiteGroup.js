@@ -1,4 +1,4 @@
-import CourseCluster from './CourseCluster.js?v=2024.03.24';
+import CourseCluster from './CourseCluster.js?v=2024.03.27';
 
 /**
  * Represents a collection of course clusters that are corequisites.

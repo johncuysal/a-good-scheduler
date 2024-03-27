@@ -4917,11 +4917,9 @@
       "Recitation-Beginning Arabic II"
     ],
     "Time": [
-      "R 9:00 AM - 9:50 AM"
+      "TBA"
     ],
-    "Location": [
-      "VAUG 102"
-    ],
+    "Location": [],
     "Instructor": [
       "Instructor"
     ],
@@ -8717,13 +8715,13 @@
       "TR 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "OLRY 202"
+      "OLIN 372"
     ],
     "Instructor": [
       "Field, Ken A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "28"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8767,7 +8765,7 @@
       "Field, Ken A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -8811,7 +8809,7 @@
       "Field, Ken A."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "14"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -9973,6 +9971,48 @@
   },
   {
     "Crn": [
+      "16901"
+    ],
+    "Course": [
+      "BIOL 399 29"
+    ],
+    "Title": [
+      "Mentored Undergraduate Researc"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Stevens, Dale R."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1 - 2"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "14874"
     ],
     "Course": [
@@ -10905,7 +10945,7 @@
       "TR 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "OLRY 202"
+      "OLIN 372"
     ],
     "Instructor": [
       "Field, Ken A."
@@ -11971,7 +12011,9 @@
     "CR": [
       "1"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "CEL"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -13066,9 +13108,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -13112,7 +13152,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -16138,7 +16180,7 @@
       "Mineart, Kenny P."
     ],
     "UNRES Seats Avail": [
-      "14"
+      "13"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -16186,6 +16228,50 @@
     "Res Seats": [],
     "Prm": [
       "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16907"
+    ],
+    "Course": [
+      "CHEG 495 01"
+    ],
+    "Title": [
+      "Adv Topics in Engr Mathematics"
+    ],
+    "Time": [
+      "MWF 12:00 PM - 12:50 PM",
+      "M 4:00 PM - 4:50 PM"
+    ],
+    "Location": [
+      "BRKI 065",
+      "DANA 221"
+    ],
+    "Instructor": [
+      "Kelley, Dave F."
+    ],
+    "UNRES Seats Avail": [
+      "24"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
     ],
     "CR": [
       "1"
@@ -16784,7 +16870,7 @@
       "Mineart, Kenny P."
     ],
     "UNRES Seats Avail": [
-      "2"
+      "1"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -17264,7 +17350,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -20149,7 +20237,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "11"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -21227,7 +21315,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "27"
+      "26"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21313,7 +21401,7 @@
       "Smith, Sarah J."
     ],
     "UNRES Seats Avail": [
-      "4"
+      "3"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -21617,9 +21705,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -21697,7 +21783,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -21999,7 +22087,7 @@
       "Switzer, Rebecca L."
     ],
     "UNRES Seats Avail": [
-      "7"
+      "6"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -22433,11 +22521,11 @@
       "Tardio, Katie"
     ],
     "UNRES Seats Avail": [
-      "5"
+      "See Guide"
     ],
     "Wait List": [],
     "Res Seats": [
-      "30"
+      "35"
     ],
     "Prm": [
       "N"
@@ -22842,7 +22930,7 @@
       "DANA 115"
     ],
     "Instructor": [
-      "Havill, Jessen T."
+      "Baish, Susan R."
     ],
     "UNRES Seats Avail": [
       "16"
@@ -22940,7 +23028,7 @@
       "DANA 115"
     ],
     "Instructor": [
-      "Baish, Susan R."
+      "Havill, Jessen T."
     ],
     "UNRES Seats Avail": [
       "16"
@@ -24073,7 +24161,7 @@
       "Perrone, Luiz Felipe F."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -24161,7 +24249,7 @@
       "Perrone, Luiz Felipe F."
     ],
     "UNRES Seats Avail": [
-      "19"
+      "18"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -24501,7 +24589,7 @@
       "MWF 11:00 AM - 11:50 AM"
     ],
     "Location": [
-      "DANA 303"
+      "DANA 307"
     ],
     "Instructor": [
       "Farhadi, Vaji"
@@ -25892,7 +25980,7 @@
       "TBA"
     ],
     "Location": [
-      "ACET 225"
+      "DANA 214"
     ],
     "Instructor": [
       "Farhadi, Vaji"
@@ -26018,7 +26106,7 @@
       "MWF 9:00 AM - 9:50 AM"
     ],
     "Location": [
-      "ACET 225"
+      "DANA 214"
     ],
     "Instructor": [
       "Farhadi, Vaji"
@@ -26084,7 +26172,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -26699,7 +26789,7 @@
       "MWF 1:00 PM - 1:50 PM"
     ],
     "Location": [
-      "DANA 307"
+      "DANA 303"
     ],
     "Instructor": [
       "Thompson, Stu S."
@@ -26822,7 +26912,7 @@
       "Renewable Energy Systems"
     ],
     "Time": [
-      "MWF 1:00 PM - 1:50 PM"
+      "TR 1:00 PM - 2:20 PM"
     ],
     "Location": [
       "DANA 303"
@@ -26867,7 +26957,7 @@
       "MWF 11:00 AM - 11:50 AM"
     ],
     "Location": [
-      "DANA 303"
+      "DANA 307"
     ],
     "Instructor": [
       "Farhadi, Vaji"
@@ -28532,6 +28622,46 @@
   },
   {
     "Crn": [
+      "16902"
+    ],
+    "Course": [
+      "ECON 499 01"
+    ],
+    "Title": [
+      "Honors Thesis in Economics"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Wolaver, Amy M."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "13683"
     ],
     "Course": [
@@ -29207,6 +29337,48 @@
     "Location": [],
     "Instructor": [
       "Instructor"
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "0.25 - 1"
+    ],
+    "Gen Ed": [
+      "SLSC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16905"
+    ],
+    "Course": [
+      "EDUC 317 02"
+    ],
+    "Title": [
+      "Problems in Education"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Henry, Sue Ellen"
     ],
     "UNRES Seats Avail": [
       "Closed"
@@ -29939,6 +30111,7 @@
     ],
     "Gen Ed": [
       "ARHC",
+      "CEL",
       "W2"
     ],
     "Guide": [
@@ -30154,7 +30327,7 @@
       "Faden, Eric S."
     ],
     "UNRES Seats Avail": [
-      "23"
+      "22"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -30275,7 +30448,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Department Note:"
+      "Section ENFS 235 01: Wednesday night screening slots will only be used about five times during the term."
     ]
   },
   {
@@ -30321,7 +30494,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section ENFS 238 01: Full title: Home Viewing: Tick Tock ... TikTok"
+      "Section ENFS 238 01: Full title: Home Viewing: Tick Tock ... TikTok. Wednesday night screening slots will only be used about five times during the term."
     ]
   },
   {
@@ -30412,9 +30585,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -30591,7 +30762,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -34808,9 +34981,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -34996,7 +35167,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -36282,50 +36455,6 @@
       "FRST",
       "FT02",
       "FT03",
-      "W1"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "16154"
-    ],
-    "Course": [
-      "FOUN 098 60"
-    ],
-    "Title": [
-      "Latinx Power"
-    ],
-    "Time": [
-      "TR 3:00 PM - 4:20 PM"
-    ],
-    "Location": [],
-    "Instructor": [
-      "Rojas, David M."
-    ],
-    "UNRES Seats Avail": [
-      "16"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "FOUN",
-      "FRST",
       "W1"
     ],
     "Guide": [
@@ -38168,7 +38297,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section FREN 230 01: Title - \"Travel and Discovery\""
+      "Section FREN 230 01: Title - \"Love in its Multiple Forms\" (L'amour dans tous ses \u00e9tats, du Moyen \u00c2ge au 18e si\u00e8cle)"
     ]
   },
   {
@@ -38257,13 +38386,13 @@
   },
   {
     "Crn": [
-      "16820"
+      "16906"
     ],
     "Course": [
-      "FREN 336 01"
+      "FREN 395 01"
     ],
     "Title": [
-      "Francophone African Spaces"
+      "Seminar in French Studies"
     ],
     "Time": [
       "MW 3:00 PM - 4:20 PM"
@@ -39449,7 +39578,7 @@
       "Trop, Jeffrey M."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -39499,7 +39628,7 @@
       "Trop, Jeffrey M."
     ],
     "UNRES Seats Avail": [
-      "12"
+      "10"
     ],
     "Wait List": [],
     "Res Seats": [
@@ -39661,7 +39790,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -41215,7 +41346,7 @@
       "HIST 212 01"
     ],
     "Title": [
-      "Environmental Health Histories"
+      "Environmental Health"
     ],
     "Time": [
       "TR 3:00 PM - 4:20 PM"
@@ -41334,6 +41465,7 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
+      "CEL",
       "DUSC",
       "RPI"
     ],
@@ -42079,7 +42211,9 @@
       "1"
     ],
     "Gen Ed": [
+      "AHLG",
       "ARHC",
+      "GBCC",
       "RPI",
       "W2"
     ],
@@ -42313,7 +42447,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "FRST"
+      "FRST",
+      "W2"
     ],
     "Guide": [
       "Guide"
@@ -44012,9 +44147,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -44138,7 +44271,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -48321,6 +48456,48 @@
   },
   {
     "Crn": [
+      "16903"
+    ],
+    "Course": [
+      "MATH 491 01"
+    ],
+    "Title": [
+      "Reading and Research"
+    ],
+    "Time": [
+      "TBA"
+    ],
+    "Location": [],
+    "Instructor": [
+      "Brooksbank, Peter A."
+    ],
+    "UNRES Seats Avail": [
+      "Closed"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "Y"
+    ],
+    "CR": [
+      "1.5 - 2"
+    ],
+    "Gen Ed": [
+      "NSMC"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
       "11095"
     ],
     "Course": [
@@ -48508,7 +48685,7 @@
       "DANA 113"
     ],
     "Instructor": [
-      "Instructor"
+      "O'Neill, Greg G."
     ],
     "UNRES Seats Avail": [
       "21"
@@ -48554,7 +48731,7 @@
       "DANA 113"
     ],
     "Instructor": [
-      "Instructor"
+      "O'Neill, Greg G."
     ],
     "UNRES Seats Avail": [
       "21"
@@ -48703,7 +48880,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -48969,14 +49148,14 @@
     ],
     "Time": [
       "MWF 1:00 PM - 1:50 PM",
-      "M 5:00 PM - 6:20 PM"
+      "M 7:00 PM - 8:20 PM"
     ],
     "Location": [
       "DANA 137",
-      "ACWS 108"
+      "ACWS 112"
     ],
     "Instructor": [
-      "Instructor"
+      "Mamros, Elizabeth M."
     ],
     "UNRES Seats Avail": [
       "25"
@@ -48989,7 +49168,9 @@
     "CR": [
       "1"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -49017,10 +49198,10 @@
     ],
     "Location": [
       "DANA 137",
-      "ACWS 108"
+      "ACWS 112"
     ],
     "Instructor": [
-      "Instructor"
+      "Mamros, Elizabeth M."
     ],
     "UNRES Seats Avail": [
       "25"
@@ -49033,7 +49214,9 @@
     "CR": [
       "1"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -49270,7 +49453,7 @@
       "DANA 134"
     ],
     "Instructor": [
-      "Instructor"
+      "Torres, Jonathan"
     ],
     "UNRES Seats Avail": [
       "40"
@@ -49451,7 +49634,9 @@
     "CR": [
       "1"
     ],
-    "Gen Ed": [],
+    "Gen Ed": [
+      "W2"
+    ],
     "Guide": [
       "Guide"
     ],
@@ -51092,6 +51277,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CEL",
       "SLSC",
       "SSLG",
       "W2"
@@ -51140,6 +51326,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CEL",
       "SLSC",
       "SSLG",
       "W2"
@@ -51188,6 +51375,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CEL",
       "SLSC",
       "SSLG",
       "W2"
@@ -51236,6 +51424,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CEL",
       "SLSC",
       "SSLG",
       "W2"
@@ -52637,6 +52826,7 @@
       "1"
     ],
     "Gen Ed": [
+      "CEL",
       "SLSC"
     ],
     "Guide": [
@@ -52727,51 +52917,6 @@
     "Gen Ed": [
       "ARHC",
       "FRST"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "16678"
-    ],
-    "Course": [
-      "MUSC 123 01"
-    ],
-    "Title": [
-      "Introduction to Music"
-    ],
-    "Time": [
-      "TR 3:00 PM - 4:20 PM"
-    ],
-    "Location": [
-      "SWMU 117"
-    ],
-    "Instructor": [
-      "Temkin, Daniel E."
-    ],
-    "UNRES Seats Avail": [
-      "25"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "AHLG",
-      "ARHC"
     ],
     "Guide": [
       "Guide"
@@ -52916,9 +53061,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -53046,7 +53189,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -57168,9 +57313,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -57294,7 +57437,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -59402,10 +59547,10 @@
       "Feminist Philosophy"
     ],
     "Time": [
-      "MW 1:30 PM - 2:50 PM"
+      "MW 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "LANG 272"
+      "BIOL 324"
     ],
     "Instructor": [
       "Lintott, Sheila M."
@@ -65976,9 +66121,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -66304,7 +66447,7 @@
     "Wait List": [],
     "Res Seats": [],
     "Prm": [
-      "N"
+      "Y"
     ],
     "CR": [
       "1"
@@ -68389,11 +68532,11 @@
     ],
     "Time": [
       "MW 8:30 AM - 9:50 AM",
-      "W 11:00 AM - 11:50 AM"
+      "W 3:00 PM - 4:20 PM"
     ],
     "Location": [
       "COLE 219",
-      "LANG 301"
+      "COLE 221"
     ],
     "Instructor": [
       "Gasaway, Brantley W."
@@ -68442,11 +68585,11 @@
     ],
     "Time": [
       "TR 8:30 AM - 9:50 AM",
-      "W 11:00 AM - 11:50 AM"
+      "W 3:00 PM - 4:20 PM"
     ],
     "Location": [
       "COLE 219",
-      "LANG 301"
+      "COLE 221"
     ],
     "Instructor": [
       "Dosemeci, Mehmet"
@@ -68494,12 +68637,12 @@
       "China: Revol. to World Factory"
     ],
     "Time": [
-      "W 11:00 AM - 11:50 AM",
-      "TR 3:00 PM - 4:20 PM"
+      "TR 3:00 PM - 4:20 PM",
+      "W 3:00 PM - 4:20 PM"
     ],
     "Location": [
-      "LANG 301",
-      "COLE 219"
+      "COLE 219",
+      "COLE 221"
     ],
     "Instructor": [
       "Chen, Song"
@@ -69475,7 +69618,8 @@
     "Gen Ed": [
       "AHLG",
       "ARHC",
-      "FRST"
+      "FRST",
+      "GBCC"
     ],
     "Guide": [
       "Guide"
@@ -69670,13 +69814,13 @@
   },
   {
     "Crn": [
-      "16897"
+      "16908"
     ],
     "Course": [
-      "SIGN 103 01"
+      "SIGN 201 01"
     ],
     "Title": [
-      "Sign Language and Deaf Culture"
+      "Intermediate Amer Sign Lang"
     ],
     "Time": [
       "MW 1:00 PM - 1:50 PM"
@@ -69688,7 +69832,7 @@
       "Warnock, Nicole L."
     ],
     "UNRES Seats Avail": [
-      "Closed"
+      "24"
     ],
     "Wait List": [],
     "Res Seats": [],
@@ -69696,7 +69840,7 @@
       "N"
     ],
     "CR": [
-      "1"
+      "0.5"
     ],
     "Gen Ed": [
       "ARHC"
@@ -69709,7 +69853,7 @@
     ],
     "Text Books": [],
     "Notes": [
-      "Section SIGN 103 01: Full title - \"Intermediate American Sign Language\""
+      "Department Note:"
     ]
   },
   {
@@ -70129,7 +70273,7 @@
       "ACWS 210"
     ],
     "Instructor": [
-      "Instructor"
+      "Bjerre, Mette Evelyn E."
     ],
     "UNRES Seats Avail": [
       "15"
@@ -70179,7 +70323,7 @@
       "ACWS 112"
     ],
     "Instructor": [
-      "Mtshali, Marya T."
+      "Instructor"
     ],
     "UNRES Seats Avail": [
       "15"
@@ -70229,7 +70373,7 @@
       "ACWS 112"
     ],
     "Instructor": [
-      "Mtshali, Marya T."
+      "Instructor"
     ],
     "UNRES Seats Avail": [
       "15"
@@ -70344,6 +70488,50 @@
       "CCQR",
       "SLSC",
       "W2"
+    ],
+    "Guide": [
+      "Guide"
+    ],
+    "Desc": [
+      "Desc"
+    ],
+    "Text Books": [],
+    "Notes": [
+      "Department Note:"
+    ]
+  },
+  {
+    "Crn": [
+      "16904"
+    ],
+    "Course": [
+      "SOCI 211 01"
+    ],
+    "Title": [
+      "Classical Sociological Theory"
+    ],
+    "Time": [
+      "MW 3:00 PM - 4:20 PM"
+    ],
+    "Location": [
+      "DANA 137"
+    ],
+    "Instructor": [
+      "Instructor"
+    ],
+    "UNRES Seats Avail": [
+      "25"
+    ],
+    "Wait List": [],
+    "Res Seats": [],
+    "Prm": [
+      "N"
+    ],
+    "CR": [
+      "1"
+    ],
+    "Gen Ed": [
+      "SLSC"
     ],
     "Guide": [
       "Guide"
@@ -70536,9 +70724,7 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
+    "Notes": []
   },
   {
     "Crn": [
@@ -70572,51 +70758,6 @@
     ],
     "Gen Ed": [
       "DUSC",
-      "SLSC"
-    ],
-    "Guide": [
-      "Guide"
-    ],
-    "Desc": [
-      "Desc"
-    ],
-    "Text Books": [],
-    "Notes": [
-      "Department Note:"
-    ]
-  },
-  {
-    "Crn": [
-      "16083"
-    ],
-    "Course": [
-      "SOCI 258 01"
-    ],
-    "Title": [
-      "Gender, Race, & Poverty in US"
-    ],
-    "Time": [
-      "MW 3:00 PM - 4:20 PM"
-    ],
-    "Location": [
-      "DANA 137"
-    ],
-    "Instructor": [
-      "Mtshali, Marya T."
-    ],
-    "UNRES Seats Avail": [
-      "25"
-    ],
-    "Wait List": [],
-    "Res Seats": [],
-    "Prm": [
-      "N"
-    ],
-    "CR": [
-      "1"
-    ],
-    "Gen Ed": [
-      "RPI",
       "SLSC"
     ],
     "Guide": [
@@ -70715,7 +70856,9 @@
       "Desc"
     ],
     "Text Books": [],
-    "Notes": []
+    "Notes": [
+      "Department Note:"
+    ]
   },
   {
     "Crn": [
@@ -73338,9 +73481,11 @@
       "Social Science Methods"
     ],
     "Time": [
-      "TBA"
+      "T 1:00 PM - 2:20 PM"
     ],
-    "Location": [],
+    "Location": [
+      "DANA 319"
+    ],
     "Instructor": [
       "Fruja, Ramona M."
     ],
@@ -74331,10 +74476,10 @@
       "Feminist Philosophy"
     ],
     "Time": [
-      "MW 1:30 PM - 2:50 PM"
+      "MW 8:30 AM - 9:50 AM"
     ],
     "Location": [
-      "LANG 272"
+      "BIOL 324"
     ],
     "Instructor": [
       "Lintott, Sheila M."
